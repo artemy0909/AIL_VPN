@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="4a6de09b-fd45-413f-80c8-7338e0344c3d">
+		<Name>Премиум</Name>
+		<Code>000000001</Code>
+		<Description>Премиум</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="5c04afea-1e49-493b-a45b-44fa27ec93eb">
+				<Name>БесплатныйПремиумДляСвоих</Name>
+				<Code>000000002</Code>
+				<Description>Бесплатный премиум для своих</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="7db5d9e6-b54d-45ed-b97f-05926068cbdb">
+				<Name>ПремиумНаГод</Name>
+				<Code>000000004</Code>
+				<Description>Премиум на год</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="79ca26d7-9b13-43ab-8782-ba2d3546924c">
+				<Name>ПремиумНаМесяц</Name>
+				<Code>000000003</Code>
+				<Description>Премиум на месяц</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="2f51718b-fff9-4962-8998-eacf2fb041cc">
+		<Name>Эконом</Name>
+		<Code>000000005</Code>
+		<Description>Эконом</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="9d893751-0c3f-4a2e-afa4-fb9786728204">
+				<Name>ЭкономНаГод</Name>
+				<Code>000000007</Code>
+				<Description>Эконом на год</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c6f18170-f999-491f-bdf7-ea9529acf862">
+				<Name>ЭкономНаМесяц</Name>
+				<Code>000000006</Code>
+				<Description>Эконом на месяц</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

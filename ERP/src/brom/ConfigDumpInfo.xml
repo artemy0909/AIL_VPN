@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
+	<ConfigVersions>
+		<Metadata name="CommonModule.brom_API" id="4b02d61c-ce4f-41cb-9aed-2836037e6b31" configVersion="ad1277738695df4d734f13e7ee4f533d18f286ce"/>
+		<Metadata name="CommonModule.brom_API.Module" id="4b02d61c-ce4f-41cb-9aed-2836037e6b31.0" configVersion="91aaeb8bd951976d4e66c5c1f931d194bfa84124"/>
+		<Metadata name="CommonModule.brom_API_ПИ" id="cec68629-7d11-495d-9bc8-73167e8dce25" configVersion="ba0f41a771745f19dbb66cf08904fb69bf677d77"/>
+		<Metadata name="CommonModule.brom_API_ПИ.Module" id="cec68629-7d11-495d-9bc8-73167e8dce25.0" configVersion="a21d410853e22f8684b789cf513a0bd8f9f00ce9"/>
+		<Metadata name="CommonModule.brom_Метаданные_ПИ" id="9f17133b-cddb-4147-8d7a-90813bee276f" configVersion="63be14f69868e17cfd64a9995370a42e3e2956d7"/>
+		<Metadata name="CommonModule.brom_Метаданные_ПИ.Module" id="9f17133b-cddb-4147-8d7a-90813bee276f.0" configVersion="cce97989262a6782182e8efe05ede7f27008eefc"/>
+		<Metadata name="CommonModule.brom_Настройки" id="88ce4c2f-7b15-47c2-8721-1e5cb70092eb" configVersion="df4c497d2f62c0df1118e68f9041adc6ab59e92a"/>
+		<Metadata name="CommonModule.brom_Настройки.Module" id="88ce4c2f-7b15-47c2-8721-1e5cb70092eb.0" configVersion="bcc1fd4fa265c42acb02b2756625b999dd502bc3"/>
+		<Metadata name="CommonModule.brom_Утилиты" id="1a4584d1-dbb2-4de1-ab35-ff280f03da82" configVersion="f6d464de6d38503980bd7bfc7ed0ebace6c2bd7e"/>
+		<Metadata name="CommonModule.brom_Утилиты.Module" id="1a4584d1-dbb2-4de1-ab35-ff280f03da82.0" configVersion="da06727d0b1d5a1ec1f05293937c2aa6890b18b1"/>
+		<Metadata name="Configuration.Бром" id="0f035b5e-4f60-46cc-895b-249ad4c6def9" configVersion="55d021d769a1df5b1b3942fbf61cf661b2fae9f3"/>
+		<Metadata name="DataProcessor.brom_УстановкаРолейПользователей" id="8a461068-a9e4-4139-b0ee-99e178dff57c" configVersion="97561333651b66b127daca2aaadd5ad39120fe19"/>
+		<Metadata name="DataProcessor.brom_УстановкаРолейПользователей.Form.Форма" id="b7851e03-5629-4ba0-b05e-ea272b212b72" configVersion="a83d6f94342c75eb5ce67e4c718a31a858797957"/>
+		<Metadata name="DataProcessor.brom_УстановкаРолейПользователей.Form.Форма.Form" id="b7851e03-5629-4ba0-b05e-ea272b212b72.0" configVersion="a0024d505c1a02b60380d6be9d7de8238d1d1f08"/>
+		<Metadata name="Language.Русский" id="95942c89-0efb-430e-a68d-9877cebe2d6d" configVersion="8204c20e199f3a94166ee19157fed96ccbf22862"/>
+		<Metadata name="Role.brom_ВызовПроцедур" id="d32d8a59-eb16-4a16-ac4c-72963d1cd6d3" configVersion="4b8b722cc70d478875005586046c06243c826a91"/>
+		<Metadata name="Role.brom_ВызовПроцедур.Rights" id="d32d8a59-eb16-4a16-ac4c-72963d1cd6d3.0" configVersion="17aab0a321dfea37a8b6cdf09b83e0a79de0aa90"/>
+		<Metadata name="Role.brom_ВыполнениеКода" id="b357e8e8-ac7e-4055-bfb9-644070698ea5" configVersion="5bd7e81a7e57bb2b1ce54e774060fb8c9955a68d"/>
+		<Metadata name="Role.brom_ВыполнениеКода.Rights" id="b357e8e8-ac7e-4055-bfb9-644070698ea5.0" configVersion="f2d8c50814fde0f8612d3b5b80f1eb891cd4e73d"/>
+		<Metadata name="Role.brom_ИзменениеДанных" id="9623b918-6a42-48d9-b6b6-3ee3c39670ef" configVersion="39efba95bd5b82ae92605d7fe5e7ce189a0c980c"/>
+		<Metadata name="Role.brom_ИзменениеДанных.Rights" id="9623b918-6a42-48d9-b6b6-3ee3c39670ef.0" configVersion="f039ce73093a46f84474f32b600000a09c3e62cc"/>
+		<Metadata name="Role.brom_ПолныеПрава" id="42291888-1891-430a-b41e-d56f2d384e33" configVersion="0dea819c9c6c7f96bb32a38e4780b425ce2cc26e"/>
+		<Metadata name="Role.brom_ПолныеПрава.Rights" id="42291888-1891-430a-b41e-d56f2d384e33.0" configVersion="6af9ec480a60d9edc5bd14771822917e31c0e431"/>
+		<Metadata name="Role.brom_ЧтениеДанных" id="b18c188f-59e4-455b-b24e-a85a190b6ee6" configVersion="5e025e2e04ff0031ab2ae07f427b2e2697a54941"/>
+		<Metadata name="Role.brom_ЧтениеДанных.Rights" id="b18c188f-59e4-455b-b24e-a85a190b6ee6.0" configVersion="80b722f88b3904aef3cf661cb302288772fc9b93"/>
+		<Metadata name="WebService.brom_api" id="fd42ee44-6698-483d-b4f4-d0ad793dc788" configVersion="82264703ae7183c13ac64eb608a4a7a5b384e5b2">
+			<Metadata name="WebService.brom_api.Operation.ExecuteRequestBatch.Parameter.settings" id="000497a3-698e-4563-86de-87ba4cb42e2a"/>
+			<Metadata name="WebService.brom_api.Operation.GetMetadata.Parameter.pack_size" id="005ae160-0e53-4fb8-868a-38d20e479fb9"/>
+			<Metadata name="WebService.brom_api.Operation.GetConstantList" id="01882d4c-fe59-4b98-9c80-1b98cecca9b8"/>
+			<Metadata name="WebService.brom_api.Operation.GetSystemInfo" id="0ab6c99a-a311-4ffa-89c4-8fef24f4bcda"/>
+			<Metadata name="WebService.brom_api.Operation.ExecuteMethod.Parameter.method" id="19010fee-c0ac-42d1-8189-d7b05aa3046b"/>
+			<Metadata name="WebService.brom_api.Operation.GetObject.Parameter.reference" id="190fc414-5b67-4723-ac89-0b7ab07cf3c2"/>
+			<Metadata name="WebService.brom_api.Operation.DebugPing" id="20684c99-7d02-49e1-a637-d54c9e4e4651"/>
+			<Metadata name="WebService.brom_api.Operation.GetObject.Parameter.settings" id="2c4a5bf5-0412-441d-81f4-e215c8c9b0a4"/>
+			<Metadata name="WebService.brom_api.Operation.DebugEcho.Parameter.param" id="30b1e15f-6fc5-4d1c-98d8-df7fe2a62cee"/>
+			<Metadata name="WebService.brom_api.Operation.GetMetadata.Parameter.pack_index" id="32e5eb85-95d7-4074-9023-3f11856d8785"/>
+			<Metadata name="WebService.brom_api.Operation.GetObjectList" id="33b0f7df-b8ff-4614-b9f0-fce929a253a8"/>
+			<Metadata name="WebService.brom_api.Operation.GetMetadaChildrenNames" id="36bd988a-b0f4-4bf9-9ced-e9f34b05fe8f"/>
+			<Metadata name="WebService.brom_api.Operation.ExecuteCode" id="3a19a7cf-9b69-43c9-a245-d38bf9f0b16f"/>
+			<Metadata name="WebService.brom_api.Operation.GetSessionParameter" id="3a510777-bccf-4d88-a9f6-20b486ab3bd2"/>
+			<Metadata name="WebService.brom_api.Operation.GetConstant" id="43bb9e90-b395-432d-80fb-c700805bcf9f"/>
+			<Metadata name="WebService.brom_api.Operation.GetMetadata.Parameter.nodes" id="5089aff5-1a0f-4acd-aa74-f926907a3100"/>
+			<Metadata name="WebService.brom_api.Operation.GetConstant.Parameter.name" id="5419c62c-f8ea-42e6-bff5-a6f51bea6765"/>
+			<Metadata name="WebService.brom_api.Operation.PostObject" id="59c900db-c65d-4b8e-96d7-6823b138fe4a"/>
+			<Metadata name="WebService.brom_api.Operation.SetConstant.Parameter.value" id="5c8555b6-2b5f-49c4-bbdf-b8748ad7fff3"/>
+			<Metadata name="WebService.brom_api.Operation.GetObjectList.Parameter.type" id="652e6721-7ed8-445e-b0ed-e614dc177340"/>
+			<Metadata name="WebService.brom_api.Operation.ExecuteRequestBatch" id="66aa4122-03d1-4dfd-aac6-86c32a0decd6"/>
+			<Metadata name="WebService.brom_api.Operation.ExecuteRequest.Parameter.request" id="6786e454-3c59-4da9-a23e-7c3d6838d2d9"/>
+			<Metadata name="WebService.brom_api.Operation.DeleteObject" id="6f872e70-f845-4deb-ad50-42ff54057734"/>
+			<Metadata name="WebService.brom_api.Operation.GetSessionParameter.Parameter.name" id="75433397-d1c3-418e-affa-197f0369232a"/>
+			<Metadata name="WebService.brom_api.Operation.PostObject.Parameter.settings" id="842f9533-2847-4ea1-9980-ae41e1a60844"/>
+			<Metadata name="WebService.brom_api.Operation.GetConstantList.Parameter.settings" id="90ed87df-4c81-442b-8e74-95fa968471d5"/>
+			<Metadata name="WebService.brom_api.Operation.ExecuteRequest" id="982f6467-e1dd-4d7b-b0e6-fc5d2e6f64f1"/>
+			<Metadata name="WebService.brom_api.Operation.ExecuteRequestBatch.Parameter.request" id="9f10692a-1765-4cde-bedb-33839c63b20d"/>
+			<Metadata name="WebService.brom_api.Operation.GetMetadata" id="a19127cb-a61f-4fe9-a101-a976cecddfea"/>
+			<Metadata name="WebService.brom_api.Operation.ExecuteMethod.Parameter.params" id="a485351b-aa10-461d-9413-77b6fd6cb9ec"/>
+			<Metadata name="WebService.brom_api.Operation.PostObject.Parameter.object" id="b007fda2-003a-4a74-b401-e718654ad995"/>
+			<Metadata name="WebService.brom_api.Operation.ExecuteMethod.Parameter.module" id="b33f64f8-f41a-4121-ac2c-00702bcd5fc0"/>
+			<Metadata name="WebService.brom_api.Operation.GetObjectList.Parameter.settings" id="bb3dc355-4854-471f-9660-6d33f84d89c1"/>
+			<Metadata name="WebService.brom_api.Operation.SetConstant.Parameter.name" id="c200fc9a-405d-4ff0-823d-12a48d5670b1"/>
+			<Metadata name="WebService.brom_api.Operation.ExecuteMethod" id="c4f33f30-59bb-4e5c-a224-6c12ae8cb4f5"/>
+			<Metadata name="WebService.brom_api.Operation.ExecuteCode.Parameter.param" id="cad53a55-bf7c-4ca1-b8f0-32a36ed2ff60"/>
+			<Metadata name="WebService.brom_api.Operation.GetObjectList.Parameter.name" id="d1c48b4c-5618-443d-a666-5d82f144198f"/>
+			<Metadata name="WebService.brom_api.Operation.ExecuteCode.Parameter.code" id="d3f4c703-ea97-4628-ae22-63bb5fc320e0"/>
+			<Metadata name="WebService.brom_api.Operation.DeleteObject.Parameter.object" id="d919471a-999d-4029-8aad-4656a9b69dc0"/>
+			<Metadata name="WebService.brom_api.Operation.DebugEcho" id="d9b3e794-654d-4765-96ce-478052a4f6e8"/>
+			<Metadata name="WebService.brom_api.Operation.SetConstant" id="e88d9c32-7d2c-458b-8af3-4276acccefa3"/>
+			<Metadata name="WebService.brom_api.Operation.ExecuteRequest.Parameter.settings" id="e9f85603-cdfe-41e5-b915-79755a181f07"/>
+			<Metadata name="WebService.brom_api.Operation.GetConstant.Parameter.settings" id="ef488e50-0af8-4a10-a562-2f579218a379"/>
+			<Metadata name="WebService.brom_api.Operation.GetMetadaChildrenNames.Parameter.parents" id="fe61a522-e7fb-43f1-b0bd-0afddf2c92e9"/>
+			<Metadata name="WebService.brom_api.Operation.GetObject" id="fff44579-3b50-4d95-820c-1909dd206a72"/>
+		</Metadata>
+		<Metadata name="WebService.brom_api.Module" id="fd42ee44-6698-483d-b4f4-d0ad793dc788.0" configVersion="27758f01ddb9f3f09482baf38a99cc461b2e306f"/>
+		<Metadata name="XDTOPackage.brom_API" id="be64ef76-3a7d-4739-a272-affeee0fb49c" configVersion="497df5437c2869373fac479aeab50c19289d9933"/>
+		<Metadata name="XDTOPackage.brom_API.Package" id="be64ef76-3a7d-4739-a272-affeee0fb49c.0" configVersion="9acd2c67cb9e650b42b332b36ca63c6c90d80379"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

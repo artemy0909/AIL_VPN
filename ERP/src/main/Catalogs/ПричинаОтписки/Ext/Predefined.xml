@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="5d117275-7862-4932-a1be-8093d6228a67">
+		<Name>МедленныйИнтернет</Name>
+		<Code>000000003</Code>
+		<Description>Медленный интернет</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="43795bd2-7f99-42ad-9bf0-d9a019cc579d">
+		<Name>ОплатаПросрочена</Name>
+		<Code>000000001</Code>
+		<Description>Не удалось совершить оплату</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5461fd82-1442-46c2-bc94-702caf560f0a">
+		<Name>СлишкомДорого</Name>
+		<Code>000000002</Code>
+		<Description>Слишком дорого</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

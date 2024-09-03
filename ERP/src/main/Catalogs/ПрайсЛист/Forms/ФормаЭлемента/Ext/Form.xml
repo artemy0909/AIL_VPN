@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="ДатаУтверждения" id="7">
+			<DataPath>Объект.ДатаУтверждения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаУтвержденияКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ДатаУтвержденияРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="План" id="38">
+			<DataPath>Объект.План</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПланКонтекстноеМеню" id="39"/>
+			<ExtendedTooltip name="ПланРасширеннаяПодсказка" id="40"/>
+		</InputField>
+		<Table name="Тарифы" id="10">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Тарифы</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТарифыКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="ТарифыКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="ТарифыРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="ТарифыСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>Тарифы</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТарифыСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ТарифыСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТарифыСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>Тарифы</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТарифыСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ТарифыСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТарифыУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>Тарифы</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТарифыУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ТарифыУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ТарифыНомерСтроки" id="23">
+					<DataPath>Объект.Тарифы.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТарифыНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ТарифыНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="ТарифыТариф" id="26">
+					<DataPath>Объект.Тарифы.Тариф</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТарифыТарифКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ТарифыТарифРасширеннаяПодсказка" id="28"/>
+					<Events>
+						<Event name="OnChange">ТарифыТарифПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ТарифыСтоимость" id="29">
+					<DataPath>Объект.Тарифы.Стоимость</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТарифыСтоимостьКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ТарифыСтоимостьРасширеннаяПодсказка" id="31"/>
+					<Events>
+						<Event name="OnChange">ТарифыСтоимостьПриИзменении</Event>
+						<Event name="StartChoice">ТарифыСтоимостьНачалоВыбора</Event>
+					</Events>
+				</InputField>
+				<InputField name="ТарифыСкидка" id="32">
+					<DataPath>Объект.Тарифы.Скидка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТарифыСкидкаКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ТарифыСкидкаРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="OnChange">ТарифыСкидкаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ТарифыСумма" id="35">
+					<DataPath>Объект.Тарифы.Сумма</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТарифыСуммаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ТарифыСуммаРасширеннаяПодсказка" id="37"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ПрайсЛист</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

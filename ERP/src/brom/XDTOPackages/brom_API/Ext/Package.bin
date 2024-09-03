@@ -1,0 +1,328 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="https://brom.itworks.group">
+	<valueType name="UID" base="xs:string" variety="Atomic" length="36">
+		<pattern>[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}</pattern>
+	</valueType>
+	<valueType name="CollectionType" variety="Union">
+		<typeDef xmlns:d3p1="https://brom.itworks.group" base="d3p1:CollectionType_RU" variety="Atomic"/>
+		<typeDef xmlns:d3p1="https://brom.itworks.group" base="d3p1:CollectionType_EN" variety="Atomic"/>
+	</valueType>
+	<valueType name="CollectionType_RU" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">Справочник</enumeration>
+		<enumeration xsi:type="xs:string">Документ</enumeration>
+		<enumeration xsi:type="xs:string">Перечисление</enumeration>
+		<enumeration xsi:type="xs:string">ПланВидовХарактеристик</enumeration>
+		<enumeration xsi:type="xs:string">ПланСчетов</enumeration>
+		<enumeration xsi:type="xs:string">ПланВидовРасчета</enumeration>
+		<enumeration xsi:type="xs:string">БизнесПроцесс</enumeration>
+		<enumeration xsi:type="xs:string">Задача</enumeration>
+	</valueType>
+	<valueType name="CollectionType_EN" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">Catalog</enumeration>
+		<enumeration xsi:type="xs:string">Document</enumeration>
+		<enumeration xsi:type="xs:string">Enum</enumeration>
+		<enumeration xsi:type="xs:string">ChartOfCharacteristicTypes</enumeration>
+		<enumeration xsi:type="xs:string">ChartOfAccounts</enumeration>
+		<enumeration xsi:type="xs:string">ChartOfCalculationTypes</enumeration>
+		<enumeration xsi:type="xs:string">BusinessProcess</enumeration>
+		<enumeration xsi:type="xs:string">Task</enumeration>
+	</valueType>
+	<valueType name="FilterComparisonType" variety="Union">
+		<typeDef xmlns:d3p1="https://brom.itworks.group" base="d3p1:FilterComparisonType_RU" variety="Atomic"/>
+		<typeDef xmlns:d3p1="https://brom.itworks.group" base="d3p1:FilterComparisonType_EN" variety="Atomic"/>
+	</valueType>
+	<valueType name="FilterComparisonType_RU" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">Равно</enumeration>
+		<enumeration xsi:type="xs:string">НеРавно</enumeration>
+		<enumeration xsi:type="xs:string">Больше</enumeration>
+		<enumeration xsi:type="xs:string">БольшеИлиРавно</enumeration>
+		<enumeration xsi:type="xs:string">Меньше</enumeration>
+		<enumeration xsi:type="xs:string">МеньшеИлиРавно</enumeration>
+		<enumeration xsi:type="xs:string">Содержит</enumeration>
+		<enumeration xsi:type="xs:string">НеСодержит</enumeration>
+		<enumeration xsi:type="xs:string">ВСписке</enumeration>
+		<enumeration xsi:type="xs:string">НеВСписке</enumeration>
+		<enumeration xsi:type="xs:string">ВИерархии</enumeration>
+		<enumeration xsi:type="xs:string">НеВИерархии</enumeration>
+	</valueType>
+	<valueType name="FilterComparisonType_EN" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">Equal</enumeration>
+		<enumeration xsi:type="xs:string">NotEqual</enumeration>
+		<enumeration xsi:type="xs:string">Greater</enumeration>
+		<enumeration xsi:type="xs:string">GreaterOrEqual</enumeration>
+		<enumeration xsi:type="xs:string">Less</enumeration>
+		<enumeration xsi:type="xs:string">LessOrEqual</enumeration>
+		<enumeration xsi:type="xs:string">Contains</enumeration>
+		<enumeration xsi:type="xs:string">NotContains</enumeration>
+		<enumeration xsi:type="xs:string">InList</enumeration>
+		<enumeration xsi:type="xs:string">NotInList</enumeration>
+		<enumeration xsi:type="xs:string">InHierarchy</enumeration>
+		<enumeration xsi:type="xs:string">NotInHierarchy</enumeration>
+	</valueType>
+	<valueType name="PropertyName" base="xs:string" variety="Atomic" minLength="1">
+		<pattern>[A-Za-zА-Яа-я_]{1}[A-Za-zА-Яа-я_0-9]*</pattern>
+	</valueType>
+	<valueType name="SortDirectionType_RU" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">Возр</enumeration>
+		<enumeration xsi:type="xs:string">Убыв</enumeration>
+	</valueType>
+	<valueType name="SortDirectionType_EN" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">Asc</enumeration>
+		<enumeration xsi:type="xs:string">Desc</enumeration>
+	</valueType>
+	<valueType name="SortDirectionType" base="xs:string" variety="Atomic">
+		<typeDef xmlns:d3p1="https://brom.itworks.group" base="d3p1:SortDirectionType_RU" variety="Atomic"/>
+		<typeDef xmlns:d3p1="https://brom.itworks.group" base="d3p1:SortDirectionType_EN" variety="Atomic"/>
+	</valueType>
+	<valueType name="PropertiesHierarchyType_RU" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">ОдинУровень</enumeration>
+		<enumeration xsi:type="xs:string">Иерархия</enumeration>
+	</valueType>
+	<valueType name="PropertiesHierarchyType_EN" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">SingleLevel</enumeration>
+		<enumeration xsi:type="xs:string">Hierarchy</enumeration>
+	</valueType>
+	<valueType name="PropertiesHierarchyType" base="xs:string" variety="Atomic">
+		<typeDef xmlns:d3p1="https://brom.itworks.group" base="d3p1:PropertiesHierarchyType_RU" variety="Atomic"/>
+		<typeDef xmlns:d3p1="https://brom.itworks.group" base="d3p1:PropertiesHierarchyType_EN" variety="Atomic"/>
+	</valueType>
+	<valueType name="QueryResultIterationType_RU" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">Прямой</enumeration>
+		<enumeration xsi:type="xs:string">ПоГруппировкам</enumeration>
+		<enumeration xsi:type="xs:string">ПоГруппировкамСИерархией</enumeration>
+	</valueType>
+	<valueType name="QueryResultIterationType_EN" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">Linear</enumeration>
+		<enumeration xsi:type="xs:string">ByGroups</enumeration>
+		<enumeration xsi:type="xs:string">ByGroupsWithHierarchy</enumeration>
+	</valueType>
+	<valueType name="QueryResultIterationType" base="xs:string" variety="Atomic">
+		<typeDef xmlns:d3p1="https://brom.itworks.group" base="d3p1:QueryResultIterationType_RU" variety="Atomic"/>
+		<typeDef xmlns:d3p1="https://brom.itworks.group" base="d3p1:QueryResultIterationType_EN" variety="Atomic"/>
+	</valueType>
+	<valueType name="DocumentWriteMode" variety="Union">
+		<typeDef xmlns:d3p1="https://brom.itworks.group" base="d3p1:DocumentWriteMode_RU" variety="Atomic"/>
+		<typeDef xmlns:d3p1="https://brom.itworks.group" base="d3p1:DocumentWriteMode_EN" variety="Atomic"/>
+	</valueType>
+	<valueType name="DocumentWriteMode_RU" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">Запись</enumeration>
+		<enumeration xsi:type="xs:string">ОтменаПроведения</enumeration>
+		<enumeration xsi:type="xs:string">Проведение</enumeration>
+	</valueType>
+	<valueType name="DocumentWriteMode_EN" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">Write</enumeration>
+		<enumeration xsi:type="xs:string">UndoPosting</enumeration>
+		<enumeration xsi:type="xs:string">Posting</enumeration>
+	</valueType>
+	<valueType name="DocumentPostingMode" variety="Union">
+		<typeDef xmlns:d3p1="https://brom.itworks.group" base="d3p1:DocumentPostingMode_RU" variety="Atomic"/>
+		<typeDef xmlns:d3p1="https://brom.itworks.group" base="d3p1:DocumentPostingMode_EN" variety="Atomic"/>
+	</valueType>
+	<valueType name="DocumentPostingMode_RU" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">Неоперативный</enumeration>
+		<enumeration xsi:type="xs:string">Оперативный</enumeration>
+	</valueType>
+	<valueType name="DocumentPostingMode_EN" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">Regular</enumeration>
+		<enumeration xsi:type="xs:string">RealTime</enumeration>
+	</valueType>
+	<objectType name="MetadataNode" abstract="true">
+		<property name="Name" type="xs:string" form="Attribute"/>
+		<property name="FullName" type="xs:string" form="Attribute"/>
+		<property name="Title" type="xs:string" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="MetadataCollection" base="d2p1:MetadataNode">
+		<property name="Item" type="d2p1:MetadataNode" lowerBound="0" upperBound="-1"/>
+		<property name="TotalObjectsCount" type="xs:int" default="0" form="Attribute"/>
+		<property name="RequestedObjectsCount" type="xs:int" form="Attribute"/>
+		<property name="PackObjectsCount" type="xs:int" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="MetadataModule" base="d2p1:MetadataNode"/>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="MetadataAttribute" base="d2p1:MetadataNode"/>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="MetadataTableSection" base="d2p1:MetadataNode">
+		<property name="Attribute" type="d2p1:MetadataAttribute" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="MetadataObject" base="d2p1:MetadataNode">
+		<property name="CollectionType" type="d2p1:CollectionType" form="Attribute"/>
+		<property name="Attribute" type="d2p1:MetadataAttribute" lowerBound="0" upperBound="-1"/>
+		<property name="TableSection" type="d2p1:MetadataTableSection" lowerBound="0" upperBound="-1"/>
+		<property name="Predefined" type="d2p1:ValueStruct" nillable="true"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="MetadataApplication" base="d2p1:MetadataNode">
+		<property name="Collection" type="d2p1:MetadataCollection" lowerBound="0" upperBound="-1"/>
+		<property name="TotalObjectsCount" type="xs:int" default="0" form="Attribute"/>
+		<property name="RequestedObjectsCount" type="xs:int" form="Attribute"/>
+		<property name="PackSize" type="xs:int" default="0" form="Attribute"/>
+		<property name="PackIndex" type="xs:int" default="0" form="Attribute"/>
+	</objectType>
+	<objectType name="RequestFilter">
+		<property name="Key" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="https://brom.itworks.group" name="Value" type="d3p1:ValueBase" form="Element"/>
+		<property xmlns:d3p1="https://brom.itworks.group" name="ComparisonType" type="d3p1:FilterComparisonType" lowerBound="0" default="Equal" form="Attribute"/>
+	</objectType>
+	<objectType name="RequestSort">
+		<property name="Key" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="https://brom.itworks.group" name="Direction" type="d3p1:SortDirectionType" lowerBound="0" default="Asc" form="Attribute"/>
+	</objectType>
+	<objectType name="RequestField">
+		<property name="Key" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="Name" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+	</objectType>
+	<objectType name="RequestParameter">
+		<property name="Key" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="https://brom.itworks.group" name="Value" type="d3p1:ValueBase" nillable="true"/>
+	</objectType>
+	<objectType name="RequestFieldAutoinclusionSettings">
+		<property name="DefaultFields" type="xs:boolean" lowerBound="0" form="Attribute"/>
+		<property name="CustomFields" type="xs:boolean" lowerBound="0" form="Attribute"/>
+		<property name="Tables" type="xs:boolean" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="RequestSettings">
+		<d3p2:property xmlns:d3p1="https://brom.itworks.group" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Filter" type="d3p1:RequestFilter" lowerBound="0" upperBound="-1" form="Element" d3p2:qualified="false"/>
+		<d3p2:property xmlns:d3p1="https://brom.itworks.group" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Sort" type="d3p1:RequestSort" lowerBound="0" upperBound="-1" form="Element" d3p2:qualified="false"/>
+		<d3p2:property xmlns:d3p1="https://brom.itworks.group" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Field" type="d3p1:RequestField" lowerBound="0" upperBound="-1" form="Element" d3p2:qualified="false"/>
+		<d3p2:property xmlns:d3p1="https://brom.itworks.group" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Parameter" type="d3p1:RequestParameter" lowerBound="0" upperBound="-1" d3p2:qualified="false"/>
+		<property name="Limit" type="xs:unsignedInt" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="https://brom.itworks.group" name="PropertiesHierarchyType" type="d3p1:PropertiesHierarchyType" lowerBound="0" form="Attribute"/>
+		<property name="AddSkippedProperties" type="xs:boolean" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="https://brom.itworks.group" name="QueryResultIteration" type="d3p1:QueryResultIterationType" lowerBound="0" form="Attribute"/>
+		<d3p2:property xmlns:d3p1="https://brom.itworks.group" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="FieldAutoinclusion" type="d3p1:RequestFieldAutoinclusionSettings" nillable="true" d3p2:qualified="true"/>
+	</objectType>
+	<objectType name="DataTableColumn">
+		<property xmlns:d3p1="https://brom.itworks.group" name="Name" type="d3p1:PropertyName" form="Attribute"/>
+	</objectType>
+	<objectType name="DataTableRow">
+		<property xmlns:d3p1="https://brom.itworks.group" name="Property" type="d3p1:ValueBase" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="https://brom.itworks.group" name="Row" type="d3p1:DataTableRow" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ValueBase" abstract="true">
+		<property xmlns:d3p1="https://brom.itworks.group" name="Name" type="d3p1:PropertyName" lowerBound="0" nillable="true" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueNull" base="d2p1:ValueBase"/>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueDBNull" base="d2p1:ValueBase"/>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueSimple" base="d2p1:ValueBase" abstract="true"/>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueNumber" base="d2p1:ValueSimple">
+		<property name="Value" type="xs:decimal" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueString" base="d2p1:ValueSimple">
+		<property name="Value" type="xs:string" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueBoolean" base="d2p1:ValueSimple">
+		<property name="Value" type="xs:boolean" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueDate" base="d2p1:ValueSimple">
+		<property name="Value" type="xs:dateTime" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueGuid" base="d2p1:ValueBase">
+		<property name="Value" type="d2p1:UID" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueBinaryData" base="d2p1:ValueBase">
+		<property name="Value" type="xs:base64Binary" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueStorage" base="d2p1:ValueBase">
+		<property name="Data" type="d2p1:ValueBase" form="Element"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueArray" base="d2p1:ValueBase">
+		<property name="Item" type="d2p1:ValueBase" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueStructured" base="d2p1:ValueBase" abstract="true">
+		<property name="Property" type="d2p1:ValueBase" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueStruct" base="d2p1:ValueStructured"/>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueMap" base="d2p1:ValueBase">
+		<property name="KeyValue" type="d2p1:ValueKeyValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueKeyValue" base="d2p1:ValueBase">
+		<property name="Key" type="d2p1:ValueBase"/>
+		<property name="Value" type="d2p1:ValueBase"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueRef" base="d2p1:ValueStructured" abstract="true">
+		<property name="Type" type="xs:string" form="Attribute"/>
+		<property name="Presentation" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueEnumRef" base="d2p1:ValueRef">
+		<property name="Value" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueObjectRef" base="d2p1:ValueRef">
+		<property name="Value" type="d2p1:UID" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValuePointInTime" base="d2p1:ValueBase">
+		<property name="Date" type="xs:dateTime" form="Attribute"/>
+		<property name="Ref" type="d2p1:ValueObjectRef"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueBoundary" base="d2p1:ValueBase">
+		<property name="Value" type="d2p1:ValueBase" form="Element"/>
+		<property name="Type" type="xs:string" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueDataSet" base="d2p1:ValueBase" abstract="true">
+		<property name="Column" type="d2p1:DataTableColumn" lowerBound="0" upperBound="-1"/>
+		<property name="Row" type="d2p1:DataTableRow" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueTable" base="d2p1:ValueDataSet"/>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueTree" base="d2p1:ValueDataSet"/>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueSystemEnum" base="d2p1:ValueBase" abstract="true">
+		<property name="Value" type="xs:string" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueAccountingRecordType" base="d2p1:ValueSystemEnum"/>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueAccumulationRecordType" base="d2p1:ValueSystemEnum"/>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueAccountType" base="d2p1:ValueSystemEnum"/>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueDocumentWriteMode" base="d2p1:ValueSystemEnum"/>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueDocumentPostingMode" base="d2p1:ValueSystemEnum"/>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueType" base="d2p1:ValueBase">
+		<property name="Value" type="xs:string" form="Attribute"/>
+		<property name="Namespace" type="xs:string" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueTypeDescription" base="d2p1:ValueBase">
+		<property name="Item" type="d2p1:ValueType" lowerBound="0" upperBound="-1" form="Element"/>
+		<property name="StringQualifiers" type="d2p1:StringQualifiers" lowerBound="0" nillable="true"/>
+		<property name="NumberQualifiers" type="d2p1:NumberQualifiers" lowerBound="0" nillable="true"/>
+		<property name="DateQualifiers" type="d2p1:DateQualifiers" lowerBound="0" nillable="true"/>
+		<property name="BinaryDataQualifiers" type="d2p1:BinaryDataQualifiers" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="ValueNonserializable" base="d2p1:ValueBase"/>
+	<objectType name="GetObject_Settings">
+		<property xmlns:d3p1="https://brom.itworks.group" name="Field" type="d3p1:RequestField" lowerBound="0" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="https://brom.itworks.group" name="PropertiesHierarchyType" type="d3p1:PropertiesHierarchyType" lowerBound="0" form="Attribute"/>
+		<property name="AddSkippedProperties" type="xs:boolean" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="https://brom.itworks.group" name="FieldAutoinclusion" type="d3p1:RequestFieldAutoinclusionSettings" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType xmlns:d2p1="https://brom.itworks.group" name="GetObjectList_Settings" base="d2p1:GetObject_Settings">
+		<property name="Limit" type="xs:unsignedInt" lowerBound="0" nillable="true" form="Attribute"/>
+		<property name="Filter" type="d2p1:RequestFilter" lowerBound="0" upperBound="-1" form="Element"/>
+		<property name="Sort" type="d2p1:RequestSort" lowerBound="0" upperBound="-1" form="Element"/>
+	</objectType>
+	<objectType name="GetConstant_Settings">
+		<property xmlns:d3p1="https://brom.itworks.group" name="Field" type="d3p1:RequestField" lowerBound="0" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="https://brom.itworks.group" name="PropertiesHierarchyType" type="d3p1:PropertiesHierarchyType" lowerBound="0" form="Attribute"/>
+		<property name="AddSkippedProperties" type="xs:boolean" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="ExecuteRequest_Settings">
+		<property xmlns:d3p1="https://brom.itworks.group" name="Field" type="d3p1:RequestField" lowerBound="0" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="https://brom.itworks.group" name="Filter" type="d3p1:RequestFilter" lowerBound="0" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="https://brom.itworks.group" name="Sort" type="d3p1:RequestSort" lowerBound="0" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="https://brom.itworks.group" name="Parameter" type="d3p1:RequestParameter" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="https://brom.itworks.group" name="QueryResultIteration" type="d3p1:QueryResultIterationType" lowerBound="0" form="Attribute"/>
+		<property name="IncludeTemporalData" type="xs:boolean" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="PostObject_Settings">
+		<property xmlns:d3p1="https://brom.itworks.group" name="AdditionalProperties" type="d3p1:ValueStruct" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="https://brom.itworks.group" name="DocumentWriteMode" type="d3p1:DocumentWriteMode" lowerBound="0" nillable="true" form="Attribute"/>
+		<property xmlns:d3p1="https://brom.itworks.group" name="DocumentPostingMode" type="d3p1:DocumentPostingMode" lowerBound="0" nillable="true" form="Attribute"/>
+		<property name="ExchangeLoadMode" type="xs:boolean" lowerBound="0" nillable="true" form="Attribute"/>
+	</objectType>
+	<objectType name="StringQualifiers">
+		<property name="Length" type="xs:int" form="Attribute"/>
+		<property name="AllowedLength" type="xs:string" form="Attribute"/>
+	</objectType>
+	<objectType name="BinaryDataQualifiers">
+		<property name="Length" type="xs:int" form="Attribute"/>
+		<property name="AllowedLength" type="xs:string" form="Attribute"/>
+	</objectType>
+	<objectType name="NumberQualifiers">
+		<property name="Digits" type="xs:int" form="Attribute"/>
+		<property name="FractionDigits" type="xs:int" form="Attribute"/>
+		<property name="OnlyPositive" type="xs:boolean" form="Attribute"/>
+	</objectType>
+	<objectType name="DateQualifiers">
+		<property name="DateFractions" type="xs:string" form="Attribute"/>
+	</objectType>
+</package>

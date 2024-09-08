@@ -1,111 +1,83 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Catalog uuid="38ef1778-9f48-48dd-a9fb-e8c2da37e01e">
+	<InformationRegister uuid="9a9c65f7-1440-44df-b17b-a5122f5e165f">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Тариф" category="Object">
-				<xr:TypeId>ae9d042b-cd91-4bbf-aae6-634d7b26db46</xr:TypeId>
-				<xr:ValueId>ad721af3-f6a2-42bd-8388-28eea3308063</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecord.СлотыСервера" category="Record">
+				<xr:TypeId>ceb60066-dfcc-4b53-bbb2-df870062be89</xr:TypeId>
+				<xr:ValueId>55768efe-2fd0-4d61-b4e6-c35e3c4b1a6e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Тариф" category="Ref">
-				<xr:TypeId>7d5aaf16-3f19-4b9b-9868-d868ac9e2d08</xr:TypeId>
-				<xr:ValueId>1a7057f6-dbfa-4908-a572-838bb821dc81</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterManager.СлотыСервера" category="Manager">
+				<xr:TypeId>1c43b9c3-c836-4d54-9e83-c8c34efdea9e</xr:TypeId>
+				<xr:ValueId>11696e85-6b03-45e4-917e-f08eda866a63</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Тариф" category="Selection">
-				<xr:TypeId>6e71cadc-84db-4c74-a409-fe3d0bf5328a</xr:TypeId>
-				<xr:ValueId>fe00f192-1563-4e58-805a-a5c5df5cb66d</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterSelection.СлотыСервера" category="Selection">
+				<xr:TypeId>c0ccd81e-7193-4801-aee5-9c4300105b24</xr:TypeId>
+				<xr:ValueId>c04ce888-fe2a-4d78-bd6c-850d955fd152</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Тариф" category="List">
-				<xr:TypeId>8a8a88b4-8c96-4d45-bcc9-d481bbde4787</xr:TypeId>
-				<xr:ValueId>60b1acb9-ff40-40bf-9be7-e3b1446f1c42</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterList.СлотыСервера" category="List">
+				<xr:TypeId>7ba80743-35a5-42c3-b66d-569f0d9964db</xr:TypeId>
+				<xr:ValueId>98d32921-54ee-4745-ae05-e7c5db4ecbda</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Тариф" category="Manager">
-				<xr:TypeId>df34a0c9-369d-43a3-ab7f-869d47920005</xr:TypeId>
-				<xr:ValueId>776ef753-fdda-4f16-8737-86b609892130</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СлотыСервера" category="RecordSet">
+				<xr:TypeId>f37f20ae-0f62-462d-b572-407f7376d8b7</xr:TypeId>
+				<xr:ValueId>2d782c4a-2f2e-473a-8c4c-929ce77b68c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СлотыСервера" category="RecordKey">
+				<xr:TypeId>a1d482f9-9100-4a1b-a45b-c31027335ae2</xr:TypeId>
+				<xr:ValueId>55b2b8c3-31bb-4d6c-9df3-b6d380c750d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СлотыСервера" category="RecordManager">
+				<xr:TypeId>b87a53cf-1490-436e-a88f-7cbd299ef1cb</xr:TypeId>
+				<xr:ValueId>fd5ef301-cab0-43c3-9ef3-4520e16aeca8</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Тариф</Name>
+			<Name>СлотыСервера</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Тариф</v8:content>
+					<v8:content>Слоты сервера</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<Hierarchical>true</Hierarchical>
-			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
-			<LimitLevelCount>true</LimitLevelCount>
-			<LevelCount>2</LevelCount>
-			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
-			<Owners/>
-			<SubordinationUse>ToItems</SubordinationUse>
-			<CodeLength>9</CodeLength>
-			<DescriptionLength>100</DescriptionLength>
-			<CodeType>String</CodeType>
-			<CodeAllowedLength>Variable</CodeAllowedLength>
-			<CodeSeries>WholeCatalog</CodeSeries>
-			<CheckUnique>true</CheckUnique>
-			<Autonumbering>true</Autonumbering>
-			<DefaultPresentation>AsDescription</DefaultPresentation>
-			<Characteristics/>
-			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
 			<EditType>InDialog</EditType>
-			<QuickChoice>false</QuickChoice>
-			<ChoiceMode>BothWays</ChoiceMode>
-			<InputByString>
-				<xr:Field>Catalog.Тариф.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Тариф.StandardAttribute.Code</xr:Field>
-			</InputByString>
-			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
-			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
-			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/>
-			<DefaultFolderForm/>
+			<DefaultRecordForm/>
 			<DefaultListForm/>
-			<DefaultChoiceForm/>
-			<DefaultFolderChoiceForm/>
-			<AuxiliaryObjectForm/>
-			<AuxiliaryFolderForm/>
+			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
-			<AuxiliaryChoiceForm/>
-			<AuxiliaryFolderChoiceForm/>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<MainFilterOnPeriod>false</MainFilterOnPeriod>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<BasedOn/>
-			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
-			<FullTextSearch>Use</FullTextSearch>
-			<ObjectPresentation/>
-			<ExtendedObjectPresentation/>
-			<ListPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Тарифы</v8:content>
-				</v8:item>
-			</ListPresentation>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
+			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
+			<RecordPresentation/>
+			<ExtendedRecordPresentation/>
+			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
-			<CreateOnInput>Use</CreateOnInput>
-			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="207f1b9a-0b5f-4297-92ed-56da69571e83">
+			<Resource uuid="6f346cdd-2d1e-4155-b025-ab0039a279ca">
 				<Properties>
-					<Name>НаименованиеДляБота</Name>
+					<Name>ИмяСлота</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Наименование для бота</v8:content>
+							<v8:content>Имя слота</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>50</v8:Length>
+							<v8:Length>500</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -121,6 +93,45 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:type="xs:string"/>
+					<FillChecking>ShowError</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Resource>
+			<Resource uuid="64f2140f-f228-4dae-8b30-1eed1c08a816">
+				<Properties>
+					<Name>Занят</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Занят</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -130,24 +141,26 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
-			</Attribute>
-			<Attribute uuid="bcfd6875-13c4-47ba-95ca-071bef8971ac">
+			</Resource>
+			<Attribute uuid="3128c91a-169a-4fd7-a4bc-bd007c3fa197">
 				<Properties>
-					<Name>ПериодПодписки</Name>
+					<Name>ДатаСоздания</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Период подписки</v8:content>
+							<v8:content>Дата создания</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:EnumRef.ПериодПодписки</v8:Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -161,7 +174,7 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
-					<FillChecking>ShowError</FillChecking>
+					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
@@ -170,24 +183,23 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="df263005-1407-4fa4-bc3f-b4d639477c7b">
+			<Dimension uuid="f276e3bc-d313-4fa7-a511-001f823548a4">
 				<Properties>
-					<Name>ПланПодписки</Name>
+					<Name>Сервер</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>План подписки</v8:content>
+							<v8:content>Сервер</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:EnumRef.ПланПодписки</v8:Type>
+						<v8:Type>cfg:CatalogRef.Сервер</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -199,9 +211,9 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillFromFillingValue>true</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
-					<FillChecking>ShowError</FillChecking>
+					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
@@ -210,12 +222,15 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
+					<Master>true</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>true</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
+					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
-			</Attribute>
+			</Dimension>
 		</ChildObjects>
-	</Catalog>
+	</InformationRegister>
 </MetaDataObject>

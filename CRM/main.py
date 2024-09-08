@@ -5,6 +5,7 @@ import sys
 
 async def main() -> None:
     from loader import user_dp, service_dp, market_bot, service_bot
+    from handlers.bots import MARKET_ROUTERS
     # from handlers import ROUTERS
     
     # from utils.database import get_all_subscriptions
@@ -13,7 +14,8 @@ async def main() -> None:
     #     scheduler.add_subscribe_alert(subscription.telegram_id, subscription.article)
     # asyncio.get_event_loop().create_task(scheduler.start())
 
-    # dp.include_routers()
+    user_dp.include_routers(*MARKET_ROUTERS)
+    # service_dp.include_routers(*SERVICE_ROUTERS)
     await asyncio.gather(
         user_dp.start_polling(market_bot),
         service_dp.start_polling(service_bot)

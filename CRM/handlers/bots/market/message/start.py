@@ -13,4 +13,5 @@ start_router = Router()
 async def command_start_handler(message: Message) -> None:
     await message.answer(
         text=Text.hello_customer(name=message.from_user.full_name),
-        reply_markup=Keyboard)
+        reply_markup=Keyboard.basic_prices())
+

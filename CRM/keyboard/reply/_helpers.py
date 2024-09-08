@@ -7,7 +7,7 @@ def reply_keyboard(func):
         def error():
             raise TypeError(f"Expected str | list[str] | tuple[str]")
 
-        res: list[str] = func(*args, **kwargs)
+        res = func(*args, **kwargs)
 
         if isinstance(res, str):
             return ReplyKeyboardMarkup(

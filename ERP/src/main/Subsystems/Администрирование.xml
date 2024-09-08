@@ -20,11 +20,11 @@
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.КрайнийСрокОплатыПодпискиВДнях</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">a5a028ad-1e59-44d7-94b3-7baba1c2e7af</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.НаименованиеОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПромокодыПериодДействия</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">42612c94-c7b1-4192-882f-4445c8f0a6bb</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияИзмененийОсновныхПрайсЛистов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СлотыСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сервер</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

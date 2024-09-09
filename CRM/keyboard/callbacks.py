@@ -1,6 +1,8 @@
 from aiogram.filters.callback_data import CallbackData
 
 
-class PriceChoiceCallback(CallbackData, prefix='prch'):
+class TariffChoiceCallback(CallbackData, prefix='tarch'):
     tariff_guid: str
     amount: int
+
+    data_key: int

@@ -2,7 +2,7 @@ from aiogram.types import InlineKeyboardMarkup
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiogram.utils.markdown import hbold
 
-from keyboard.callbacks import PriceChoiceCallback
+from keyboard.callbacks import TariffChoiceCallback
 from utils.database import views
 from utils.database.models import PriceItem
 
@@ -14,7 +14,7 @@ def basic_prices() -> InlineKeyboardMarkup:
     for price in price_list:
         keyboard_builder.button(
             text=f"⭐️ {price.title} - {price.amount}",
-            callback_data=PriceChoiceCallback(
+            callback_data=TariffChoiceCallback(
                 tariff_guid=price.tariff_guid,
                 amount=price.amount.value))
 

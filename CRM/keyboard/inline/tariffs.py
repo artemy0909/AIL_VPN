@@ -1,8 +1,9 @@
+from datetime import datetime
+
 from aiogram.types import InlineKeyboardMarkup
 from aiogram.utils.keyboard import InlineKeyboardBuilder
-from aiogram.utils.markdown import hbold
 
-from keyboard.callbacks import TariffChoiceCallback
+from keyboard.callbacks import TariffChoiceCallback, TestCallback
 from utils.database import views
 from utils.database.models import PriceItem
 
@@ -17,6 +18,18 @@ def basic_prices() -> InlineKeyboardMarkup:
             callback_data=TariffChoiceCallback(
                 tariff_guid=price.tariff_guid,
                 amount=price.amount.value))
+
+    keyboard_builder.adjust(1)
+
+    return keyboard_builder.as_markup()
+
+
+def test() -> InlineKeyboardMarkup:
+    keyboard_builder = InlineKeyboardBuilder()
+
+    keyboard_builder.button(
+        text=f"Тест",
+        callback_data=TestCallback(digit=123212, text="asdsadsas", time=datetime.now()))
 
     keyboard_builder.adjust(1)
 

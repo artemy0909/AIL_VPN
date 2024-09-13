@@ -1,5 +1,4 @@
 from . import brom_client
-from datetime import datetime
 
 
 def get_basic_tariffs_by_current_date():

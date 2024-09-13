@@ -1,13 +1,11 @@
-# from keyboard.inline.tariffs import basic_prices
-#
-# if __name__ == '__main__':
-#     basic_prices
+from keyboard.cache import Delivery, load_from_cache
 
+from utils.cache import create_tables
 
-from utils import database
-from utils.database import СправочникСсылка
+create_tables()
 
-item = СправочникСсылка(database.brom_client, 'Тариф', '8daa055c-6202-11ef-9a38-085bd68138e7')
+guid = Delivery(amount=2).dump_in_cache()
 
+delivery = load_from_cache(Delivery, guid)
 
-pass
+print(delivery.amount)

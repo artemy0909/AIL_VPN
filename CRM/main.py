@@ -6,8 +6,11 @@ import sys
 async def main() -> None:
     from loader import user_dp, service_dp, market_bot, service_bot
     from handlers.bots import MARKET_ROUTERS
+    from utils.cache import create_tables
+
+    create_tables()
     # from handlers import ROUTERS
-    
+
     # from utils.database import get_all_subscriptions
     #
     # for subscription in get_all_subscriptions():
@@ -20,6 +23,7 @@ async def main() -> None:
         user_dp.start_polling(market_bot),
         service_dp.start_polling(service_bot)
     )
+
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, stream=sys.stdout)

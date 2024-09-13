@@ -13,7 +13,7 @@ payment_router = Router()
 
 @payment_router.callback_query(TariffChoiceCallback.filter())
 async def tariff_choice(query: CallbackQuery, callback_data: TariffChoiceCallback):
-    await query.answer()
+    await query.answer("test")
 
 
 @payment_router.message(Command('buy'))

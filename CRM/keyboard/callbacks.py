@@ -1,8 +1,9 @@
-from aiogram.filters.callback_data import CallbackData
+from utils.callback_stored import CallbackDataStored
 
 
-class TariffChoiceCallback(CallbackData, prefix='tarch'):
+class TariffChoiceCallback(CallbackDataStored, prefix='tarch'):
     tariff_guid: str
     amount: int
+    promo_code: str = None
+    reffer_guid: str = None # todo переименовать
 
-    data_key: int

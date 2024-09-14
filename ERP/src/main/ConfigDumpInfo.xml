@@ -7,13 +7,14 @@
 		<Metadata name="AccumulationRegister.ДвижениеПодписчиков" id="428e2fab-10bf-4bdf-a627-d3a6f55ca760" configVersion="bab5b3324b2c1949b317990c754e919c00000000">
 			<Metadata name="AccumulationRegister.ДвижениеПодписчиков.Resource.Количество" id="0708396f-5341-49db-bcfc-2417e644b002"/>
 		</Metadata>
-		<Metadata name="Catalog.Контрагент" id="b7e60e67-87c7-418a-b681-cf95feee61cb" configVersion="6cc329cc8e570743adcddfdaa24e90a100000000">
+		<Metadata name="Catalog.Контрагент" id="b7e60e67-87c7-418a-b681-cf95feee61cb" configVersion="02ea398dfc5d8e4995a377c39a98f34700000000">
 			<Metadata name="Catalog.Контрагент.Attribute.СекретныйКлюч" id="1028c07e-a323-499a-9db8-fab3da04bff4"/>
 			<Metadata name="Catalog.Контрагент.Attribute.ФИО" id="350342a2-ca0d-4b79-ba93-fd0dbd937a55"/>
 			<Metadata name="Catalog.Контрагент.Attribute.КонтактныйТелефон" id="750eefbb-898d-4beb-b324-35ec802c461a"/>
 		</Metadata>
 		<Metadata name="Catalog.Контрагент.Form.ФормаЭлемента" id="513d7c8f-b56a-41a4-bc7e-bcfda5539492" configVersion="33f13f3affccce4e9663e091a66a4d7d00000000"/>
 		<Metadata name="Catalog.Контрагент.Form.ФормаЭлемента.Form" id="513d7c8f-b56a-41a4-bc7e-bcfda5539492.0" configVersion="9fee10746a179f4380827aa5006767d200000000"/>
+		<Metadata name="Catalog.Контрагент.Predefined" id="b7e60e67-87c7-418a-b681-cf95feee61cb.1c" configVersion="f3534aa339acfc4ca9d06371ba40e6e400000000"/>
 		<Metadata name="Catalog.Партнер" id="6e034787-6fb4-44ef-afa7-e8ff7ff6c037" configVersion="3238715908863d499420eda9d9d7f96400000000">
 			<Metadata name="Catalog.Партнер.Attribute.Контрагент" id="b8f42f9e-9fe4-4c31-bec6-165ce3a8f44d"/>
 		</Metadata>

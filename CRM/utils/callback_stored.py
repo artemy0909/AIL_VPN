@@ -2,6 +2,7 @@ import uuid
 from typing import Type
 
 from aiogram.filters.callback_data import CallbackData, T
+from peewee import DoesNotExist
 
 from utils.cache import CallbackCache
 
@@ -24,7 +25,7 @@ class CallbackDataStored(CallbackData, prefix=""):
 
         try:
             callback_cache = CallbackCache.get(CallbackCache.key == guid)
-        except CallbackCache.DoesNotExist:
+        except DoesNotExist:
             return None
 
         return cls.parse_raw(callback_cache.data)

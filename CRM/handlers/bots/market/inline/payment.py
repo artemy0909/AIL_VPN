@@ -43,9 +43,9 @@ async def pre_checkout_query(pre_checkout_q: PreCheckoutQuery):
     await market_bot.answer_pre_checkout_query(pre_checkout_q.id, ok=True)
 
 
-@payment_router.message(F.content_type == ContentType.SUCCESSFUL_PAYMENT)
-async def successful_payment(message: Message):
-    await market_bot.send_message(
-        message.chat.id,
-        f"Платеж на сумму {message.successful_payment.total_amount // 100}"
-        f" {message.successful_payment.currency} прошел успешно!!!")
+# @payment_router.message(F.content_type == ContentType.SUCCESSFUL_PAYMENT)
+# async def successful_payment(message: Message):
+#     await market_bot.send_message(
+#         message.chat.id,
+#         f"Платеж на сумму {message.successful_payment.total_amount // 100}"
+#         f" {message.successful_payment.currency} прошел успешно!!!")

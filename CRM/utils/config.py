@@ -15,3 +15,4 @@ class Config:
     BROM_LOGIN = getenv("BROM_LOGIN")
     BROM_PASSWORD = getenv("BROM_PASSWORD")
     DB_CACHE_PATH = getenv("DB_CACHE_PATH")
+    ERROR_REPORTS_PATH = getenv("ERROR_REPORTS_PATH")

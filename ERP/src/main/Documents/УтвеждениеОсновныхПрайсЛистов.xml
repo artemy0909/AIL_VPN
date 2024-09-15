@@ -82,11 +82,11 @@
 		<ChildObjects>
 			<Attribute uuid="45c8fa06-1d1b-4968-87eb-b914d57e376c">
 				<Properties>
-					<Name>Эконом</Name>
+					<Name>Базовый</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Эконом</v8:content>
+							<v8:content>Базовый</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

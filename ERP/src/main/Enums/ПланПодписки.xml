@@ -38,6 +38,18 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
+			<EnumValue uuid="4c238d9f-cd57-43f3-913b-883464c6597e">
+				<Properties>
+					<Name>Базовый</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Базовый</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="5f5de702-d07a-46b8-8f04-983b95d294ca">
 				<Properties>
 					<Name>Премиум</Name>
@@ -45,18 +57,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Премиум</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="4c238d9f-cd57-43f3-913b-883464c6597e">
-				<Properties>
-					<Name>Эконом</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Эконом</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

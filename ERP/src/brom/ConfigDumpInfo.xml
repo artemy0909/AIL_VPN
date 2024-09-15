@@ -2,15 +2,15 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
 	<ConfigVersions>
 		<Metadata name="CommonModule.brom_API" id="4b02d61c-ce4f-41cb-9aed-2836037e6b31" configVersion="ad1277738695df4d734f13e7ee4f533d18f286ce"/>
-		<Metadata name="CommonModule.brom_API.Module" id="4b02d61c-ce4f-41cb-9aed-2836037e6b31.0" configVersion="91aaeb8bd951976d4e66c5c1f931d194bfa84124"/>
+		<Metadata name="CommonModule.brom_API.Module" id="4b02d61c-ce4f-41cb-9aed-2836037e6b31.0" configVersion="71b539374aab107ccc14a9d9f64929776bece5d2"/>
 		<Metadata name="CommonModule.brom_API_ПИ" id="cec68629-7d11-495d-9bc8-73167e8dce25" configVersion="ba0f41a771745f19dbb66cf08904fb69bf677d77"/>
 		<Metadata name="CommonModule.brom_API_ПИ.Module" id="cec68629-7d11-495d-9bc8-73167e8dce25.0" configVersion="a21d410853e22f8684b789cf513a0bd8f9f00ce9"/>
-		<Metadata name="CommonModule.brom_Метаданные_ПИ" id="9f17133b-cddb-4147-8d7a-90813bee276f" configVersion="63be14f69868e17cfd64a9995370a42e3e2956d7"/>
-		<Metadata name="CommonModule.brom_Метаданные_ПИ.Module" id="9f17133b-cddb-4147-8d7a-90813bee276f.0" configVersion="cce97989262a6782182e8efe05ede7f27008eefc"/>
+		<Metadata name="CommonModule.brom_Метаданные_ПИ" id="9f17133b-cddb-4147-8d7a-90813bee276f" configVersion="b078b82f0f20edf17a65a3cf9bcdfa535ef2a5e3"/>
+		<Metadata name="CommonModule.brom_Метаданные_ПИ.Module" id="9f17133b-cddb-4147-8d7a-90813bee276f.0" configVersion="4328d108f20763673355a806129ede84af4d367d"/>
 		<Metadata name="CommonModule.brom_Настройки" id="88ce4c2f-7b15-47c2-8721-1e5cb70092eb" configVersion="df4c497d2f62c0df1118e68f9041adc6ab59e92a"/>
 		<Metadata name="CommonModule.brom_Настройки.Module" id="88ce4c2f-7b15-47c2-8721-1e5cb70092eb.0" configVersion="bcc1fd4fa265c42acb02b2756625b999dd502bc3"/>
-		<Metadata name="CommonModule.brom_Утилиты" id="1a4584d1-dbb2-4de1-ab35-ff280f03da82" configVersion="f6d464de6d38503980bd7bfc7ed0ebace6c2bd7e"/>
-		<Metadata name="CommonModule.brom_Утилиты.Module" id="1a4584d1-dbb2-4de1-ab35-ff280f03da82.0" configVersion="da06727d0b1d5a1ec1f05293937c2aa6890b18b1"/>
+		<Metadata name="CommonModule.brom_Утилиты" id="1a4584d1-dbb2-4de1-ab35-ff280f03da82" configVersion="cfc4daa5555c415ae6c10694a5bae7d8f8a71632"/>
+		<Metadata name="CommonModule.brom_Утилиты.Module" id="1a4584d1-dbb2-4de1-ab35-ff280f03da82.0" configVersion="c9b1e39a417ea5fb8a02800759479a570187f452"/>
 		<Metadata name="Configuration.Бром" id="0f035b5e-4f60-46cc-895b-249ad4c6def9" configVersion="55d021d769a1df5b1b3942fbf61cf661b2fae9f3"/>
 		<Metadata name="DataProcessor.brom_УстановкаРолейПользователей" id="8a461068-a9e4-4139-b0ee-99e178dff57c" configVersion="97561333651b66b127daca2aaadd5ad39120fe19"/>
 		<Metadata name="DataProcessor.brom_УстановкаРолейПользователей.Form.Форма" id="b7851e03-5629-4ba0-b05e-ea272b212b72" configVersion="a83d6f94342c75eb5ce67e4c718a31a858797957"/>

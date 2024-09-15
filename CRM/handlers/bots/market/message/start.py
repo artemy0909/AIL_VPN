@@ -17,6 +17,5 @@ async def command_start(message: Message) -> None:
 
 @start_router.message()
 async def promo_code_activation(message: Message) -> None:
-    await message.answer(
-
-    )
+    get_promo_code_info(message.text)
+    await message.answer()

@@ -1,5 +1,5 @@
-# Telegram callback cache
-CRM/data/
+# Telegram error logs
+CRM/errors/
 
 # 1C database
 ERP/database/

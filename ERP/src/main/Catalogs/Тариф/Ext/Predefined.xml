@@ -1,5 +1,25 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="2f51718b-fff9-4962-8998-eacf2fb041cc">
+		<Name>Базовый</Name>
+		<Code>000000005</Code>
+		<Description>Базовый</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="9d893751-0c3f-4a2e-afa4-fb9786728204">
+				<Name>БазовыйНаГод</Name>
+				<Code>000000007</Code>
+				<Description>Базовый на год</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c6f18170-f999-491f-bdf7-ea9529acf862">
+				<Name>БазовыйНаМесяц</Name>
+				<Code>000000006</Code>
+				<Description>Базовый на месяц</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
 	<Item id="4a6de09b-fd45-413f-80c8-7338e0344c3d">
 		<Name>Премиум</Name>
 		<Code>000000001</Code>
@@ -22,26 +42,6 @@
 				<Name>ПремиумНаМесяц</Name>
 				<Code>000000003</Code>
 				<Description>Премиум на месяц</Description>
-				<IsFolder>false</IsFolder>
-			</Item>
-		</ChildItems>
-	</Item>
-	<Item id="2f51718b-fff9-4962-8998-eacf2fb041cc">
-		<Name>Эконом</Name>
-		<Code>000000005</Code>
-		<Description>Эконом</Description>
-		<IsFolder>true</IsFolder>
-		<ChildItems>
-			<Item id="9d893751-0c3f-4a2e-afa4-fb9786728204">
-				<Name>ЭкономНаГод</Name>
-				<Code>000000007</Code>
-				<Description>Эконом на год</Description>
-				<IsFolder>false</IsFolder>
-			</Item>
-			<Item id="c6f18170-f999-491f-bdf7-ea9529acf862">
-				<Name>ЭкономНаМесяц</Name>
-				<Code>000000006</Code>
-				<Description>Эконом на месяц</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
 		</ChildItems>

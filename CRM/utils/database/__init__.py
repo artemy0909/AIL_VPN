@@ -1,4 +1,5 @@
 import logging
+import uuid
 
 from pydantic import BaseModel
 from zeep.exceptions import Fault
@@ -32,7 +33,9 @@ class MethodReturn:
         self.status: int = int(structure_1c.status)
 
 
-def call_method(module: str, method: str, *args) -> any:
+def call_method(method: str, *args) -> any:
+    module = "СоединениеБром"
+
     method_return = None
     try:
 
@@ -58,11 +61,9 @@ def call_method(module: str, method: str, *args) -> any:
         report = DatabaseErrorReport(
             module=module, method=method, args=args, status=status, message=e.message)
 
-        file_name = f"{Config.ERROR_REPORTS_PATH}{datetime.now()}.json"
+        file_name = f"{Config.ERROR_REPORTS_PATH}{uuid.uuid4()}.json"
         with open(file_name, "w") as f:
             f.write(report.model_dump_json())
 
         logging.error(f"Error (status {status}) on the server when executing the method '{method}'"
                       f", details in the file {file_name}")
-
-    # todo уведомление админа об ошибке

@@ -28,7 +28,7 @@ async def buy(message: types.Message):
         description="Ваша безопасность и доступ к ресурсам всего мира.",
         provider_token=Config.PAYMENT_TOKEN,
         currency="rub",
-        photo_url="https://i.pinimg.com/originals/e1/4c/a2/e14ca245e887f57fbb9acbdacf8d74ca.jpg",
+        # photo_url="https://i.pinimg.com/originals/e1/4c/a2/e14ca245e887f57fbb9acbdacf8d74ca.jpg",
         # photo_width=416,
         # photo_height=234,
         # photo_size=416,

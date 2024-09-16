@@ -6,9 +6,7 @@ import sys
 async def main() -> None:
     from loader import user_dp, service_dp, market_bot, service_bot
     from handlers.bots import MARKET_ROUTERS
-    from utils.cache import create_tables
 
-    create_tables()
     # from handlers import ROUTERS
 
     # from utils.database import get_all_subscriptions

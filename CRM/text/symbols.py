@@ -3,6 +3,8 @@
 class Emoji:
 
     star = "⭐"
+    lock = ""
+    confetti = ""
 
 
 class Units:

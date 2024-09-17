@@ -32,6 +32,7 @@ class PromoCode(CallbackCache):
 
 
 class PriceItem(CallbackCache, prefix='tarch'):
+    title: str
     tariff_guid: str
     price: QuantitativeInt
     discount: QuantitativeInt

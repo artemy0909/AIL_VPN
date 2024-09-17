@@ -1,4 +1,4 @@
-from text.static.start import HELLO_TEXT
+from text.market.static.start import HELLO_TEXT
 
 
 def hello_customer(*, name: str):

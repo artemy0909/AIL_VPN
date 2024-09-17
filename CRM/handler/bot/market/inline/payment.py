@@ -1,18 +1,16 @@
-from aiogram import F
 from aiogram import types, Router
-from aiogram.enums import ContentType
 from aiogram.filters import Command
-from aiogram.types import CallbackQuery, PreCheckoutQuery, Message
+from aiogram.types import CallbackQuery, PreCheckoutQuery
 
-from keyboard.callbacks import TariffChoiceCallback
 from loader import market_bot
+from model.views import PriceItem
 from utils.config import Config
 
 payment_router = Router()
 
 
-@payment_router.callback_query(TariffChoiceCallback.filter())
-async def tariff_choice(query: CallbackQuery, callback_data: TariffChoiceCallback):
+@payment_router.callback_query(PriceItem.filter())
+async def tariff_choice(query: CallbackQuery, callback_data: PriceItem):
     await query.answer("test")
 
 

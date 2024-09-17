@@ -5,7 +5,7 @@ import sys
 
 async def main() -> None:
     from loader import user_dp, service_dp, market_bot, service_bot
-    from handlers.bots import MARKET_ROUTERS
+    from handler.bot import MARKET_ROUTERS
 
     # from handlers import ROUTERS
 

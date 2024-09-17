@@ -31,7 +31,12 @@ def get_callback(key: str) -> str | None:
 T = TypeVar("T", bound="CallbackDataStored")
 
 
-class CallbackDataStored(CallbackData, prefix=""):
+class CallbackCache(CallbackData, prefix=""):
+
+    def __init_subclass__(cls, **kwargs: any) -> None:
+        if "prefix" not in kwargs:
+            kwargs["prefix"] = ""
+        super().__init_subclass__(**kwargs)
 
     def pack(self):
         model_dict = super().model_dump_json()
@@ -43,16 +48,13 @@ class CallbackDataStored(CallbackData, prefix=""):
     @classmethod
     def unpack(cls: Type[T], value: str) -> T | None:
 
-        try:
-            prefix, guid = value.split(cls.__separator__)
-            if prefix != cls.__prefix__:
-                raise ValueError(f"Bad prefix ({prefix!r} != {cls.__prefix__!r})")
+        prefix, guid = value.split(cls.__separator__)
+        if prefix != cls.__prefix__:
+            raise ValueError(f"Bad prefix ({prefix!r} != {cls.__prefix__!r})")
 
-            model_dict = get_callback(guid)
+        model_dict = get_callback(guid)
 
-            if not model_dict:
-                return None
-            else:
-                return cls.parse_raw(model_dict)
-        except BaseException as e:
-            pass
+        if not model_dict:
+            return None
+        else:
+            return cls.parse_raw(model_dict)

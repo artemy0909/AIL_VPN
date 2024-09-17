@@ -1,69 +1,20 @@
-import logging
-import uuid
-
-from pydantic import BaseModel
-from zeep.exceptions import Fault
-
-from .brom import *
-from ..config import Config
-
-brom_client = БромКлиент(Config.BROM_API_URL, Config.BROM_LOGIN, Config.BROM_PASSWORD)
-brom_client.ЗагрузитьМетаданные("*")
+from model.views import PriceList, PromoCode
+from model.wrappers import to_price_list, to_promo_code
+from .connection import call_method
 
 
-class DatabaseError(BaseException):
-    pass
+# def get_counterparty(telegram_id: str):
+#     return call_method("ПолучитьКонтрагентаСессии").УникальныйИдентификатор()
+
+def get_basic_price_list() -> PriceList:
+    price_list = call_method("ПолучитьОсновнойПрайсЛистНаДату")
+
+    if price_list is not None:
+        return to_price_list(price_list)
 
 
-class DatabaseErrorReport(BaseModel):
-    module: str
-    method: str
-    args: list = None
-    status: int = None
-    message: str = None
+def get_promo_code_info(promo_code: str) -> PromoCode:
+    promo_code_info = call_method("ПолучитьДанныеПоПромокоду", promo_code)
 
-
-class MethodReturn:
-
-    def __init__(self, structure_1c: Структура):
-        if not isinstance(structure_1c, Структура):
-            raise DatabaseError("Server sent an incorrect response")
-
-        self.result: any = structure_1c.result
-        self.status: int = int(structure_1c.status)
-
-
-def call_method(method: str, *args) -> any:
-    module = "СоединениеБром"
-
-    method_return = None
-    try:
-
-        method_return = MethodReturn(brom_client.ВызватьМетод(module, method, *args))
-
-        if method_return.status == 200:
-            return method_return.result
-        else:
-            raise DatabaseError()
-
-    except Fault or DatabaseError as e:
-
-        if isinstance(e, Fault):
-            status = 500
-        elif isinstance(e, DatabaseError):
-            if method_return is not None:
-                status = method_return.status
-            else:
-                status = 501
-        else:
-            status = 500
-
-        report = DatabaseErrorReport(
-            module=module, method=method, args=args, status=status, message=e.message)
-
-        file_name = f"{Config.ERROR_REPORTS_PATH}{uuid.uuid4()}.json"
-        with open(file_name, "w") as f:
-            f.write(report.model_dump_json())
-
-        logging.error(f"Error (status {status}) on the server when executing the method '{method}'"
-                      f", details in the file {file_name}")
+    if promo_code_info is not None:
+        return to_promo_code(promo_code_info, promo_code)

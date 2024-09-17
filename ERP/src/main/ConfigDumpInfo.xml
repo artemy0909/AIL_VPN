@@ -60,8 +60,8 @@
 		<Metadata name="CommonModule.ПреобразованияПеременных.Module" id="c2bb20a2-ce0a-4f78-b85f-43d0daae1742.0" configVersion="a5ca310e7e927b42b494dc328376d8a000000000"/>
 		<Metadata name="CommonModule.ПромокодыНаСервере" id="0cda5274-83c9-409a-a7c0-79f4b7f15784" configVersion="df62f1e5596b1d4dbd6999fd2473814b00000000"/>
 		<Metadata name="CommonModule.ПромокодыНаСервере.Module" id="0cda5274-83c9-409a-a7c0-79f4b7f15784.0" configVersion="eca4f7dee3a66f41bbdea0179ad0acdc00000000"/>
-		<Metadata name="CommonModule.СоединениеБром" id="a4de7d56-14da-4cbb-9288-a01196b4cdec" configVersion="4b0496bd196c4e49b496f273ff6555d000000000"/>
-		<Metadata name="CommonModule.СоединениеБром.Module" id="a4de7d56-14da-4cbb-9288-a01196b4cdec.0" configVersion="7d805a81e7c2114080a3d435fd4a728700000000"/>
+		<Metadata name="CommonModule.СоединениеБром" id="a4de7d56-14da-4cbb-9288-a01196b4cdec" configVersion="c4141150ea0e9342bc2a2b2cc5a3b57f00000000"/>
+		<Metadata name="CommonModule.СоединениеБром.Module" id="a4de7d56-14da-4cbb-9288-a01196b4cdec.0" configVersion="3e7c93bf1ec3014f8494e5977efb93ab00000000"/>
 		<Metadata name="CommonPicture.Бирка" id="34b34263-c728-4f1e-a1e3-80d126b911cf" configVersion="ae51f2252977f842bc5c09f41451b43300000000"/>
 		<Metadata name="CommonPicture.Бирка.Picture" id="34b34263-c728-4f1e-a1e3-80d126b911cf.0" configVersion="62a1b3177b378548be4671a29f5b182300000000"/>
 		<Metadata name="CommonPicture.Деньги" id="0449c0f5-350a-4323-9891-988dfc8690ae" configVersion="1fb1a23e0f5e1b45b632c8d92251d85000000000"/>

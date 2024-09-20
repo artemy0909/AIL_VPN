@@ -5,13 +5,8 @@ from utils.callback_stored import CallbackCache
 
 class QuantitativeInt(CallbackCache):
     value: int
-    currency_symbol: str
+    unit_symbol: str
     semicolons: int = 2
-
-    def __post__init__(self, value: float, unit_symbol: str, semicolons: int = 2):
-        self.value: int = int(Decimal(str(value)) * (10 ** semicolons))
-        self.currency_symbol: str = unit_symbol
-        self.semicolons: int = semicolons
 
     def __str__(self):
         integral_part = self.value // (10 ** self.semicolons)
@@ -19,7 +14,7 @@ class QuantitativeInt(CallbackCache):
 
         fractional_str = f"{fractional_part:0{self.semicolons}d}"
 
-        return f"{integral_part}.{fractional_str} {self.currency_symbol}"
+        return f"{integral_part}.{fractional_str} {self.unit_symbol}"
 
     def __int__(self):
         return self.value

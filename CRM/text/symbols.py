@@ -2,11 +2,11 @@
 
 class Emoji:
 
-    star = "⭐"
-    lock = ""
-    confetti = ""
+    STAR = "⭐"
+    LOCK = "🔒"
+    CONFFETI = "🎊"
+    # ARROW = "→"
 
-
-class Units:
+class Symbols:
     RUBBLE = "₽"
     PERCENT = "%"

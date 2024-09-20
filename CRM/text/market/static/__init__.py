@@ -1,3 +1,3 @@
-from start import *
+from .start import *
 
 __all__ = ["HELLO_TEXT"]

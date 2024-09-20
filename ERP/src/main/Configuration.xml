@@ -280,6 +280,8 @@
 			<DefinedType>НомерТелефона</DefinedType>
 			<DefinedType>ПромокодСтрока</DefinedType>
 			<DefinedType>ИсточникПодписки</DefinedType>
+			<CommandGroup>СерверыVPN</CommandGroup>
+			<CommandGroup>Основное</CommandGroup>
 			<Constant>НаименованиеОрганизации</Constant>
 			<Constant>КрайнийСрокОплатыПодпискиВДнях</Constant>
 			<CommonForm>ФормаПоиска</CommonForm>

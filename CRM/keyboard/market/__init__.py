@@ -1,2 +1,2 @@
-import inline
-import reply
+from .inline import *
+from .reply import *

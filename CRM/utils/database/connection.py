@@ -1,14 +1,12 @@
 import logging
 import uuid
+from dataclasses import dataclass
 
 from pydantic import BaseModel
 from zeep.exceptions import Fault
 
 from .brom import *
 from ..config import Config
-
-brom_client = БромКлиент(Config.BROM_API_URL, Config.BROM_LOGIN, Config.BROM_PASSWORD)
-brom_client.ЗагрузитьМетаданные("*")
 
 
 class DatabaseError(BaseException):
@@ -33,41 +31,51 @@ class MethodReturn:
         self.status: int = int(structure_1c.status)
 
 
-def is_connected() -> bool:
-    return call_method("ТестСоединения") is True
+@dataclass
+class BromClientWrapper:
+    brom_client = БромКлиент(Config.BROM_API_URL, Config.BROM_LOGIN, Config.BROM_PASSWORD)
 
+    def __enter__(self):
+        return self
 
-def call_method(method: str, *args) -> any:
-    module = "СоединениеБром"
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        del self
 
-    method_return = None
-    try:
+    def connection_is_working(self) -> bool:
+        return self._call_method("ТестСоединения") is True
 
-        method_return = MethodReturn(brom_client.ВызватьМетод(module, method, *args))
+    def _call_method(self, method: str, *args) -> any:
 
-        if method_return.status == 200:
-            return method_return.result
-        else:
-            raise DatabaseError()
+        module = "СоединениеБром"
 
-    except Fault or DatabaseError as e:
+        method_return = None
+        try:
 
-        if isinstance(e, Fault):
-            status = 500
-        elif isinstance(e, DatabaseError):
-            if method_return is not None:
-                status = method_return.status
+            method_return = MethodReturn(self.brom_client.ВызватьМетод(module, method, *args))
+
+            if method_return.status == 200:
+                return method_return.result
             else:
-                status = 501
-        else:
-            status = 500
+                raise DatabaseError()
 
-        report = DatabaseErrorReport(
-            module=module, method=method, args=args, status=status, message=e.message)
+        except Fault or DatabaseError as e:
 
-        file_name = f"{Config.ERROR_REPORTS_PATH}{uuid.uuid4()}.json"
-        with open(file_name, "w") as f:
-            f.write(report.model_dump_json())
+            if isinstance(e, Fault):
+                status = 500
+            elif isinstance(e, DatabaseError):
+                if method_return is not None:
+                    status = method_return.status
+                else:
+                    status = 501
+            else:
+                status = 500
 
-        logging.error(f"Error (status {status}) on the server when executing the method '{method}'"
-                      f", details in the file {file_name}")
+            report = DatabaseErrorReport(
+                module=module, method=method, args=args, status=status, message=e.message)
+
+            file_name = f"{Config.ERROR_REPORTS_PATH}{uuid.uuid4()}.json"
+            with open(file_name, "w") as f:
+                f.write(report.model_dump_json())
+
+            logging.error(f"Error (status {status}) on the server when executing the method '{method}'"
+                          f", details in the file {file_name}")

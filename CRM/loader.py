@@ -4,13 +4,12 @@ from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 
-from utils.database import Database
+from utils.database import database
 from utils.config import Config
 
 # from handlers.event import Scheduler
-if not Database().connection_is_working():
-    raise ConnectionError("1C connection refused")
 
+database.test()
 logging.basicConfig(level=logging.INFO)
 
 market_bot = Bot(Config.MARKET_BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))

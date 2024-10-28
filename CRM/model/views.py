@@ -7,6 +7,7 @@ class QuantitativeInt(CallbackCache):
     value: int
     unit_symbol: str
     semicolons: int = 2
+    currency: str = "RUB"
 
     def __str__(self):
         integral_part = self.value // (10 ** self.semicolons)
@@ -20,10 +21,15 @@ class QuantitativeInt(CallbackCache):
         return self.value
 
 
-class PromoCode(CallbackCache):
+class Record(CallbackCache):
+    type: str
+    guid: str
+
+
+class SourceInfo(CallbackCache):
     promo_code: str
     refer_guid: str
-    source_guid: str
+    record: Record
 
 
 class PriceItem(CallbackCache, prefix='tarch'):
@@ -32,8 +38,13 @@ class PriceItem(CallbackCache, prefix='tarch'):
     price: QuantitativeInt
     discount: QuantitativeInt
     amount: QuantitativeInt
-    promo_code: PromoCode | None = None
+    source_info: SourceInfo | None = None
 
 
 class PriceList(CallbackCache):
     price_items: list[PriceItem]
+
+
+class Invoice(CallbackCache): #TODO
+    guid: str
+    amount: QuantitativeInt

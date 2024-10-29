@@ -16,7 +16,7 @@ async def tariff_choice(query: CallbackQuery, callback_data: PriceItem):
     if Config.PAYMENT_TOKEN.split(':')[1] == 'TEST':
         await query.answer("Тестовый платеж!!!")
 
-    invoice: Invoice = database.create_invoice()
+    invoice: Invoice = database.create_invoice(telegram_id=query.from_user.id, selected_item=callback_data)
 
     price = types.LabeledPrice(label=callback_data.title, amount=callback_data.amount.value)
 

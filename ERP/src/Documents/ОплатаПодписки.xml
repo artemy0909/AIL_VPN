@@ -178,9 +178,7 @@
 				</xr:StandardAttribute>
 			</StandardAttributes>
 			<Characteristics/>
-			<BasedOn>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.СчетНаОплатуПодписки</xr:Item>
-			</BasedOn>
+			<BasedOn/>
 			<InputByString>
 				<xr:Field>Document.ОплатаПодписки.StandardAttribute.Number</xr:Field>
 			</InputByString>

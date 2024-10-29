@@ -270,6 +270,8 @@
 			<CommonModule>ОплатаПодпискиНаСервере</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>КсенонОтвет</CommonModule>
+			<CommonModule>СессииТелеграмНаСервере</CommonModule>
+			<CommonModule>КлиентыНаСервере</CommonModule>
 			<HTTPService>XenonAPI</HTTPService>
 			<DefinedType>ДенежныеСредства</DefinedType>
 			<DefinedType>СекретныйКлюч</DefinedType>

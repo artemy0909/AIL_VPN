@@ -1,4 +1,4 @@
-from model.views import PriceList
+from model.views import PriceList, PriceItem, Invoice
 from .xenon import XenonClient
 from ..config import Config
 
@@ -37,6 +37,12 @@ class Database(XenonClient):
     def create_counterparty(self):
         pass
         # self._call_method("СоздатьСессиюЕслиНовая")
+
+    def create_invoice(self, telegram_id: int, selected_item: PriceItem) -> Invoice:
+        response = self.post("invoice", telegram_id=telegram_id, selected_item=selected_item.model_dump())
+        if response.status_code == 201:
+            return Invoice.model_validate_json(response.text)
+        ...  # TODO: exceptions
 
 
 database = Database(api_url=Config.XENON_API_URL, login=Config.XENON_LOGIN, password=Config.XENON_PASSWORD)

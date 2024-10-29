@@ -22,10 +22,8 @@ def benchmark(func):
 
 
 def _request(func):
-    def wrapper(*args, **params):
-        params = json.dumps(params, default=str)
-        headers = {"Content-Type": "application/json"}
-        response = func(*args, params=params, headers=headers)
+    def wrapper(*args, **kwargs):
+        response = func(*args, json=kwargs)
         if not response.ok:
             raise XenonConnectionError(
                 f"The server rejected the connection with an error code {response.status_code} ({response.reason})"

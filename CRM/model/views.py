@@ -22,20 +22,20 @@ class QuantitativeInt(CallbackCache):
         return self.value
 
 
-class Recorder(CallbackCache):
+class DatabaseMetaObject(CallbackCache):
     type: str
     guid: str
 
 
 class SourceInfo(CallbackCache):
     promo_code: str
-    refer_guid: str
-    recorder: Recorder
+    refer: DatabaseMetaObject
+    recorder: DatabaseMetaObject
 
 
 class PriceItem(CallbackCache, prefix='tarch'):
     title: str
-    tariff_guid: str
+    tariff: DatabaseMetaObject
     price: QuantitativeInt
     discount: QuantitativeInt
     amount: QuantitativeInt
@@ -43,12 +43,14 @@ class PriceItem(CallbackCache, prefix='tarch'):
 
 
 class PriceList(CallbackCache):
+    self: DatabaseMetaObject
     price_items: list[PriceItem]
 
 
 class Invoice(CallbackCache):
-    guid: str
-    tariff_guid: str
+    self: DatabaseMetaObject
+    subscription: DatabaseMetaObject
+    tariff: DatabaseMetaObject
     deadline: datetime
     price: QuantitativeInt
     discount: QuantitativeInt

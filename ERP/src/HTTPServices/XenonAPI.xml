@@ -114,19 +114,33 @@
 					<Comment/>
 					<Template>/session</Template>
 				</Properties>
+				<ChildObjects/>
+			</URLTemplate>
+			<URLTemplate uuid="bc36dc0c-0f86-46ea-a495-43c5325dd43f">
+				<Properties>
+					<Name>invoice</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Invoice</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/invoice</Template>
+				</Properties>
 				<ChildObjects>
-					<Method uuid="090de0d7-4aae-464a-8063-cbece45c3d6b">
+					<Method uuid="788f321a-12f6-4ad9-b0de-cace06e45964">
 						<Properties>
-							<Name>PUT</Name>
+							<Name>POST</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>PUT</v8:content>
+									<v8:content>POST</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
-							<HTTPMethod>PUT</HTTPMethod>
-							<Handler>sessionPUT</Handler>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>invoicePOST</Handler>
 						</Properties>
 					</Method>
 				</ChildObjects>

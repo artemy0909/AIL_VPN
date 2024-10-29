@@ -4,8 +4,9 @@ from aiogram.filters import Command
 from aiogram.types import CallbackQuery, PreCheckoutQuery, Message
 
 from loader import market_bot
-from model.views import PriceItem
+from model.views import PriceItem, Invoice
 from utils.config import Config
+from utils.database import database
 
 payment_router = Router()
 
@@ -15,7 +16,7 @@ async def tariff_choice(query: CallbackQuery, callback_data: PriceItem):
     if Config.PAYMENT_TOKEN.split(':')[1] == 'TEST':
         await query.answer("Тестовый платеж!!!")
 
-    invoice: Invoice = database.get_basic_price_list()
+    invoice: Invoice = database.create_invoice()
 
     price = types.LabeledPrice(label=callback_data.title, amount=callback_data.amount.value)
 
@@ -31,7 +32,7 @@ async def tariff_choice(query: CallbackQuery, callback_data: PriceItem):
         is_flexible=False,
         prices=[price],
         start_parameter="one-month-subscription",
-        payload="test-invoice-payload")
+        payload=invoice.pack())
 
 
 @payment_router.pre_checkout_query(lambda query: True)

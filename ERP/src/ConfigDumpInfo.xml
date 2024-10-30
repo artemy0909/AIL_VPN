@@ -53,18 +53,18 @@
 		<Metadata name="Catalog.Тариф.Predefined" id="38ef1778-9f48-48dd-a9fb-e8c2da37e01e.1c" configVersion="a54477748a906543a88333ca45f07eba00000000"/>
 		<Metadata name="CommandGroup.Основное" id="a36d751c-f16a-43ec-ae29-7478477ab639" configVersion="3f4455744c05474297d99d520536cf3200000000"/>
 		<Metadata name="CommandGroup.СерверыVPN" id="8647c854-c9f7-4463-8dfd-e0a1b6eb40df" configVersion="14c5b11b51c364488819370f5af5655c00000000"/>
-		<Metadata name="CommonModule.КлиентыНаСервере" id="a5854f55-95ab-4661-ad2e-99403f2fcddc" configVersion="4e95232e2fd0d6469624f124bec3f5a800000000"/>
-		<Metadata name="CommonModule.КлиентыНаСервере.Module" id="a5854f55-95ab-4661-ad2e-99403f2fcddc.0" configVersion="0fcc1c54ba4c594fbdd26761140ffa9200000000"/>
-		<Metadata name="CommonModule.КсенонОтвет" id="5e870e02-ef93-488b-bcf6-b64a17772ed0" configVersion="2e8120b6ea19bd48b1eb7bc2c2f89d7000000000"/>
-		<Metadata name="CommonModule.КсенонОтвет.Module" id="5e870e02-ef93-488b-bcf6-b64a17772ed0.0" configVersion="98210f4f47670249a7bc61f16eafee5300000000"/>
+		<Metadata name="CommonModule.КлиентыНаСервере" id="a5854f55-95ab-4661-ad2e-99403f2fcddc" configVersion="ff7dcfc353bb1f4580471bfa7f152d4d00000000"/>
+		<Metadata name="CommonModule.КлиентыНаСервере.Module" id="a5854f55-95ab-4661-ad2e-99403f2fcddc.0" configVersion="ccbe315bfe905842be8c99e25eb2540e00000000"/>
+		<Metadata name="CommonModule.КсенонОтвет" id="5e870e02-ef93-488b-bcf6-b64a17772ed0" configVersion="8063a410b2ec0a4c98e5cd2d5009afa600000000"/>
+		<Metadata name="CommonModule.КсенонОтвет.Module" id="5e870e02-ef93-488b-bcf6-b64a17772ed0.0" configVersion="240ea93bfeffd24da131dca23fb3fc1e00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="182b07ec-80e8-4916-b9de-416900de5701" configVersion="a6355e356e2ad242b3b767330df4863900000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="182b07ec-80e8-4916-b9de-416900de5701.0" configVersion="41d36695b486d64290174629fd6d144d00000000"/>
 		<Metadata name="CommonModule.ОплатаПодпискиНаСервере" id="8f4dfb14-2271-47b5-a602-38bd97fc53df" configVersion="7c7a8b26a2b31444abc2ebe14730126400000000"/>
 		<Metadata name="CommonModule.ОплатаПодпискиНаСервере.Module" id="8f4dfb14-2271-47b5-a602-38bd97fc53df.0" configVersion="5fde1d7d1441d84ab529552cab3807d000000000"/>
 		<Metadata name="CommonModule.ПромокодыНаСервере" id="0cda5274-83c9-409a-a7c0-79f4b7f15784" configVersion="193f4e84620dbc469a9b291d36163eb800000000"/>
 		<Metadata name="CommonModule.ПромокодыНаСервере.Module" id="0cda5274-83c9-409a-a7c0-79f4b7f15784.0" configVersion="0f5f14eaf45a954c80e218795d7a355700000000"/>
-		<Metadata name="CommonModule.СессииТелеграмНаСервере" id="89430be8-03cc-48d5-90b9-bcc2b23877af" configVersion="8127d62259971d4e91addd21c56f24f400000000"/>
-		<Metadata name="CommonModule.СессииТелеграмНаСервере.Module" id="89430be8-03cc-48d5-90b9-bcc2b23877af.0" configVersion="bf47cd5324ae784bbae3d6af2e2b4acb00000000"/>
+		<Metadata name="CommonModule.СессииТелеграмНаСервере" id="89430be8-03cc-48d5-90b9-bcc2b23877af" configVersion="6d6f38c25de9ce4baf0d87e865f37f1f00000000"/>
+		<Metadata name="CommonModule.СессииТелеграмНаСервере.Module" id="89430be8-03cc-48d5-90b9-bcc2b23877af.0" configVersion="2a80327608a52f40856465db1a04d82d00000000"/>
 		<Metadata name="CommonPicture.Бирка" id="34b34263-c728-4f1e-a1e3-80d126b911cf" configVersion="54a18c735a1a6c4fab303dbeb86c229300000000"/>
 		<Metadata name="CommonPicture.Бирка.Picture" id="34b34263-c728-4f1e-a1e3-80d126b911cf.0" configVersion="139efae41a9c594a8be74d10d94e7fae00000000"/>
 		<Metadata name="CommonPicture.Деньги" id="0449c0f5-350a-4323-9891-988dfc8690ae" configVersion="7c482eec71c00140801eab422945334c00000000"/>
@@ -77,7 +77,7 @@
 		<Metadata name="CommonPicture.Рукопожатие.Picture" id="3c628f00-ad23-494d-a5b2-bd9598a9fa69.0" configVersion="ebc1862026a40b4980e50ff9a0dfa61600000000"/>
 		<Metadata name="CommonPicture.Циркуль" id="bbf3ed35-c78a-4c10-b5ed-fcde33fda33a" configVersion="264af569a21651488d1affef991f96a200000000"/>
 		<Metadata name="CommonPicture.Циркуль.Picture" id="bbf3ed35-c78a-4c10-b5ed-fcde33fda33a.0" configVersion="bed33017ad2dcb448a562d129bda1c3700000000"/>
-		<Metadata name="Configuration.AIL_VPN" id="8e53dbb9-7985-473e-860c-9f74b0f84031" configVersion="edf7e9b6e158734c8037346a90030a9700000000"/>
+		<Metadata name="Configuration.AIL_VPN" id="8e53dbb9-7985-473e-860c-9f74b0f84031" configVersion="d9482160296e6148afbaf967266705ef00000000"/>
 		<Metadata name="Configuration.AIL_VPN.ClientApplicationInterface" id="c4f0aafa-ca25-4ece-a246-3757595ff925.b" configVersion="3ce5b825f102d74e81fe1e95c502288c00000000"/>
 		<Metadata name="Configuration.AIL_VPN.Logo" id="c4f0aafa-ca25-4ece-a246-3757595ff925.1" configVersion="5dd4404b1426cb47a2d9817768353b4500000000"/>
 		<Metadata name="Configuration.AIL_VPN.MainSectionPicture" id="c4f0aafa-ca25-4ece-a246-3757595ff925.c" configVersion="d2a931e80fb82f4489fae9d75052e96200000000"/>
@@ -189,7 +189,7 @@
 			<Metadata name="Document.Подписка.Attribute.БазоваяСтоимость" id="fded739a-8b7f-48a4-992f-37303f4b9f76"/>
 		</Metadata>
 		<Metadata name="Document.Подписка.ObjectModule" id="8d257694-e5af-42cb-8d12-d2436c91dbba.0" configVersion="9f1f4edc1af2604d91a2ceccf6392c5700000000"/>
-		<Metadata name="Document.СчетНаОплатуПодписки" id="10e1075e-1b69-40e2-855b-b46c2ab33bbd" configVersion="ef4730700fc7964d8413261e08b4ae4500000000">
+		<Metadata name="Document.СчетНаОплатуПодписки" id="10e1075e-1b69-40e2-855b-b46c2ab33bbd" configVersion="926ee845a86b204db16fcf887572244700000000">
 			<Metadata name="Document.СчетНаОплатуПодписки.Attribute.СуммаДокумента" id="099b860b-74ad-460c-9acb-06c627520766"/>
 			<Metadata name="Document.СчетНаОплатуПодписки.Attribute.Контрагент" id="1b33298f-4672-4203-8cfd-71d3eb81880c"/>
 			<Metadata name="Document.СчетНаОплатуПодписки.Attribute.БазоваяСтоимость" id="38794d82-2f1c-4590-b051-005b92acfc93"/>
@@ -199,7 +199,7 @@
 			<Metadata name="Document.СчетНаОплатуПодписки.Attribute.Подписка" id="e90b629d-9a15-418f-a044-2a681c2f4408"/>
 			<Metadata name="Document.СчетНаОплатуПодписки.Attribute.Тариф" id="f6ea0dc2-002c-4402-a79a-fa640d7637b0"/>
 		</Metadata>
-		<Metadata name="Document.СчетНаОплатуПодписки.ObjectModule" id="10e1075e-1b69-40e2-855b-b46c2ab33bbd.0" configVersion="bb7b457afc2e704fb0491924acef724800000000"/>
+		<Metadata name="Document.СчетНаОплатуПодписки.ObjectModule" id="10e1075e-1b69-40e2-855b-b46c2ab33bbd.0" configVersion="dae22fa1e2947241a362ff1a3661941200000000"/>
 		<Metadata name="Document.УтвеждениеОсновныхПрайсЛистов" id="4161aa97-5b36-46c1-8c54-072175b9535d" configVersion="17570a5098475c4a85a79cf421c6598200000000">
 			<Metadata name="Document.УтвеждениеОсновныхПрайсЛистов.Attribute.Премиум" id="3aa0eb61-d0ed-4fe3-a949-16b413d2322d"/>
 			<Metadata name="Document.УтвеждениеОсновныхПрайсЛистов.Attribute.Базовый" id="45c8fa06-1d1b-4968-87eb-b914d57e376c"/>
@@ -233,18 +233,23 @@
 			<Metadata name="Enum.СтатусПодписки.EnumValue.Активна" id="c05736b4-5c69-4b54-a0eb-c75ace50ca87"/>
 			<Metadata name="Enum.СтатусПодписки.EnumValue.Отменяется" id="ee4174c5-0123-4441-a5f6-7221254a9eb4"/>
 		</Metadata>
-		<Metadata name="HTTPService.XenonAPI" id="faeb441b-38e0-4dba-b3cb-c170f0010166" configVersion="e4f71146e0462f4cae457eec3c52dd7600000000">
+		<Metadata name="HTTPService.XenonAPI" id="faeb441b-38e0-4dba-b3cb-c170f0010166" configVersion="4f8315160d6b9048b2c3936f44786fca00000000">
+			<Metadata name="HTTPService.XenonAPI.URLTemplate.payment" id="198b980f-9d0c-4ced-8493-73a078e9b765"/>
+			<Metadata name="HTTPService.XenonAPI.URLTemplate.user.Method.POST" id="27b1d9e8-12a2-415c-9456-3baee09815c1"/>
 			<Metadata name="HTTPService.XenonAPI.URLTemplate.session" id="2f69cfdc-a8cf-4c27-bc93-61c87baef0c4"/>
+			<Metadata name="HTTPService.XenonAPI.URLTemplate.payment.Method.POST" id="3245760d-8943-4019-ae68-72d2926fdfe5"/>
 			<Metadata name="HTTPService.XenonAPI.URLTemplate.pricelist.Method.GET" id="342c8421-24ea-4902-8cfc-34c3d982d17a"/>
 			<Metadata name="HTTPService.XenonAPI.URLTemplate.echo.Method.GET" id="3fc5209e-5a12-4c48-960d-66559e991af4"/>
 			<Metadata name="HTTPService.XenonAPI.URLTemplate.promocode_info.Method.GET" id="441d4497-d3e5-4a0d-bea4-3f943b0e6238"/>
 			<Metadata name="HTTPService.XenonAPI.URLTemplate.invoice.Method.POST" id="788f321a-12f6-4ad9-b0de-cace06e45964"/>
 			<Metadata name="HTTPService.XenonAPI.URLTemplate.pricelist" id="93c8bd9a-062f-4955-8e4c-20a1e1e75d83"/>
 			<Metadata name="HTTPService.XenonAPI.URLTemplate.promocode_info" id="a21dc2a7-917c-47de-8301-c0700d8e6e3f"/>
+			<Metadata name="HTTPService.XenonAPI.URLTemplate.invoice.Method.GET" id="b1fd2c6e-167a-4ff6-8082-000e3bcf310c"/>
 			<Metadata name="HTTPService.XenonAPI.URLTemplate.invoice" id="bc36dc0c-0f86-46ea-a495-43c5325dd43f"/>
+			<Metadata name="HTTPService.XenonAPI.URLTemplate.user" id="be4d8751-65aa-4b1b-aa39-41955eb177a5"/>
 			<Metadata name="HTTPService.XenonAPI.URLTemplate.echo" id="ddfd3bcb-f453-4a1f-b53d-152ea90baec5"/>
 		</Metadata>
-		<Metadata name="HTTPService.XenonAPI.Module" id="faeb441b-38e0-4dba-b3cb-c170f0010166.0" configVersion="9f5dfd3c47c8c04792e5ea5fef3ac49100000000"/>
+		<Metadata name="HTTPService.XenonAPI.Module" id="faeb441b-38e0-4dba-b3cb-c170f0010166.0" configVersion="b160335195d98e48bff2f722309f66c300000000"/>
 		<Metadata name="InformationRegister.ИспользованияПромокода" id="04d9538b-cc4a-4bc5-b811-dbe31b01c96e" configVersion="a51ffeea91e9de4886ba0f72bdada90b00000000">
 			<Metadata name="InformationRegister.ИспользованияПромокода.Dimension.Пользователь" id="6b399ba7-f3f2-457f-81fc-f3a5cdba3e53"/>
 			<Metadata name="InformationRegister.ИспользованияПромокода.Dimension.ДатаИспользования" id="76013d87-362c-40b9-afd7-7c95814b7d74"/>
@@ -271,12 +276,11 @@
 			<Metadata name="InformationRegister.СлотыСервера.Resource.ИмяСлота" id="6f346cdd-2d1e-4155-b025-ab0039a279ca"/>
 			<Metadata name="InformationRegister.СлотыСервера.Dimension.Сервер" id="f276e3bc-d313-4fa7-a511-001f823548a4"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ТекущиеСессииТелеграм" id="2cdd9e08-ef91-4a05-9571-7062b8f58475" configVersion="1e3c5caabda1cf42bce03ceb9149177100000000">
+		<Metadata name="InformationRegister.ТекущиеСессииТелеграм" id="2cdd9e08-ef91-4a05-9571-7062b8f58475" configVersion="51227a613437204e80d1be15116a16da00000000">
 			<Metadata name="InformationRegister.ТекущиеСессииТелеграм.Dimension.Бот" id="4cf23aa4-9f9a-449b-9a0f-7656c0eb3b9a"/>
 			<Metadata name="InformationRegister.ТекущиеСессииТелеграм.Resource.НачалоСессии" id="8de71063-a261-4338-8d63-4a24372f85b0"/>
 			<Metadata name="InformationRegister.ТекущиеСессииТелеграм.Dimension.ТелеграмИД" id="c2dc99ba-31a8-4106-bd8d-71a1afd090f5"/>
 			<Metadata name="InformationRegister.ТекущиеСессииТелеграм.Resource.Контрагент" id="c85b0ec5-2f7c-453e-af17-1587d30393e9"/>
-			<Metadata name="InformationRegister.ТекущиеСессииТелеграм.Resource.ПоследнееИспользование" id="f4986b8c-ad72-465d-8d93-228f70a324f5"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ТекущиеСессииТелеграм.ManagerModule" id="2cdd9e08-ef91-4a05-9571-7062b8f58475.2" configVersion="072da03d31e11043aae4a24193dde18a00000000"/>
 		<Metadata name="Language.Русский" id="2224048d-54c2-4e71-a1ad-ddb445b8f245" configVersion="1ef80cd6794be14e977e47d93958b07e00000000"/>

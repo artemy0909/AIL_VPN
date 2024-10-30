@@ -4,6 +4,8 @@ from datetime import datetime
 import requests
 from yarl import URL
 
+from utils.callback_stored import CallbackCache
+
 
 class XenonConnectionError(ConnectionError):
     pass
@@ -23,11 +25,14 @@ def benchmark(func):
 
 def _request(func):
     def wrapper(*args, **kwargs):
+        for key, value in kwargs.items():
+            if isinstance(value, CallbackCache):
+                kwargs[key] = value.model_dump(mode="json")
         response = func(*args, json=kwargs)
         if not response.ok:
             raise XenonConnectionError(
-                f"The server rejected the connection with an error code {response.status_code} ({response.reason})"
-                f"{f'. Error message: {response.text}' if response.status_code == 500 else ''}")
+                f"The server returned an error code {response.status_code} ({response.reason})"
+                f"{f': {response.text}' if response.status_code == 500 else ''}")
         else:
             return response
 
@@ -52,3 +57,6 @@ class XenonClient:
     def post(self, method_name, **kwargs):
         return self.session.post(self.api_url / method_name, **kwargs)
 
+    @_request
+    def put(self, method_name, **kwargs):
+        return self.session.put(self.api_url / method_name, **kwargs)

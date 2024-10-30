@@ -50,8 +50,14 @@ class PriceList(CallbackCache):
 class Invoice(CallbackCache):
     self: DatabaseMetaObject
     subscription: DatabaseMetaObject
+    counterparty: DatabaseMetaObject
     tariff: DatabaseMetaObject
     deadline: datetime
     price: QuantitativeInt
     discount: QuantitativeInt
     amount: QuantitativeInt
+
+
+class InvoiceStatus(CallbackCache):
+    ok: bool
+    error_message: str | None

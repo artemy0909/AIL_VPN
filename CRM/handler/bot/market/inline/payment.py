@@ -7,6 +7,7 @@ from loader import market_bot
 from model.views import PriceItem, Invoice
 from utils.config import Config
 from utils.database import database
+from utils.database.xenon import XenonConnectionError
 
 payment_router = Router()
 
@@ -24,7 +25,7 @@ async def tariff_choice(query: CallbackQuery, callback_data: PriceItem):
         title="Подписка на VPN",
         description="Ваша безопасность и доступ к ресурсам всего мира.",
         provider_token=Config.PAYMENT_TOKEN,
-        currency="rub",
+        currency=callback_data.amount.currency,
         # photo_url="https://i.pinimg.com/originals/e1/4c/a2/e14ca245e887f57fbb9acbdacf8d74ca.jpg",
         # photo_width=416,
         # photo_height=234,
@@ -37,7 +38,15 @@ async def tariff_choice(query: CallbackQuery, callback_data: PriceItem):
 
 @payment_router.pre_checkout_query(lambda query: True)
 async def pre_checkout_query(pre_checkout_q: PreCheckoutQuery):
-    await market_bot.answer_pre_checkout_query(pre_checkout_q.id, ok=True)
+    # try:
+        invoice: Invoice = Invoice.unpack(pre_checkout_q.invoice_payload)
+        invoice_status = database.check_invoice(invoice=invoice)
+    # except XenonConnectionError:
+    #     await market_bot.answer_pre_checkout_query(
+    #         pre_checkout_q.id, ok=False, error_message="Произошла ошибка при обработке платежа")
+    # else:
+        await market_bot.answer_pre_checkout_query(
+            pre_checkout_q.id, ok=invoice_status.ok, error_message=invoice_status.error_message)
 
 
 @payment_router.message(F.content_type == ContentType.SUCCESSFUL_PAYMENT)

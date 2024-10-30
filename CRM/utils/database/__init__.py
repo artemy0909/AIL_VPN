@@ -1,25 +1,7 @@
-from model.views import PriceList, PriceItem, Invoice
+from model.views import PriceList, PriceItem, Invoice, InvoiceStatus
 from .xenon import XenonClient
 from ..config import Config
 
-
-# def get_counterparty(telegram_id: str):
-#     return call_method("ПолучитьКонтрагентаСессии").УникальныйИдентификатор()
-# class Database(BromClientWrapper):
-#     def get_basic_price_list(self) -> PriceList:
-#         price_list = self._call_method("ПолучитьОсновнойПрайсЛистНаДату")
-#
-#         if price_list is not None:
-#             return to_price_list(price_list)
-#
-#     def get_promo_code_info(self, promo_code: str) -> PriceList:
-#         promo_code_info = self._call_method("ПолучитьДанныеПоПромокоду", promo_code)
-#
-#         if promo_code_info is not None:
-#             return to_discount_price_list(promo_code_info, promo_code)
-#
-#     def create_counterparty(self):
-#         self._call_method("СоздатьСессиюЕслиНовая")
 
 class Database(XenonClient):
 
@@ -39,10 +21,20 @@ class Database(XenonClient):
         # self._call_method("СоздатьСессиюЕслиНовая")
 
     def create_invoice(self, telegram_id: int, selected_item: PriceItem) -> Invoice:
-        response = self.post("invoice", telegram_id=telegram_id, selected_item=selected_item.model_dump())
-        if response.status_code == 201:
+        response = self.post("invoice", telegram_id=telegram_id, selected_item=selected_item)
+        if response.status_code == 201 or response.status_code == 200:
             return Invoice.model_validate_json(response.text)
         ...  # TODO: exceptions
+
+    def check_invoice(self, invoice: Invoice) -> InvoiceStatus:
+        response = self.get("invoice", invoice=invoice)
+        invoice_status = InvoiceStatus.model_validate_json(response.text)
+        return invoice_status
+
+    def check_user_exist(self, telegram_id: int, full_name: str):
+        import re
+        full_name = re.sub("[^A-Za-zА-Яа-я0-9\\s\\-.,$@*&?]", "", full_name)
+        self.post("user", telegram_id=telegram_id, full_name=full_name)
 
 
 database = Database(api_url=Config.XENON_API_URL, login=Config.XENON_LOGIN, password=Config.XENON_PASSWORD)

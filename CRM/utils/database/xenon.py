@@ -1,6 +1,3 @@
-import json
-from datetime import datetime
-
 import requests
 from yarl import URL
 

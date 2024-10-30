@@ -1,6 +1,5 @@
 from aiogram import types, Router, F
 from aiogram.enums import ContentType
-from aiogram.filters import Command
 from aiogram.types import CallbackQuery, PreCheckoutQuery, Message
 
 from loader import market_bot
@@ -38,13 +37,13 @@ async def tariff_choice(query: CallbackQuery, callback_data: PriceItem):
 
 @payment_router.pre_checkout_query(lambda query: True)
 async def pre_checkout_query(pre_checkout_q: PreCheckoutQuery):
-    # try:
+    try:
         invoice: Invoice = Invoice.unpack(pre_checkout_q.invoice_payload)
         invoice_status = database.check_invoice(invoice=invoice)
-    # except XenonConnectionError:
-    #     await market_bot.answer_pre_checkout_query(
-    #         pre_checkout_q.id, ok=False, error_message="Произошла ошибка при обработке платежа")
-    # else:
+    except XenonConnectionError:
+        await market_bot.answer_pre_checkout_query(
+            pre_checkout_q.id, ok=False, error_message="Произошла ошибка при обработке платежа")
+    else:
         await market_bot.answer_pre_checkout_query(
             pre_checkout_q.id, ok=invoice_status.ok, error_message=invoice_status.error_message)
 

@@ -1,4 +1,3 @@
-from _decimal import Decimal
 from datetime import datetime
 
 from utils.callback_stored import CallbackCache

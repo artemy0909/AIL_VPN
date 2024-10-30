@@ -1,5 +1,5 @@
 from model.views import PriceList, PriceItem
-from text.symbols import Emoji, Symbols
+from text.symbols import Emoji
 
 
 def promo_code_activation(price_list: PriceList):

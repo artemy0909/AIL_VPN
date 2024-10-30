@@ -4,8 +4,8 @@ from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 
-from utils.database import database
 from utils.config import Config
+from utils.database import database
 
 # from handlers.event import Scheduler
 

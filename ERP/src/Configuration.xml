@@ -292,7 +292,7 @@
 			<Catalog>СтатьяРасходов</Catalog>
 			<Catalog>Сервер</Catalog>
 			<Catalog>СпособОплаты</Catalog>
-			<Document>Подписка</Document>
+			<Catalog>ПлатежныйАгент</Catalog>
 			<Document>Отписка</Document>
 			<Document>СчетНаОплатуПодписки</Document>
 			<Document>УтверждениеДолиВладельцев</Document>
@@ -303,20 +303,29 @@
 			<Document>КапитальныеРасходы</Document>
 			<Document>ПланРегулярногоРасхода</Document>
 			<Document>УтвеждениеОсновныхПрайсЛистов</Document>
-			<Document>ПланВыставленияСчетаЗаПодписку</Document>
+			<Document>Подписка</Document>
+			<Document>ВыплатаКонтрагенту</Document>
+			<Document>ВыплатаКонтрагентамСписком</Document>
+			<Document>НачислениеВыплатПлатежнымАгентом</Document>
 			<Enum>ПериодПодписки</Enum>
 			<Enum>Бот</Enum>
 			<Enum>ПланПодписки</Enum>
 			<Enum>СтатусПодписки</Enum>
 			<DataProcessor>СформироватьПодписку</DataProcessor>
+			<InformationRegister>ПодпискиПериодДействия</InformationRegister>
 			<InformationRegister>ТекущиеСессииТелеграм</InformationRegister>
-			<InformationRegister>ПланЗакрытияДоступа</InformationRegister>
 			<InformationRegister>ПромокодыПериодДействия</InformationRegister>
 			<InformationRegister>ИспользованияПромокода</InformationRegister>
 			<InformationRegister>ИсторияИзмененийОсновныхПрайсЛистов</InformationRegister>
 			<InformationRegister>СлотыСервера</InformationRegister>
+			<InformationRegister>ПланВыставленияСчетовНаПродлениеПодписки</InformationRegister>
+			<InformationRegister>ИсторияИзмененияСтатусаПодписки</InformationRegister>
 			<AccumulationRegister>ДвижениеПодписчиков</AccumulationRegister>
 			<AccumulationRegister>ВыручкаОборот</AccumulationRegister>
+			<AccumulationRegister>БалансВыплатКонтрагентам</AccumulationRegister>
+			<AccumulationRegister>НачисленияУдержанияДохода</AccumulationRegister>
+			<ChartOfAccounts>ПланСчетов</ChartOfAccounts>
+			<AccountingRegister>БухгалтерскиеПроводки</AccountingRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

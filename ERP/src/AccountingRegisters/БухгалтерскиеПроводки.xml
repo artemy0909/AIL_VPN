@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<AccountingRegister uuid="c337b194-857f-430b-8ae0-57f5447684a4">
+		<InternalInfo>
+			<xr:GeneratedType name="AccountingRegisterRecord.БухгалтерскиеПроводки" category="Record">
+				<xr:TypeId>66fc44a7-a1d2-4158-8178-68edc100fe72</xr:TypeId>
+				<xr:ValueId>2123ea41-1f8d-4fe5-a807-78b38280b3e7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterExtDimensions.БухгалтерскиеПроводки" category="ExtDimensions">
+				<xr:TypeId>dccae236-8c0f-4714-9e39-1af744572bdd</xr:TypeId>
+				<xr:ValueId>74fe17c0-8cb6-40c0-8a2c-523635ad05fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterRecordSet.БухгалтерскиеПроводки" category="RecordSet">
+				<xr:TypeId>6bb17721-eca7-4215-8eea-f0615c81b73f</xr:TypeId>
+				<xr:ValueId>bcc00fa2-9209-4f39-a0e6-59a38217941d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterRecordKey.БухгалтерскиеПроводки" category="RecordKey">
+				<xr:TypeId>b75e41bf-f8a6-4c62-bb10-e19bc51c8a7a</xr:TypeId>
+				<xr:ValueId>ea4020a4-55d7-4797-8901-2b9e96333486</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterSelection.БухгалтерскиеПроводки" category="Selection">
+				<xr:TypeId>7fedc213-1a24-4050-a4e6-1fe1864c51e8</xr:TypeId>
+				<xr:ValueId>200cf81d-6de8-4901-8461-fde2eccb7f67</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterList.БухгалтерскиеПроводки" category="List">
+				<xr:TypeId>6de3f926-7658-41c0-902c-f43eaf533000</xr:TypeId>
+				<xr:ValueId>1d12d55c-9054-4842-9199-b2826eb8ad23</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterManager.БухгалтерскиеПроводки" category="Manager">
+				<xr:TypeId>4e1ea25b-4565-4b14-89a0-6bcdbe20ee48</xr:TypeId>
+				<xr:ValueId>a59bb08c-fed9-4cf0-b497-728994d51e72</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БухгалтерскиеПроводки</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Бухгалтерские проводки</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ChartOfAccounts>ChartOfAccounts.ПланСчетов</ChartOfAccounts>
+			<Correspondence>false</Correspondence>
+			<PeriodAdjustmentLength>0</PeriodAdjustmentLength>
+			<DefaultListForm/>
+			<AuxiliaryListForm/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<EnableTotalsSplitting>true</EnableTotalsSplitting>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="fc872cfc-29d7-4df3-adc0-845513dd1393">
+				<Properties>
+					<Name>Сумма</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Balance>true</Balance>
+					<AccountingFlag/>
+					<ExtDimensionAccountingFlag/>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</AccountingRegister>
+</MetaDataObject>

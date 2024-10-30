@@ -28,7 +28,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ОплатаПодписки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.СформироватьПодписку</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИспользованияПромокода</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ПланВыставленияСчетаЗаПодписку</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ДвижениеПодписчиков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияИзмененияСтатусаПодписки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПодпискиПериодДействия</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

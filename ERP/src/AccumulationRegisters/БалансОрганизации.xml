@@ -2,37 +2,37 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<AccumulationRegister uuid="ee2136ea-01ff-4a2d-bada-58fb7d167a17">
 		<InternalInfo>
-			<xr:GeneratedType name="AccumulationRegisterRecord.НачисленияУдержанияДохода" category="Record">
+			<xr:GeneratedType name="AccumulationRegisterRecord.БалансОрганизации" category="Record">
 				<xr:TypeId>6235dcff-3e70-4ab8-8907-b72fee3bc216</xr:TypeId>
 				<xr:ValueId>292b1fb9-3a90-4df3-8466-5e8d19b8b26c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterManager.НачисленияУдержанияДохода" category="Manager">
+			<xr:GeneratedType name="AccumulationRegisterManager.БалансОрганизации" category="Manager">
 				<xr:TypeId>28c77449-b033-4b3f-a5d6-0669c9366379</xr:TypeId>
 				<xr:ValueId>42ae10d5-86fe-4e7f-841c-a4969f117aaa</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterSelection.НачисленияУдержанияДохода" category="Selection">
+			<xr:GeneratedType name="AccumulationRegisterSelection.БалансОрганизации" category="Selection">
 				<xr:TypeId>76bfdebe-3629-40c8-9cb7-5f5745982462</xr:TypeId>
 				<xr:ValueId>2ee16b35-b180-4b33-8689-61e2e0f26d65</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterList.НачисленияУдержанияДохода" category="List">
+			<xr:GeneratedType name="AccumulationRegisterList.БалансОрганизации" category="List">
 				<xr:TypeId>8bc20e1e-a484-422f-b800-ecd473db86ea</xr:TypeId>
 				<xr:ValueId>b1f3174d-2290-4357-bdec-477cd9fe33e3</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterRecordSet.НачисленияУдержанияДохода" category="RecordSet">
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.БалансОрганизации" category="RecordSet">
 				<xr:TypeId>9e143f2a-ec98-45c0-a4d3-e4574e57bfdc</xr:TypeId>
 				<xr:ValueId>d0f8f1e6-a390-48de-bd2a-8033093f2a8d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterRecordKey.НачисленияУдержанияДохода" category="RecordKey">
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.БалансОрганизации" category="RecordKey">
 				<xr:TypeId>b82c9b5b-48bc-4327-a4d2-e5e186400666</xr:TypeId>
 				<xr:ValueId>d1c26d41-5ce6-470b-9dc2-0a155f3a23e9</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>НачисленияУдержанияДохода</Name>
+			<Name>БалансОрганизации</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Начисления удержания дохода</v8:content>
+					<v8:content>Баланс организации</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -89,6 +89,44 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
+			<Dimension uuid="41ba3a4a-ebe6-405a-b870-547e7370c358">
+				<Properties>
+					<Name>Держатель</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Держатель</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагент</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<UseInTotals>true</UseInTotals>
+				</Properties>
+			</Dimension>
 		</ChildObjects>
 	</AccumulationRegister>
 </MetaDataObject>

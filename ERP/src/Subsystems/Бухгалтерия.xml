@@ -20,13 +20,13 @@
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ВыручкаОборот</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">AccountingRegister.БухгалтерскиеПроводки</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ChartOfAccounts.ПланСчетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">c337b194-857f-430b-8ae0-57f5447684a4</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">5c9c4e18-e0e1-4e54-9a8c-0ae54952ae0a</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеВыплатПлатежнымАгентом</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыплатаКонтрагентамСписком</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыплатаКонтрагенту</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.БалансВыплатКонтрагентам</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.НачисленияУдержанияДохода</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.БалансОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПланВыставленияСчетовНаПродлениеПодписки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПлатежныйАгент</xr:Item>
 			</Content>

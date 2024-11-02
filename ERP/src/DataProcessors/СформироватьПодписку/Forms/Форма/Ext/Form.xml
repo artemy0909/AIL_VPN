@@ -204,7 +204,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:CatalogRef.Партнер</v8:Type>
+				<v8:Type>cfg:CatalogRef.Контрагент</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="ИсточникПодписки" id="5">

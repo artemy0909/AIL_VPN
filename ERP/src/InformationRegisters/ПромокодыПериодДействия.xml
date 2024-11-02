@@ -114,7 +114,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Партнер</v8:Type>
+						<v8:Type>cfg:CatalogRef.Контрагент</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

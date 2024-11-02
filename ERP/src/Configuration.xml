@@ -266,12 +266,12 @@
 			<CommonPicture>Бирка</CommonPicture>
 			<CommonPicture>Люди</CommonPicture>
 			<Role>Администратор</Role>
-			<CommonModule>ПромокодыНаСервере</CommonModule>
-			<CommonModule>ОплатаПодпискиНаСервере</CommonModule>
-			<CommonModule>ОбщегоНазначения</CommonModule>
-			<CommonModule>КсенонОтвет</CommonModule>
-			<CommonModule>СессииТелеграмНаСервере</CommonModule>
 			<CommonModule>КлиентыНаСервере</CommonModule>
+			<CommonModule>КсенонОтвет</CommonModule>
+			<CommonModule>ОбщегоНазначения</CommonModule>
+			<CommonModule>ОплатаПодпискиНаСервере</CommonModule>
+			<CommonModule>ПромокодыНаСервере</CommonModule>
+			<CommonModule>СессииТелеграмНаСервере</CommonModule>
 			<HTTPService>XenonAPI</HTTPService>
 			<DefinedType>ДенежныеСредства</DefinedType>
 			<DefinedType>СекретныйКлюч</DefinedType>
@@ -284,48 +284,46 @@
 			<CommandGroup>Основное</CommandGroup>
 			<Constant>НаименованиеОрганизации</Constant>
 			<Constant>КрайнийСрокОплатыПодпискиВДнях</Constant>
-			<Catalog>Тариф</Catalog>
 			<Catalog>Контрагент</Catalog>
-			<Catalog>ПричинаОтписки</Catalog>
-			<Catalog>Партнер</Catalog>
+			<Catalog>ПлатежныйАгент</Catalog>
 			<Catalog>ПрайсЛист</Catalog>
-			<Catalog>СтатьяРасходов</Catalog>
+			<Catalog>ПричинаОтписки</Catalog>
 			<Catalog>Сервер</Catalog>
 			<Catalog>СпособОплаты</Catalog>
-			<Catalog>ПлатежныйАгент</Catalog>
-			<Document>Отписка</Document>
-			<Document>СчетНаОплатуПодписки</Document>
-			<Document>УтверждениеДолиВладельцев</Document>
+			<Catalog>СтатьяРасходов</Catalog>
+			<Catalog>Тариф</Catalog>
+			<Document>ВыплатаКонтрагентамСписком</Document>
+			<Document>ВыплатаКонтрагенту</Document>
+			<Document>КапитальныеРасходы</Document>
+			<Document>НачислениеВыплатПлатежнымАгентом</Document>
 			<Document>ОбновлениеПодписки</Document>
 			<Document>ОплатаПодписки</Document>
-			<Document>ПерсональныйПромокод</Document>
+			<Document>Отписка</Document>
 			<Document>ПартнерскаяКомпания</Document>
-			<Document>КапитальныеРасходы</Document>
-			<Document>ПланРегулярногоРасхода</Document>
-			<Document>УтвеждениеОсновныхПрайсЛистов</Document>
+			<Document>ПерсональныйПромокод</Document>
+			<Document>ПланыРегулярныхРасхода</Document>
 			<Document>Подписка</Document>
-			<Document>ВыплатаКонтрагенту</Document>
-			<Document>ВыплатаКонтрагентамСписком</Document>
-			<Document>НачислениеВыплатПлатежнымАгентом</Document>
+			<Document>СчетНаОплатуПодписки</Document>
+			<Document>УтвеждениеОсновныхПрайсЛистов</Document>
+			<Document>УтверждениеДолиВладельцев</Document>
 			<Enum>ПериодПодписки</Enum>
 			<Enum>Бот</Enum>
 			<Enum>ПланПодписки</Enum>
 			<Enum>СтатусПодписки</Enum>
 			<DataProcessor>СформироватьПодписку</DataProcessor>
-			<InformationRegister>ПодпискиПериодДействия</InformationRegister>
-			<InformationRegister>ТекущиеСессииТелеграм</InformationRegister>
-			<InformationRegister>ПромокодыПериодДействия</InformationRegister>
 			<InformationRegister>ИспользованияПромокода</InformationRegister>
 			<InformationRegister>ИсторияИзмененийОсновныхПрайсЛистов</InformationRegister>
-			<InformationRegister>СлотыСервера</InformationRegister>
-			<InformationRegister>ПланВыставленияСчетовНаПродлениеПодписки</InformationRegister>
 			<InformationRegister>ИсторияИзмененияСтатусаПодписки</InformationRegister>
-			<AccumulationRegister>ДвижениеПодписчиков</AccumulationRegister>
-			<AccumulationRegister>ВыручкаОборот</AccumulationRegister>
+			<InformationRegister>ПланВыставленияСчетовНаПродлениеПодписки</InformationRegister>
+			<InformationRegister>ПодпискиПериодДействия</InformationRegister>
+			<InformationRegister>ПромокодыПериодДействия</InformationRegister>
+			<InformationRegister>СлотыСервера</InformationRegister>
+			<InformationRegister>ТекущиеСессииТелеграм</InformationRegister>
+			<InformationRegister>СтавкиПартнеров</InformationRegister>
 			<AccumulationRegister>БалансВыплатКонтрагентам</AccumulationRegister>
-			<AccumulationRegister>НачисленияУдержанияДохода</AccumulationRegister>
-			<ChartOfAccounts>ПланСчетов</ChartOfAccounts>
-			<AccountingRegister>БухгалтерскиеПроводки</AccountingRegister>
+			<AccumulationRegister>БалансОрганизации</AccumulationRegister>
+			<AccumulationRegister>ВыручкаОборот</AccumulationRegister>
+			<AccumulationRegister>ДвижениеПодписчиков</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

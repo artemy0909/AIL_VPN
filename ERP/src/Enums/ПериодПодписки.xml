@@ -38,18 +38,6 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="d6042dc1-05c6-4906-8e6a-69db3a134a48">
-				<Properties>
-					<Name>День</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>День</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
 			<EnumValue uuid="0a75d57d-a8f3-4ff9-b7d8-fefedaad135b">
 				<Properties>
 					<Name>Неделя</Name>

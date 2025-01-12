@@ -1,4 +1,5 @@
-from aiogram import Router
+from aiogram import Router, F
+from aiogram.enums import ContentType
 from aiogram.filters import CommandStart
 from aiogram.types import Message
 
@@ -22,7 +23,7 @@ async def command_start(message: Message) -> None:
         reply_markup=keyboard.inline.price_list_keyboard(price_list))
 
 
-@start_router.message()  # todo сделать что-нибудь от ложных срабатываний
+@start_router.message(F.content_type == ContentType.TEXT)
 async def promo_code_activation(message: Message) -> None:
 
     promo_code_info: PriceList = database.get_promo_code_info(message.text)

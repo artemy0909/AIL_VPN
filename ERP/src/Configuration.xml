@@ -296,7 +296,6 @@
 			<Document>ВыплатаКонтрагенту</Document>
 			<Document>КапитальныеРасходы</Document>
 			<Document>НачислениеВыплатПлатежнымАгентом</Document>
-			<Document>ОбновлениеПодписки</Document>
 			<Document>ОплатаПодписки</Document>
 			<Document>Отписка</Document>
 			<Document>ПартнерскаяКомпания</Document>
@@ -314,12 +313,13 @@
 			<InformationRegister>ИспользованияПромокода</InformationRegister>
 			<InformationRegister>ИсторияИзмененийОсновныхПрайсЛистов</InformationRegister>
 			<InformationRegister>ИсторияИзмененияСтатусаПодписки</InformationRegister>
+			<InformationRegister>ИсторияИзмененияТарифаПодписки</InformationRegister>
 			<InformationRegister>ПланВыставленияСчетовНаПродлениеПодписки</InformationRegister>
 			<InformationRegister>ПодпискиПериодДействия</InformationRegister>
 			<InformationRegister>ПромокодыПериодДействия</InformationRegister>
 			<InformationRegister>СлотыСервера</InformationRegister>
-			<InformationRegister>ТекущиеСессииТелеграм</InformationRegister>
 			<InformationRegister>СтавкиПартнеров</InformationRegister>
+			<InformationRegister>ТекущиеСессииТелеграм</InformationRegister>
 			<AccumulationRegister>БалансВыплатКонтрагентам</AccumulationRegister>
 			<AccumulationRegister>БалансОрганизации</AccumulationRegister>
 			<AccumulationRegister>ВыручкаОборот</AccumulationRegister>

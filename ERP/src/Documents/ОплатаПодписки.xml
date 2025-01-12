@@ -411,7 +411,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xr:DesignTimeRef">Catalog.СпособОплаты.Тестовый</FillValue>
+					<FillValue xsi:type="xr:DesignTimeRef">d0700472-5920-4326-8fa6-526940a0831a.7377f820-f8c6-444d-be6b-cc4967fe871c</FillValue>
 					<FillChecking>ShowError</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>

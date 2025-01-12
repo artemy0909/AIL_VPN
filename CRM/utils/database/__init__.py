@@ -1,4 +1,4 @@
-from model.views import PriceList, PriceItem, Invoice, InvoiceStatus
+from model.views import PriceList, PriceItem, Invoice, InvoiceStatus, StartSubscriptionInfo
 from .xenon import XenonClient
 from ..config import Config
 
@@ -20,16 +20,20 @@ class Database(XenonClient):
         pass
         # self._call_method("СоздатьСессиюЕслиНовая")
 
-    def create_invoice(self, telegram_id: int, selected_item: PriceItem) -> Invoice:
-        response = self.post("invoice", telegram_id=telegram_id, selected_item=selected_item)
+    def create_invoice(self, telegram_id: int, selected_item: PriceItem, payment_method_id: str) -> Invoice:
+        response = self.post("invoice",
+                             telegram_id=telegram_id, selected_item=selected_item, payment_method_id=payment_method_id)
         if response.status_code == 201 or response.status_code == 200:
             return Invoice.model_validate_json(response.text)
         ...  # TODO: exceptions
 
     def check_invoice(self, invoice: Invoice) -> InvoiceStatus:
         response = self.get("invoice", invoice=invoice)
-        invoice_status = InvoiceStatus.model_validate_json(response.text)
-        return invoice_status
+        return InvoiceStatus.model_validate_json(response.text)
+
+    def payment_success(self, invoice: Invoice) -> StartSubscriptionInfo:
+        response = self.post("payment", invoice=invoice)
+        return StartSubscriptionInfo.model_validate_json(response.text)
 
     def check_user_exist(self, telegram_id: int, full_name: str):
         import re

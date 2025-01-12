@@ -57,6 +57,17 @@ class Invoice(CallbackCache):
     amount: QuantitativeInt
 
 
+class SuccessfulPayment(CallbackCache):
+    invoice: DatabaseMetaObject
+    timestamp: datetime
+
+
 class InvoiceStatus(CallbackCache):
     ok: bool
     error_message: str | None
+
+
+class StartSubscriptionInfo(CallbackCache):
+    next_payment_datetime: datetime
+    period_text: str
+    vpn_conf: str

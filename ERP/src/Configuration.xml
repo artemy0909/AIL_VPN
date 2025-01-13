@@ -250,12 +250,12 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Администрирование</Subsystem>
+			<Subsystem>Бухгалтерия</Subsystem>
 			<Subsystem>Партнеры</Subsystem>
 			<Subsystem>Подписчики</Subsystem>
 			<Subsystem>Тарифы</Subsystem>
 			<Subsystem>Управление</Subsystem>
-			<Subsystem>Администрирование</Subsystem>
-			<Subsystem>Бухгалтерия</Subsystem>
 			<StyleItem>ПоложительныйРезультатПоиска</StyleItem>
 			<StyleItem>ОтрицательныйРезультатПоиска</StyleItem>
 			<Style>ОсновнойСтиль</Style>
@@ -280,8 +280,18 @@
 			<DefinedType>НомерТелефона</DefinedType>
 			<DefinedType>ПромокодСтрока</DefinedType>
 			<DefinedType>ИсточникПодписки</DefinedType>
-			<CommandGroup>СерверыVPN</CommandGroup>
-			<CommandGroup>Основное</CommandGroup>
+			<DefinedType>ИдСообщенияВПоддержку</DefinedType>
+			<CommandGroup>ВыплатыИРасчеты</CommandGroup>
+			<CommandGroup>ДвижениеДенежныхСредств</CommandGroup>
+			<CommandGroup>ДругиеПараметры</CommandGroup>
+			<CommandGroup>КомпанииИПартнеры</CommandGroup>
+			<CommandGroup>Планирование</CommandGroup>
+			<CommandGroup>ПлатежныеАгенты</CommandGroup>
+			<CommandGroup>ПодпискиИОтписки</CommandGroup>
+			<CommandGroup>Пользователи</CommandGroup>
+			<CommandGroup>ПрайсЛисты</CommandGroup>
+			<CommandGroup>Промокоды</CommandGroup>
+			<CommandGroup>УправлениеСерверами</CommandGroup>
 			<Constant>НаименованиеОрганизации</Constant>
 			<Constant>КрайнийСрокОплатыПодпискиВДнях</Constant>
 			<Catalog>Контрагент</Catalog>
@@ -292,6 +302,7 @@
 			<Catalog>СпособОплаты</Catalog>
 			<Catalog>СтатьяРасходов</Catalog>
 			<Catalog>Тариф</Catalog>
+			<Catalog>ПланПодписки</Catalog>
 			<Document>ВыплатаКонтрагентамСписком</Document>
 			<Document>ВыплатаКонтрагенту</Document>
 			<Document>КапитальныеРасходы</Document>
@@ -300,15 +311,18 @@
 			<Document>Отписка</Document>
 			<Document>ПартнерскаяКомпания</Document>
 			<Document>ПерсональныйПромокод</Document>
-			<Document>ПланыРегулярныхРасхода</Document>
+			<Document>ПланыРегулярныхРасходов</Document>
 			<Document>Подписка</Document>
 			<Document>СчетНаОплатуПодписки</Document>
 			<Document>УтвеждениеОсновныхПрайсЛистов</Document>
 			<Document>УтверждениеДолиВладельцев</Document>
-			<Enum>ПериодПодписки</Enum>
+			<Document>ОбращениеВПоддержку</Document>
+			<DocumentNumerator>НомерОбращения</DocumentNumerator>
 			<Enum>Бот</Enum>
-			<Enum>ПланПодписки</Enum>
+			<Enum>ПериодПодписки</Enum>
 			<Enum>СтатусПодписки</Enum>
+			<Enum>СтатусСлотаСервера</Enum>
+			<Enum>РольПользователя</Enum>
 			<DataProcessor>СформироватьПодписку</DataProcessor>
 			<InformationRegister>ИспользованияПромокода</InformationRegister>
 			<InformationRegister>ИсторияИзмененийОсновныхПрайсЛистов</InformationRegister>
@@ -320,6 +334,7 @@
 			<InformationRegister>СлотыСервера</InformationRegister>
 			<InformationRegister>СтавкиПартнеров</InformationRegister>
 			<InformationRegister>ТекущиеСессииТелеграм</InformationRegister>
+			<InformationRegister>ФайлыИзОбращений</InformationRegister>
 			<AccumulationRegister>БалансВыплатКонтрагентам</AccumulationRegister>
 			<AccumulationRegister>БалансОрганизации</AccumulationRegister>
 			<AccumulationRegister>ВыручкаОборот</AccumulationRegister>

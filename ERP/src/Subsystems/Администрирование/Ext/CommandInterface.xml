@@ -11,26 +11,39 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Catalog.Контрагент.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 	</CommandsVisibility>
 	<CommandsPlacement>
 		<Command name="Catalog.Сервер.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.СерверыVPN</CommandGroup>
+			<CommandGroup>CommandGroup.УправлениеСерверами</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
 		<Command name="InformationRegister.СлотыСервера.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.СерверыVPN</CommandGroup>
+			<CommandGroup>CommandGroup.УправлениеСерверами</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Контрагент.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пользователи</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
 	</CommandsPlacement>
 	<CommandsOrder>
 		<Command name="Catalog.Сервер.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.СерверыVPN</CommandGroup>
+			<CommandGroup>CommandGroup.УправлениеСерверами</CommandGroup>
 		</Command>
 		<Command name="InformationRegister.СлотыСервера.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.СерверыVPN</CommandGroup>
+			<CommandGroup>CommandGroup.УправлениеСерверами</CommandGroup>
+		</Command>
+		<Command name="Catalog.Контрагент.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пользователи</CommandGroup>
 		</Command>
 	</CommandsOrder>
 	<GroupsOrder>
-		<Group>CommandGroup.СерверыVPN</Group>
+		<Group>CommandGroup.УправлениеСерверами</Group>
+		<Group>CommandGroup.Пользователи</Group>
 	</GroupsOrder>
 </CommandInterface>

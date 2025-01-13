@@ -21,8 +21,8 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.УтверждениеДолиВладельцев</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.КапитальныеРасходы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ПланыРегулярныхРасхода</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.УтвеждениеОсновныхПрайсЛистов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПланыРегулярныхРасходов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОбращениеВПоддержку</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

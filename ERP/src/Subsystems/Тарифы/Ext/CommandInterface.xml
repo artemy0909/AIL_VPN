@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<CommandsVisibility>
+		<Command name="InformationRegister.ИсторияИзмененийОсновныхПрайсЛистов.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ПрайсЛист.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ПланПодписки.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Тариф.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.УтвеждениеОсновныхПрайсЛистов.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ПрайсЛист.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.УтвеждениеОсновныхПрайсЛистов.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="InformationRegister.ИсторияИзмененийОсновныхПрайсЛистов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ДругиеПараметры</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ПрайсЛист.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПрайсЛисты</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ПланПодписки.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПрайсЛисты</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Тариф.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПрайсЛисты</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.УтвеждениеОсновныхПрайсЛистов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПрайсЛисты</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="InformationRegister.ИсторияИзмененийОсновныхПрайсЛистов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ДругиеПараметры</CommandGroup>
+		</Command>
+		<Command name="Catalog.ПрайсЛист.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПрайсЛисты</CommandGroup>
+		</Command>
+		<Command name="Catalog.ПланПодписки.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПрайсЛисты</CommandGroup>
+		</Command>
+		<Command name="Catalog.Тариф.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПрайсЛисты</CommandGroup>
+		</Command>
+		<Command name="Document.УтвеждениеОсновныхПрайсЛистов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПрайсЛисты</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>CommandGroup.ДругиеПараметры</Group>
+		<Group>CommandGroup.ПрайсЛисты</Group>
+	</GroupsOrder>
+</CommandInterface>

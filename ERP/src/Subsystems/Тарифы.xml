@@ -21,7 +21,9 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Тариф</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПрайсЛист</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ПерсональныйПромокод</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПланПодписки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УтвеждениеОсновныхПрайсЛистов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияИзмененийОсновныхПрайсЛистов</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

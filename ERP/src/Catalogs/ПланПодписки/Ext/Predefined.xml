@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="b752c408-d17f-4e4c-87f9-c0dad8fa8d3d">
+		<Name>Базовый</Name>
+		<Code>000000001</Code>
+		<Description>Базовый</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

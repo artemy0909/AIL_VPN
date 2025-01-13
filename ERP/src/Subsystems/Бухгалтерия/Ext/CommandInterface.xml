@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<CommandsVisibility>
+		<Command name="InformationRegister.ПланВыставленияСчетовНаПродлениеПодписки.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.ВыплатаКонтрагентамСписком.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.ВыплатаКонтрагенту.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.СпособОплаты.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.СтатьяРасходов.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ПлатежныйАгент.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.НачислениеВыплатПлатежнымАгентом.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="AccumulationRegister.ВыручкаОборот.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="AccumulationRegister.БалансОрганизации.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="AccumulationRegister.БалансВыплатКонтрагентам.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.ВыплатаКонтрагентамСписком.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.ВыплатаКонтрагенту.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.НачислениеВыплатПлатежнымАгентом.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="Document.ВыплатаКонтрагентамСписком.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.КомпанииИПартнеры</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.ВыплатаКонтрагенту.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.КомпанииИПартнеры</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.СпособОплаты.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ДругиеПараметры</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.СтатьяРасходов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ДругиеПараметры</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ПлатежныйАгент.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПлатежныеАгенты</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.НачислениеВыплатПлатежнымАгентом.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПлатежныеАгенты</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="AccumulationRegister.ВыручкаОборот.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ДвижениеДенежныхСредств</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="AccumulationRegister.БалансОрганизации.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ДвижениеДенежныхСредств</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="AccumulationRegister.БалансВыплатКонтрагентам.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ДвижениеДенежныхСредств</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="Document.ВыплатаКонтрагентамСписком.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.КомпанииИПартнеры</CommandGroup>
+		</Command>
+		<Command name="Document.ВыплатаКонтрагенту.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.КомпанииИПартнеры</CommandGroup>
+		</Command>
+		<Command name="Catalog.СпособОплаты.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ДругиеПараметры</CommandGroup>
+		</Command>
+		<Command name="Catalog.СтатьяРасходов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ДругиеПараметры</CommandGroup>
+		</Command>
+		<Command name="Catalog.ПлатежныйАгент.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПлатежныеАгенты</CommandGroup>
+		</Command>
+		<Command name="Document.НачислениеВыплатПлатежнымАгентом.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПлатежныеАгенты</CommandGroup>
+		</Command>
+		<Command name="AccumulationRegister.ВыручкаОборот.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ДвижениеДенежныхСредств</CommandGroup>
+		</Command>
+		<Command name="AccumulationRegister.БалансОрганизации.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ДвижениеДенежныхСредств</CommandGroup>
+		</Command>
+		<Command name="AccumulationRegister.БалансВыплатКонтрагентам.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ДвижениеДенежныхСредств</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>CommandGroup.КомпанииИПартнеры</Group>
+		<Group>CommandGroup.ДругиеПараметры</Group>
+		<Group>CommandGroup.ПлатежныеАгенты</Group>
+		<Group>CommandGroup.ДвижениеДенежныхСредств</Group>
+	</GroupsOrder>
+</CommandInterface>

@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Enum uuid="a3990d98-31b2-4ecd-96aa-6f8399bcfbd5">
+	<Enum uuid="51da6aa3-447c-428c-879c-98ee46e4e192">
 		<InternalInfo>
-			<xr:GeneratedType name="EnumRef.ПланПодписки" category="Ref">
-				<xr:TypeId>2efa301c-2901-4acc-b89c-82d5b530ac7c</xr:TypeId>
-				<xr:ValueId>f87a79b6-38e3-4b4d-9ec7-cf5987cc6843</xr:ValueId>
+			<xr:GeneratedType name="EnumRef.РольПользователя" category="Ref">
+				<xr:TypeId>949e72f1-bd17-46eb-a47d-b957bfb90da8</xr:TypeId>
+				<xr:ValueId>d8b06656-badf-4db5-bd6d-55133e8c3348</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumManager.ПланПодписки" category="Manager">
-				<xr:TypeId>4d2bff5e-e33b-4c9c-b638-6c0bf6cd58e9</xr:TypeId>
-				<xr:ValueId>741aa268-c22c-4b5d-8934-aed076a70fc9</xr:ValueId>
+			<xr:GeneratedType name="EnumManager.РольПользователя" category="Manager">
+				<xr:TypeId>79bda76b-4603-4059-b0c3-b49c1f71e136</xr:TypeId>
+				<xr:ValueId>ce48ecb2-6c2f-4c25-91a9-bcca18c21f75</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumList.ПланПодписки" category="List">
-				<xr:TypeId>e7b5a727-ef4a-4272-b802-d0a572e9db50</xr:TypeId>
-				<xr:ValueId>becfd313-5754-4189-ba43-fd49d1c852fc</xr:ValueId>
+			<xr:GeneratedType name="EnumList.РольПользователя" category="List">
+				<xr:TypeId>523f43cd-878f-409e-87c9-5e8b778d27f6</xr:TypeId>
+				<xr:ValueId>563b1bff-f33e-410b-bdda-1cb7b44e6d3c</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ПланПодписки</Name>
+			<Name>РольПользователя</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>План подписки</v8:content>
+					<v8:content>Роль пользователя</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -38,25 +38,49 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="4c238d9f-cd57-43f3-913b-883464c6597e">
+			<EnumValue uuid="45c65f03-11f5-43e1-8ef3-780834e17a5c">
 				<Properties>
-					<Name>Базовый</Name>
+					<Name>Администратор</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Базовый</v8:content>
+							<v8:content>Администратор</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="5f5de702-d07a-46b8-8f04-983b95d294ca">
+			<EnumValue uuid="8ccb594b-11db-435b-8b9d-d0d8b2e646f5">
 				<Properties>
-					<Name>Премиум</Name>
+					<Name>Владелец</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Премиум</v8:content>
+							<v8:content>Владелец</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3c50097a-c5cc-41b7-bf5a-8a01db53a357">
+				<Properties>
+					<Name>Партнер</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Партнер</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c893bbe6-6258-4a1f-b49c-5faeef8ad261">
+				<Properties>
+					<Name>Пользователь</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователь</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

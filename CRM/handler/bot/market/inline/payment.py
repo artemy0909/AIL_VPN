@@ -3,7 +3,7 @@ from aiogram.enums import ContentType
 from aiogram.types import CallbackQuery, PreCheckoutQuery, Message, BufferedInputFile
 
 from loader import market_bot
-from model.views import PriceItem, Invoice
+from model.views import PriceItem, Invoice, StartSubscriptionInfo, SubscriberInfo
 from utils.config import Config
 from utils.database import database
 from utils.database.xenon import XenonConnectionError
@@ -13,6 +13,9 @@ payment_router = Router()
 
 @payment_router.callback_query(PriceItem.filter())
 async def tariff_choice(query: CallbackQuery, callback_data: PriceItem):
+
+    subscriber_info: SubscriberInfo = database.get_subscriber_info(telegram_id=query.from_user.id) #todo
+
     if Config.PAYMENT_TOKEN.split(':')[1] == 'TEST':
         await query.answer("Тестовый платеж!!!")
 
@@ -44,7 +47,7 @@ async def pre_checkout_query(pre_checkout_q: PreCheckoutQuery):
     except XenonConnectionError as error:
         await market_bot.answer_pre_checkout_query(
             pre_checkout_q.id, ok=False, error_message="Произошла ошибка при обработке платежа")
-        # todo добавить отправку ошибки админу
+
     else:
         await market_bot.answer_pre_checkout_query(
             pre_checkout_q.id, ok=invoice_status.ok, error_message=invoice_status.error_message)
@@ -54,16 +57,14 @@ async def pre_checkout_query(pre_checkout_q: PreCheckoutQuery):
 async def successful_payment(message: Message):
     try:
         invoice: Invoice = Invoice.unpack(message.successful_payment.invoice_payload)
-        subscription_info = database.payment_success(invoice=invoice)
+        subscription_info: StartSubscriptionInfo = database.payment_success(invoice=invoice)
     except XenonConnectionError as error:
         raise error
         # todo отработку ошибки
         # todo добавить отправку ошибки админу
     else:
-        # Преобразуем строку в байты
         conf_bytes = subscription_info.vpn_conf.encode("utf-8")
 
-        # Создаем BufferedInputFile, передаем сразу байты
         document = BufferedInputFile(
             file=conf_bytes,
             filename="VPN LV.conf"

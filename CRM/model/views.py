@@ -32,7 +32,7 @@ class SourceInfo(CallbackCache):
     recorder: DatabaseMetaObject
 
 
-class PriceItem(CallbackCache, prefix='tarch'):
+class PriceItem(CallbackCache, prefix='prit'):
     title: str
     tariff: DatabaseMetaObject
     price: QuantitativeInt
@@ -46,7 +46,7 @@ class PriceList(CallbackCache):
     price_items: list[PriceItem]
 
 
-class Invoice(CallbackCache):
+class Invoice(CallbackCache, prefix='inv'):
     self: DatabaseMetaObject
     subscription: DatabaseMetaObject
     counterparty: DatabaseMetaObject
@@ -57,17 +57,27 @@ class Invoice(CallbackCache):
     amount: QuantitativeInt
 
 
-class SuccessfulPayment(CallbackCache):
+class SuccessfulPayment(CallbackCache, prefix='pay'):
     invoice: DatabaseMetaObject
     timestamp: datetime
 
 
-class InvoiceStatus(CallbackCache):
+class InvoiceStatus(CallbackCache, prefix='invs'):
     ok: bool
     error_message: str | None
 
 
-class StartSubscriptionInfo(CallbackCache):
+class StartSubscriptionInfo(CallbackCache, prefix='ssif'):
     next_payment_datetime: datetime
     period_text: str
     vpn_conf: str
+
+
+class UpdateOffer(CallbackCache):
+    expires_datetime: datetime
+    item: PriceItem
+
+
+class SubscriberInfo(CallbackCache, prefix='suif'):
+    subscription: DatabaseMetaObject | None
+    update_offer: UpdateOffer | None

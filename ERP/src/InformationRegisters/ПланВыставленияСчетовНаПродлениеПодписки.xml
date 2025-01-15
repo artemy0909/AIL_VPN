@@ -153,7 +153,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:DocumentRef.ОплатаПодписки</v8:Type>
+						<v8:Type>cfg:DocumentRef.ВнесениеОплаты</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

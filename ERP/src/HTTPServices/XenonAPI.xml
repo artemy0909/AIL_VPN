@@ -44,78 +44,6 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
-			<URLTemplate uuid="a21dc2a7-917c-47de-8301-c0700d8e6e3f">
-				<Properties>
-					<Name>promocode_info</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Promocode info</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Template>/promocode_info</Template>
-				</Properties>
-				<ChildObjects>
-					<Method uuid="441d4497-d3e5-4a0d-bea4-3f943b0e6238">
-						<Properties>
-							<Name>GET</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>GET</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<HTTPMethod>GET</HTTPMethod>
-							<Handler>promocode_infoGET</Handler>
-						</Properties>
-					</Method>
-				</ChildObjects>
-			</URLTemplate>
-			<URLTemplate uuid="93c8bd9a-062f-4955-8e4c-20a1e1e75d83">
-				<Properties>
-					<Name>pricelist</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Pricelist</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Template>/pricelist</Template>
-				</Properties>
-				<ChildObjects>
-					<Method uuid="342c8421-24ea-4902-8cfc-34c3d982d17a">
-						<Properties>
-							<Name>GET</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>GET</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<HTTPMethod>GET</HTTPMethod>
-							<Handler>pricelistGET</Handler>
-						</Properties>
-					</Method>
-				</ChildObjects>
-			</URLTemplate>
-			<URLTemplate uuid="2f69cfdc-a8cf-4c27-bc93-61c87baef0c4">
-				<Properties>
-					<Name>session</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Session</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Template>/session</Template>
-				</Properties>
-				<ChildObjects/>
-			</URLTemplate>
 			<URLTemplate uuid="bc36dc0c-0f86-46ea-a495-43c5325dd43f">
 				<Properties>
 					<Name>invoice</Name>
@@ -159,35 +87,6 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
-			<URLTemplate uuid="be4d8751-65aa-4b1b-aa39-41955eb177a5">
-				<Properties>
-					<Name>user</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>User</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Template>/user</Template>
-				</Properties>
-				<ChildObjects>
-					<Method uuid="27b1d9e8-12a2-415c-9456-3baee09815c1">
-						<Properties>
-							<Name>POST</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>POST</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<HTTPMethod>POST</HTTPMethod>
-							<Handler>userPOST</Handler>
-						</Properties>
-					</Method>
-				</ChildObjects>
-			</URLTemplate>
 			<URLTemplate uuid="198b980f-9d0c-4ced-8493-73a078e9b765">
 				<Properties>
 					<Name>payment</Name>
@@ -213,6 +112,107 @@
 							<Comment/>
 							<HTTPMethod>POST</HTTPMethod>
 							<Handler>paymentPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="93c8bd9a-062f-4955-8e4c-20a1e1e75d83">
+				<Properties>
+					<Name>pricelist</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Pricelist</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/pricelist</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="342c8421-24ea-4902-8cfc-34c3d982d17a">
+						<Properties>
+							<Name>GET</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>GET</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>pricelistGET</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="a21dc2a7-917c-47de-8301-c0700d8e6e3f">
+				<Properties>
+					<Name>promocode_info</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Promocode info</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/promocode_info</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="441d4497-d3e5-4a0d-bea4-3f943b0e6238">
+						<Properties>
+							<Name>GET</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>GET</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>promocode_infoGET</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="2f69cfdc-a8cf-4c27-bc93-61c87baef0c4">
+				<Properties>
+					<Name>session</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Session</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/session</Template>
+				</Properties>
+				<ChildObjects/>
+			</URLTemplate>
+			<URLTemplate uuid="be4d8751-65aa-4b1b-aa39-41955eb177a5">
+				<Properties>
+					<Name>user</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>User</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/user</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="27b1d9e8-12a2-415c-9456-3baee09815c1">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>userPOST</Handler>
 						</Properties>
 					</Method>
 				</ChildObjects>

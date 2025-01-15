@@ -2,33 +2,33 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<Document uuid="1951582c-4643-417b-8b8c-69c974e65910">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ОплатаПодписки" category="Object">
+			<xr:GeneratedType name="DocumentObject.ВнесениеОплаты" category="Object">
 				<xr:TypeId>b81001d4-9f01-4854-92d6-643d9643f92b</xr:TypeId>
 				<xr:ValueId>cc2021bd-50d0-435c-888d-b67ec2c8df17</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ОплатаПодписки" category="Ref">
+			<xr:GeneratedType name="DocumentRef.ВнесениеОплаты" category="Ref">
 				<xr:TypeId>f2d9ba20-a8f4-45db-87af-cb5b78fc10ea</xr:TypeId>
 				<xr:ValueId>ee490a57-2ea6-411f-b5e7-4340947b22e7</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ОплатаПодписки" category="Selection">
+			<xr:GeneratedType name="DocumentSelection.ВнесениеОплаты" category="Selection">
 				<xr:TypeId>fcae8c70-8c85-466d-91e4-599e4a071d49</xr:TypeId>
 				<xr:ValueId>454a9667-2686-472f-a6eb-444004015475</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ОплатаПодписки" category="List">
+			<xr:GeneratedType name="DocumentList.ВнесениеОплаты" category="List">
 				<xr:TypeId>df5fc6e8-46f4-4b1a-b1d7-5168b1f6a4e7</xr:TypeId>
 				<xr:ValueId>32d99baf-568b-4327-8990-29b980eabeee</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ОплатаПодписки" category="Manager">
+			<xr:GeneratedType name="DocumentManager.ВнесениеОплаты" category="Manager">
 				<xr:TypeId>cfcbe21d-cc05-4ec6-aa22-4f4c9db1ad8b</xr:TypeId>
 				<xr:ValueId>bd22d0e2-4c86-4c58-9f88-5028ed684f7a</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ОплатаПодписки</Name>
+			<Name>ВнесениеОплаты</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Оплата подписки</v8:content>
+					<v8:content>Внесение оплаты</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -180,7 +180,7 @@
 			<Characteristics/>
 			<BasedOn/>
 			<InputByString>
-				<xr:Field>Document.ОплатаПодписки.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ВнесениеОплаты.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -200,6 +200,7 @@
 			<RegisterRecords>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.БалансВыплатКонтрагентам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ВыручкаОборот</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.БалансСчетовПользователей</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>

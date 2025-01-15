@@ -11,7 +11,7 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Document.ОплатаПодписки.StandardCommand.OpenList">
+		<Command name="Document.ВнесениеОплаты.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>

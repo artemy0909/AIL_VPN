@@ -48,7 +48,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
-			<Vendor>Артемий Лысиков</Vendor>
+			<Vendor>t.me/opodopo</Vendor>
 			<Version>0.1.0.0</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
@@ -259,19 +259,21 @@
 			<StyleItem>ПоложительныйРезультатПоиска</StyleItem>
 			<StyleItem>ОтрицательныйРезультатПоиска</StyleItem>
 			<Style>ОсновнойСтиль</Style>
-			<CommonPicture>Рукопожатие</CommonPicture>
-			<CommonPicture>Циркуль</CommonPicture>
+			<CommonPicture>Бирка</CommonPicture>
 			<CommonPicture>Деньги</CommonPicture>
 			<CommonPicture>Компас</CommonPicture>
-			<CommonPicture>Бирка</CommonPicture>
 			<CommonPicture>Люди</CommonPicture>
+			<CommonPicture>Рукопожатие</CommonPicture>
+			<CommonPicture>Циркуль</CommonPicture>
 			<Role>Администратор</Role>
+			<Role>Владелец</Role>
 			<CommonModule>КлиентыНаСервере</CommonModule>
 			<CommonModule>КсенонОтвет</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ОплатаПодпискиНаСервере</CommonModule>
 			<CommonModule>ПромокодыНаСервере</CommonModule>
 			<CommonModule>СессииТелеграмНаСервере</CommonModule>
+			<CommonAttribute>Комментарий</CommonAttribute>
 			<HTTPService>XenonAPI</HTTPService>
 			<DefinedType>ДенежныеСредства</DefinedType>
 			<DefinedType>СекретныйКлюч</DefinedType>
@@ -295,6 +297,7 @@
 			<Constant>НаименованиеОрганизации</Constant>
 			<Constant>КрайнийСрокОплатыПодпискиВДнях</Constant>
 			<Catalog>Контрагент</Catalog>
+			<Catalog>ПланПодписки</Catalog>
 			<Catalog>ПлатежныйАгент</Catalog>
 			<Catalog>ПрайсЛист</Catalog>
 			<Catalog>ПричинаОтписки</Catalog>
@@ -302,12 +305,12 @@
 			<Catalog>СпособОплаты</Catalog>
 			<Catalog>СтатьяРасходов</Catalog>
 			<Catalog>Тариф</Catalog>
-			<Catalog>ПланПодписки</Catalog>
+			<Document>ВнесениеОплаты</Document>
 			<Document>ВыплатаКонтрагентамСписком</Document>
 			<Document>ВыплатаКонтрагенту</Document>
 			<Document>КапитальныеРасходы</Document>
 			<Document>НачислениеВыплатПлатежнымАгентом</Document>
-			<Document>ОплатаПодписки</Document>
+			<Document>ОбращениеВПоддержку</Document>
 			<Document>Отписка</Document>
 			<Document>ПартнерскаяКомпания</Document>
 			<Document>ПерсональныйПромокод</Document>
@@ -316,7 +319,6 @@
 			<Document>СчетНаОплатуПодписки</Document>
 			<Document>УтвеждениеОсновныхПрайсЛистов</Document>
 			<Document>УтверждениеДолиВладельцев</Document>
-			<Document>ОбращениеВПоддержку</Document>
 			<DocumentNumerator>НомерОбращения</DocumentNumerator>
 			<Enum>Бот</Enum>
 			<Enum>ПериодПодписки</Enum>
@@ -337,6 +339,7 @@
 			<InformationRegister>ФайлыИзОбращений</InformationRegister>
 			<AccumulationRegister>БалансВыплатКонтрагентам</AccumulationRegister>
 			<AccumulationRegister>БалансОрганизации</AccumulationRegister>
+			<AccumulationRegister>БалансСчетовПользователей</AccumulationRegister>
 			<AccumulationRegister>ВыручкаОборот</AccumulationRegister>
 			<AccumulationRegister>ДвижениеПодписчиков</AccumulationRegister>
 		</ChildObjects>

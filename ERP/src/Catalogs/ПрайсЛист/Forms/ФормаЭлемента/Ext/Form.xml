@@ -4,7 +4,9 @@
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
+		<Event name="AfterWrite">ПослеЗаписи</Event>
 		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаОсновное" id="41">
@@ -43,7 +45,43 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ПланКонтекстноеМеню" id="39"/>
 					<ExtendedTooltip name="ПланРасширеннаяПодсказка" id="40"/>
+					<Events>
+						<Event name="OnChange">ПланПриИзменении</Event>
+					</Events>
 				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОсновныеПрайсЛисты" id="48">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основные прайс-листы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основные прайс листы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОсновныеПрайсЛистыРасширеннаяПодсказка" id="49"/>
+			<ChildItems>
+				<Button name="ФормаУстановитьКакОсновной" id="43">
+					<Type>UsualButton</Type>
+					<Enabled>false</Enabled>
+					<CommandName>Form.Command.УстановитьКакОсновной</CommandName>
+					<ExtendedTooltip name="ФормаУстановитьКакОсновнойРасширеннаяПодсказка" id="44"/>
+				</Button>
+				<LabelDecoration name="ИнформацияОбОсновномПрайсЛисте" id="50">
+					<Visible>false</Visible>
+					<Font ref="style:NormalTextFont" bold="true" italic="true" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<ContextMenu name="ИнформацияОбОсновномПрайсЛистеКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ИнформацияОбОсновномПрайсЛистеРасширеннаяПодсказка" id="52"/>
+					<Events>
+						<Event name="Click">ИнформацияОбОсновномПрайсЛистеНажатие</Event>
+					</Events>
+				</LabelDecoration>
 			</ChildItems>
 		</UsualGroup>
 		<Table name="Тарифы" id="10">
@@ -128,6 +166,14 @@
 				</InputField>
 			</ChildItems>
 		</Table>
+		<InputField name="Комментарий" id="45">
+			<DataPath>Объект.Комментарий</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<Height>1</Height>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="46"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="47"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -137,5 +183,33 @@
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
 		</Attribute>
+		<Attribute name="ОсновнойПрайс" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основной прайс</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ПрайсЛист</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="УстановитьКакОсновной" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить как основной для этого плана</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Устанавливает прайс-лист как основной</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьКакОсновной</Action>
+		</Command>
+	</Commands>
 </Form>

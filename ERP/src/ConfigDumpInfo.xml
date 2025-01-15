@@ -32,7 +32,7 @@
 		<Metadata name="Catalog.ПланПодписки" id="7f7c75c1-a9f7-4571-8bab-5ea4db825b4b" configVersion="75afa40eb5ba4b4ca63c645ba1b72e0c00000000"/>
 		<Metadata name="Catalog.ПланПодписки.Predefined" id="7f7c75c1-a9f7-4571-8bab-5ea4db825b4b.1c" configVersion="7146dd2e966b174ca40ed6e4c24c61fd00000000"/>
 		<Metadata name="Catalog.ПлатежныйАгент" id="2c3991e9-aef2-4984-8a73-71f429899b5b" configVersion="22807c1b26aa9b4da6eb2e1c7fbd7b0700000000"/>
-		<Metadata name="Catalog.ПрайсЛист" id="4ff4e4eb-22ba-48d4-9fa3-6bc6f24c63e0" configVersion="96fd574ecc0a2048a14c7f8cf8ca6b7100000000">
+		<Metadata name="Catalog.ПрайсЛист" id="4ff4e4eb-22ba-48d4-9fa3-6bc6f24c63e0" configVersion="a2cbf21e9816fc4c8def1b30d0cdeb0e00000000">
 			<Metadata name="Catalog.ПрайсЛист.TabularSection.Тарифы.Attribute.Стоимость" id="04f1418d-27f5-4db3-a1e4-3240a7483491"/>
 			<Metadata name="Catalog.ПрайсЛист.Attribute.План" id="6c8fc632-c114-4e38-8f84-0656b3b8fafb"/>
 			<Metadata name="Catalog.ПрайсЛист.TabularSection.Тарифы" id="7643e0cd-c944-419b-b3fd-4912f9ae3349"/>
@@ -40,8 +40,10 @@
 			<Metadata name="Catalog.ПрайсЛист.TabularSection.Тарифы.Attribute.Сумма" id="f27ff716-86e9-41a4-884e-d911ef360f44"/>
 			<Metadata name="Catalog.ПрайсЛист.TabularSection.Тарифы.Attribute.Скидка" id="f46afde9-9373-4f7b-b1fb-5f0f2a0a3d61"/>
 		</Metadata>
-		<Metadata name="Catalog.ПрайсЛист.Form.ФормаЭлемента" id="1af0aeba-a009-41dd-9897-6ff644b7538f" configVersion="4a336a85d518c24fac0cd69fdd11a0ed00000000"/>
-		<Metadata name="Catalog.ПрайсЛист.Form.ФормаЭлемента.Form" id="1af0aeba-a009-41dd-9897-6ff644b7538f.0" configVersion="5f8c67bbf8343b4babf6dbf8709fc78a00000000"/>
+		<Metadata name="Catalog.ПрайсЛист.Form.ФормаСписка" id="3aee1d48-c7e9-4e8c-87e9-67cbffa666f9" configVersion="cebf0876700e2b4e856247cca5ca026100000000"/>
+		<Metadata name="Catalog.ПрайсЛист.Form.ФормаСписка.Form" id="3aee1d48-c7e9-4e8c-87e9-67cbffa666f9.0" configVersion="a5e5a5a6a8bff74faa68ad76fa7aad1500000000"/>
+		<Metadata name="Catalog.ПрайсЛист.Form.ФормаЭлемента" id="1af0aeba-a009-41dd-9897-6ff644b7538f" configVersion="54603280c6f91b4980ce73d5eb2d0e3500000000"/>
+		<Metadata name="Catalog.ПрайсЛист.Form.ФормаЭлемента.Form" id="1af0aeba-a009-41dd-9897-6ff644b7538f.0" configVersion="2587bfd91cb20b4d9225aeaf4041c5d600000000"/>
 		<Metadata name="Catalog.ПрайсЛист.ObjectModule" id="4ff4e4eb-22ba-48d4-9fa3-6bc6f24c63e0.0" configVersion="f11335a15d24a347b68c50102513d73a00000000"/>
 		<Metadata name="Catalog.ПричинаОтписки" id="da67464c-f198-42fa-8098-bbef3caea952" configVersion="8a0f5b52e44ad147bb0c02de7d86f70600000000"/>
 		<Metadata name="Catalog.ПричинаОтписки.Predefined" id="da67464c-f198-42fa-8098-bbef3caea952.1c" configVersion="fd6fc59ca2d7d749b6bdba39164d573700000000"/>
@@ -95,7 +97,7 @@
 		<Metadata name="CommonPicture.Рукопожатие.Picture" id="3c628f00-ad23-494d-a5b2-bd9598a9fa69.0" configVersion="ebc1862026a40b4980e50ff9a0dfa61600000000"/>
 		<Metadata name="CommonPicture.Циркуль" id="bbf3ed35-c78a-4c10-b5ed-fcde33fda33a" configVersion="264af569a21651488d1affef991f96a200000000"/>
 		<Metadata name="CommonPicture.Циркуль.Picture" id="bbf3ed35-c78a-4c10-b5ed-fcde33fda33a.0" configVersion="bed33017ad2dcb448a562d129bda1c3700000000"/>
-		<Metadata name="Configuration.AIL_VPN" id="8e53dbb9-7985-473e-860c-9f74b0f84031" configVersion="70ffd76d24aff94db09c1bf0f7e6f46a00000000"/>
+		<Metadata name="Configuration.AIL_VPN" id="8e53dbb9-7985-473e-860c-9f74b0f84031" configVersion="ef1af0cfffcc0945ab2ca3e45049835500000000"/>
 		<Metadata name="Configuration.AIL_VPN.ClientApplicationInterface" id="c4f0aafa-ca25-4ece-a246-3757595ff925.b" configVersion="3ce5b825f102d74e81fe1e95c502288c00000000"/>
 		<Metadata name="Configuration.AIL_VPN.HomePageWorkArea" id="c4f0aafa-ca25-4ece-a246-3757595ff925.8" configVersion="aadd9ecef3f3074e9ec76e071912d46800000000"/>
 		<Metadata name="Configuration.AIL_VPN.Logo" id="c4f0aafa-ca25-4ece-a246-3757595ff925.1" configVersion="5dd4404b1426cb47a2d9817768353b4500000000"/>
@@ -229,11 +231,6 @@
 			<Metadata name="Document.СчетНаОплатуПодписки.Attribute.Тариф" id="f6ea0dc2-002c-4402-a79a-fa640d7637b0"/>
 		</Metadata>
 		<Metadata name="Document.СчетНаОплатуПодписки.ObjectModule" id="10e1075e-1b69-40e2-855b-b46c2ab33bbd.0" configVersion="dae22fa1e2947241a362ff1a3661941200000000"/>
-		<Metadata name="Document.УтвеждениеОсновныхПрайсЛистов" id="4161aa97-5b36-46c1-8c54-072175b9535d" configVersion="17570a5098475c4a85a79cf421c6598200000000">
-			<Metadata name="Document.УтвеждениеОсновныхПрайсЛистов.Attribute.Премиум" id="3aa0eb61-d0ed-4fe3-a949-16b413d2322d"/>
-			<Metadata name="Document.УтвеждениеОсновныхПрайсЛистов.Attribute.Базовый" id="45c8fa06-1d1b-4968-87eb-b914d57e376c"/>
-		</Metadata>
-		<Metadata name="Document.УтвеждениеОсновныхПрайсЛистов.ObjectModule" id="4161aa97-5b36-46c1-8c54-072175b9535d.0" configVersion="8a4c8d244c3b5d458cae17dc14fc549f00000000"/>
 		<Metadata name="Document.УтверждениеДолиВладельцев" id="114268c5-a78f-4d32-8288-914a86d28469" configVersion="183a037772670c449b336a08d064ab0500000000">
 			<Metadata name="Document.УтверждениеДолиВладельцев.TabularSection.Владельцы.Attribute.Владелец" id="bfbb4529-f038-4720-bcf3-1a915cf721f7"/>
 			<Metadata name="Document.УтверждениеДолиВладельцев.TabularSection.Владельцы.Attribute.Ставка" id="c6f294ec-6341-4d40-a468-5b79d4574f95"/>
@@ -293,7 +290,7 @@
 			<Metadata name="InformationRegister.ИспользованияПромокода.Dimension.ДатаИспользования" id="76013d87-362c-40b9-afd7-7c95814b7d74"/>
 			<Metadata name="InformationRegister.ИспользованияПромокода.Dimension.Промокод" id="7a628cad-5cab-4095-bb86-7a056ac4124e"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ИсторияИзмененийОсновныхПрайсЛистов" id="2d9d48d1-b0f8-442f-86e7-57365cc6d55c" configVersion="73c375933199794fa6168f57fba6610d00000000">
+		<Metadata name="InformationRegister.ИсторияИзмененийОсновныхПрайсЛистов" id="2d9d48d1-b0f8-442f-86e7-57365cc6d55c" configVersion="561354483ee9294ca0499b29800e83f000000000">
 			<Metadata name="InformationRegister.ИсторияИзмененийОсновныхПрайсЛистов.Resource.ПрайсЛист" id="66a38913-f334-402d-b823-474a6fe28422"/>
 			<Metadata name="InformationRegister.ИсторияИзмененийОсновныхПрайсЛистов.Dimension.План" id="f3a11fca-23a8-4227-af70-9c9371cd217a"/>
 		</Metadata>

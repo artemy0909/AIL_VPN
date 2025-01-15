@@ -317,7 +317,6 @@
 			<Document>ПланыРегулярныхРасходов</Document>
 			<Document>Подписка</Document>
 			<Document>СчетНаОплатуПодписки</Document>
-			<Document>УтвеждениеОсновныхПрайсЛистов</Document>
 			<Document>УтверждениеДолиВладельцев</Document>
 			<DocumentNumerator>НомерОбращения</DocumentNumerator>
 			<Enum>Бот</Enum>

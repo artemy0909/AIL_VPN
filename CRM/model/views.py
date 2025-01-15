@@ -79,5 +79,5 @@ class UpdateOffer(CallbackCache):
 
 
 class SubscriberInfo(CallbackCache, prefix='suif'):
-    subscription: DatabaseMetaObject | None
+    is_subscribed: bool
     update_offer: UpdateOffer | None

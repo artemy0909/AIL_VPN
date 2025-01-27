@@ -1,0 +1,4 @@
+from .inline import INLINE_ROUTERS
+from .message import MESSAGE_ROUTERS
+
+SERVICE_ROUTERS = MESSAGE_ROUTERS + INLINE_ROUTERS

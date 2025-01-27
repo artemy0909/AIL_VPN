@@ -7,7 +7,6 @@ from aiogram.enums import ParseMode
 from utils.config import Config
 from utils.database import database
 
-# from handlers.event import Scheduler
 
 database.test()
 logging.basicConfig(level=logging.INFO)
@@ -17,4 +16,3 @@ service_bot = Bot(Config.SERVICE_BOT_TOKEN, default=DefaultBotProperties(parse_m
 
 user_dp = Dispatcher()
 service_dp = Dispatcher()
-# scheduler = Scheduler(bot)

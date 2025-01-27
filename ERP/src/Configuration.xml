@@ -321,9 +321,10 @@
 			<DocumentNumerator>НомерОбращения</DocumentNumerator>
 			<Enum>Бот</Enum>
 			<Enum>ПериодПодписки</Enum>
+			<Enum>РольПользователя</Enum>
 			<Enum>СтатусПодписки</Enum>
 			<Enum>СтатусСлотаСервера</Enum>
-			<Enum>РольПользователя</Enum>
+			<Enum>ТипВознагражденияЗаРеферал</Enum>
 			<DataProcessor>СформироватьПодписку</DataProcessor>
 			<InformationRegister>ИспользованияПромокода</InformationRegister>
 			<InformationRegister>ИсторияИзмененийОсновныхПрайсЛистов</InformationRegister>

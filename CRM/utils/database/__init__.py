@@ -35,9 +35,12 @@ class Database(XenonClient):
         response = self.post("payment", invoice=invoice)
         return StartSubscriptionInfo.model_validate_json(response.text)
 
+    def token_auth(self, token: str) -> None:
+        pass
+
     def check_user_exist(self, telegram_id: int, full_name: str):
         import re
-        full_name = re.sub("[^A-Za-zА-Яа-я0-9\\s\\-.,$@*&?]", "", full_name)
+        full_name = re.sub("[^A-Za-zА-Яа-яЁё0-9\\s\\-.,$@*&?]", "", full_name)
         self.post("user", telegram_id=telegram_id, full_name=full_name)
 
 

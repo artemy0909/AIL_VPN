@@ -273,6 +273,7 @@
 			<CommonModule>ОплатаПодпискиНаСервере</CommonModule>
 			<CommonModule>ПромокодыНаСервере</CommonModule>
 			<CommonModule>СессииТелеграмНаСервере</CommonModule>
+			<CommonModule>ПартнерыНаСервере</CommonModule>
 			<CommonAttribute>Комментарий</CommonAttribute>
 			<HTTPService>XenonAPI</HTTPService>
 			<DefinedType>ДенежныеСредства</DefinedType>
@@ -329,6 +330,7 @@
 			<InformationRegister>ИсторияИзмененийОсновныхПрайсЛистов</InformationRegister>
 			<InformationRegister>ИсторияИзмененияСтатусаПодписки</InformationRegister>
 			<InformationRegister>ИсторияИзмененияТарифаПодписки</InformationRegister>
+			<InformationRegister>КонтрактыПартнерскихКомпаний</InformationRegister>
 			<InformationRegister>ПланВыставленияСчетовНаПродлениеПодписки</InformationRegister>
 			<InformationRegister>ПодпискиПериодДействия</InformationRegister>
 			<InformationRegister>ПромокодыПериодДействия</InformationRegister>
@@ -336,6 +338,7 @@
 			<InformationRegister>СтимулыПартнеров</InformationRegister>
 			<InformationRegister>ТекущиеСессииТелеграм</InformationRegister>
 			<InformationRegister>ФайлыИзОбращений</InformationRegister>
+			<InformationRegister>ИсторияСообщений</InformationRegister>
 			<AccumulationRegister>БалансВыплатКонтрагентам</AccumulationRegister>
 			<AccumulationRegister>БалансОрганизации</AccumulationRegister>
 			<AccumulationRegister>БалансСчетовПользователей</AccumulationRegister>

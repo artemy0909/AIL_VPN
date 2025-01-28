@@ -153,16 +153,16 @@
 			</Dimension>
 			<Dimension uuid="3da41d24-8091-4d5a-a112-78392aac6f73">
 				<Properties>
-					<Name>Компания</Name>
+					<Name>Контракт</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Компания</v8:content>
+							<v8:content>Контракт</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:DocumentRef.ПартнерскаяКомпания</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПартнерскийКонтракт</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

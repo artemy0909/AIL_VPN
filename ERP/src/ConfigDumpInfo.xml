@@ -370,14 +370,14 @@
 		<Metadata name="Style.ОсновнойСтиль.Style" id="5984b736-1462-4893-a22d-7d47d0247288.0" configVersion="1dd9b40508b95146ae8a3679c21c34e200000000"/>
 		<Metadata name="StyleItem.ОтрицательныйРезультатПоиска" id="27a08605-777a-4dd0-acfd-dd8b5326a4d0" configVersion="ba6ea26481604441aad1b94f7d162f8500000000"/>
 		<Metadata name="StyleItem.ПоложительныйРезультатПоиска" id="f54a18e0-1293-409d-9add-a8896560cad9" configVersion="45f5ef0820b38d4db2407103ecdc828200000000"/>
-		<Metadata name="Subsystem.Администрирование" id="ea3ce269-a24a-43ae-8867-752224d8a6a8" configVersion="c2ace1dc0a68ea4694ffe1eae935b7f700000000"/>
-		<Metadata name="Subsystem.Администрирование.CommandInterface" id="ea3ce269-a24a-43ae-8867-752224d8a6a8.1" configVersion="e3bc432aeea13046a3a411db547a0db100000000"/>
-		<Metadata name="Subsystem.Бухгалтерия" id="c7369b48-8798-4a67-b17f-d08f07d345a1" configVersion="367e28b8f1dd1d4483f8d193f81be05900000000"/>
-		<Metadata name="Subsystem.Бухгалтерия.CommandInterface" id="c7369b48-8798-4a67-b17f-d08f07d345a1.1" configVersion="0da4e1fd9a365e44a8511e765f37e94f00000000"/>
-		<Metadata name="Subsystem.Партнеры" id="b1e5f26e-230a-4540-b241-b014b9f95743" configVersion="ed1ecf20ddc67c4d9b45b9fc3d4d9ce300000000"/>
-		<Metadata name="Subsystem.Партнеры.CommandInterface" id="b1e5f26e-230a-4540-b241-b014b9f95743.1" configVersion="f5d6e8faee53d448b790a594391684e000000000"/>
-		<Metadata name="Subsystem.Подписчики" id="dacc328b-e783-4eed-83e8-a6d381de76c7" configVersion="78be95f4f3578740850820dbd0ec8e5900000000"/>
-		<Metadata name="Subsystem.Подписчики.CommandInterface" id="dacc328b-e783-4eed-83e8-a6d381de76c7.1" configVersion="f8dd86f0cc1c064eabf782efd70a575400000000"/>
+		<Metadata name="Subsystem.Администрирование" id="ea3ce269-a24a-43ae-8867-752224d8a6a8" configVersion="5cd82282d59d6745942aa0c85e7a6cba00000000"/>
+		<Metadata name="Subsystem.Администрирование.CommandInterface" id="ea3ce269-a24a-43ae-8867-752224d8a6a8.1" configVersion="5d44d26f16961f4aa514aee8c7abd2a400000000"/>
+		<Metadata name="Subsystem.Бухгалтерия" id="c7369b48-8798-4a67-b17f-d08f07d345a1" configVersion="482aaa8e689e1c4fbcc9ae4efcbc1bf400000000"/>
+		<Metadata name="Subsystem.Бухгалтерия.CommandInterface" id="c7369b48-8798-4a67-b17f-d08f07d345a1.1" configVersion="705c43c0c864794b9e00fb88c549801900000000"/>
+		<Metadata name="Subsystem.Партнеры" id="b1e5f26e-230a-4540-b241-b014b9f95743" configVersion="820e2f330ad02546b285c31bdb4bbfb800000000"/>
+		<Metadata name="Subsystem.Партнеры.CommandInterface" id="b1e5f26e-230a-4540-b241-b014b9f95743.1" configVersion="d503a32b69dd5040a2708c99443e9eca00000000"/>
+		<Metadata name="Subsystem.Подписчики" id="dacc328b-e783-4eed-83e8-a6d381de76c7" configVersion="914e8ab41aaba24f92ada12567b773e000000000"/>
+		<Metadata name="Subsystem.Подписчики.CommandInterface" id="dacc328b-e783-4eed-83e8-a6d381de76c7.1" configVersion="2cf58c4b89f6814eab3e1ac4ac0433a800000000"/>
 		<Metadata name="Subsystem.Тарифы" id="1c5d4a82-c5ae-4836-b1a0-d2d3088a244f" configVersion="6712522917f27c40b91dc6cca29238a100000000"/>
 		<Metadata name="Subsystem.Тарифы.CommandInterface" id="1c5d4a82-c5ae-4836-b1a0-d2d3088a244f.1" configVersion="a9814e92334221408fd2f6ae5f9ad42500000000"/>
 		<Metadata name="Subsystem.Управление" id="1d94aa02-c4e5-4d37-9713-d5560fb2e6b2" configVersion="260577ed650baa4cb7af48bf67cc57d200000000"/>

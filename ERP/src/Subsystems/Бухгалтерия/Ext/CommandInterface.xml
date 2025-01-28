@@ -51,11 +51,6 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="0:97b97f4f-dbf6-4ce7-9e12-989617e7493b">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
-		</Command>
 		<Command name="Catalog.ПлатежныйАгент.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
@@ -67,11 +62,6 @@
 			</Visibility>
 		</Command>
 		<Command name="Document.ВыплатаКонтрагентам.StandardCommand.Create">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="1:97b97f4f-dbf6-4ce7-9e12-989617e7493b">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -119,10 +109,6 @@
 			<CommandGroup>CommandGroup.КомпанииИПартнеры</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="0:97b97f4f-dbf6-4ce7-9e12-989617e7493b">
-			<CommandGroup>CommandGroup.КомпанииИПартнеры</CommandGroup>
-			<Placement>Auto</Placement>
-		</Command>
 		<Command name="Catalog.ПлатежныйАгент.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ПлатежныеАгенты</CommandGroup>
 			<Placement>Auto</Placement>
@@ -158,9 +144,6 @@
 			<CommandGroup>CommandGroup.ДругиеПараметры</CommandGroup>
 		</Command>
 		<Command name="Document.ВыплатаКонтрагентам.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.КомпанииИПартнеры</CommandGroup>
-		</Command>
-		<Command name="0:97b97f4f-dbf6-4ce7-9e12-989617e7493b">
 			<CommandGroup>CommandGroup.КомпанииИПартнеры</CommandGroup>
 		</Command>
 		<Command name="Catalog.ПлатежныйАгент.StandardCommand.OpenList">

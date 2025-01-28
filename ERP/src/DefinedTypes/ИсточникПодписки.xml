@@ -17,8 +17,7 @@
 			</Synonym>
 			<Comment/>
 			<Type>
-				<v8:Type>cfg:DocumentRef.ПартнерскаяКомпания</v8:Type>
-				<v8:Type>cfg:DocumentRef.ПерсональныйПромокод</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПартнерскийКонтракт</v8:Type>
 			</Type>
 		</Properties>
 	</DefinedType>

@@ -21,8 +21,8 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ВыручкаОборот</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеВыплатПлатежнымАгентом</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыплатаКонтрагентамСписком</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыплатаКонтрагенту</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыплатаКонтрагентам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">97b97f4f-dbf6-4ce7-9e12-989617e7493b</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.БалансВыплатКонтрагентам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.БалансОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПланВыставленияСчетовНаПродлениеПодписки</xr:Item>
@@ -30,6 +30,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СпособОплаты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатьяРасходов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.БалансСчетовПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.СчетНаОплатуПодписки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВнесениеОплаты</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

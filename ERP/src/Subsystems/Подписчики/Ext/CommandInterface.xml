@@ -36,7 +36,7 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Document.ПерсональныйПромокод.StandardCommand.OpenList">
+		<Command name="0:c12647c2-0404-434d-90a2-e7514dbadf56">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -74,7 +74,7 @@
 			<CommandGroup>CommandGroup.ПодпискиИОтписки</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="Document.ПерсональныйПромокод.StandardCommand.OpenList">
+		<Command name="0:c12647c2-0404-434d-90a2-e7514dbadf56">
 			<CommandGroup>CommandGroup.Промокоды</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
@@ -104,7 +104,7 @@
 		<Command name="Document.СчетНаОплатуПодписки.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ПодпискиИОтписки</CommandGroup>
 		</Command>
-		<Command name="Document.ПерсональныйПромокод.StandardCommand.OpenList">
+		<Command name="0:c12647c2-0404-434d-90a2-e7514dbadf56">
 			<CommandGroup>CommandGroup.Промокоды</CommandGroup>
 		</Command>
 		<Command name="InformationRegister.ПромокодыПериодДействия.StandardCommand.OpenList">

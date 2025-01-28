@@ -6,12 +6,12 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Document.ВыплатаКонтрагентамСписком.StandardCommand.OpenList">
+		<Command name="Document.ВыплатаКонтрагентам.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Document.ВыплатаКонтрагенту.StandardCommand.OpenList">
+		<Command name="0:97b97f4f-dbf6-4ce7-9e12-989617e7493b">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -21,17 +21,17 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="InformationRegister.СтавкиПартнеров.StandardCommand.OpenList">
+		<Command name="InformationRegister.СтимулыПартнеров.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Document.ВыплатаКонтрагентамСписком.StandardCommand.Create">
+		<Command name="Document.ВыплатаКонтрагентам.StandardCommand.Create">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Document.ВыплатаКонтрагенту.StandardCommand.Create">
+		<Command name="1:97b97f4f-dbf6-4ce7-9e12-989617e7493b">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -42,11 +42,11 @@
 			<CommandGroup>CommandGroup.КомпанииИПартнеры</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="Document.ВыплатаКонтрагентамСписком.StandardCommand.OpenList">
+		<Command name="Document.ВыплатаКонтрагентам.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ВыплатыИРасчеты</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="Document.ВыплатаКонтрагенту.StandardCommand.OpenList">
+		<Command name="0:97b97f4f-dbf6-4ce7-9e12-989617e7493b">
 			<CommandGroup>CommandGroup.ВыплатыИРасчеты</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
@@ -54,7 +54,7 @@
 			<CommandGroup>CommandGroup.ВыплатыИРасчеты</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="InformationRegister.СтавкиПартнеров.StandardCommand.OpenList">
+		<Command name="InformationRegister.СтимулыПартнеров.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ДругиеПараметры</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
@@ -63,16 +63,16 @@
 		<Command name="Document.ПартнерскаяКомпания.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.КомпанииИПартнеры</CommandGroup>
 		</Command>
-		<Command name="Document.ВыплатаКонтрагентамСписком.StandardCommand.OpenList">
+		<Command name="Document.ВыплатаКонтрагентам.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ВыплатыИРасчеты</CommandGroup>
 		</Command>
-		<Command name="Document.ВыплатаКонтрагенту.StandardCommand.OpenList">
+		<Command name="0:97b97f4f-dbf6-4ce7-9e12-989617e7493b">
 			<CommandGroup>CommandGroup.ВыплатыИРасчеты</CommandGroup>
 		</Command>
 		<Command name="AccumulationRegister.БалансВыплатКонтрагентам.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ВыплатыИРасчеты</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.СтавкиПартнеров.StandardCommand.OpenList">
+		<Command name="InformationRegister.СтимулыПартнеров.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.ДругиеПараметры</CommandGroup>
 		</Command>
 	</CommandsOrder>

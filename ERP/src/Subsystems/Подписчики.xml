@@ -31,7 +31,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияИзмененияСтатусаПодписки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПодпискиПериодДействия</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияИзмененияТарифаПодписки</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ПерсональныйПромокод</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">c12647c2-0404-434d-90a2-e7514dbadf56</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПромокодыПериодДействия</xr:Item>
 			</Content>
 		</Properties>

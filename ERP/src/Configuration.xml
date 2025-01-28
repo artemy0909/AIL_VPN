@@ -306,14 +306,13 @@
 			<Catalog>СтатьяРасходов</Catalog>
 			<Catalog>Тариф</Catalog>
 			<Document>ВнесениеОплаты</Document>
-			<Document>ВыплатаКонтрагентамСписком</Document>
-			<Document>ВыплатаКонтрагенту</Document>
+			<Document>ВыплатаКонтрагентам</Document>
 			<Document>КапитальныеРасходы</Document>
 			<Document>НачислениеВыплатПлатежнымАгентом</Document>
 			<Document>ОбращениеВПоддержку</Document>
 			<Document>Отписка</Document>
 			<Document>ПартнерскаяКомпания</Document>
-			<Document>ПерсональныйПромокод</Document>
+			<Document>ПартнерскийКонтракт</Document>
 			<Document>ПланыРегулярныхРасходов</Document>
 			<Document>Подписка</Document>
 			<Document>СчетНаОплатуПодписки</Document>
@@ -324,7 +323,7 @@
 			<Enum>РольПользователя</Enum>
 			<Enum>СтатусПодписки</Enum>
 			<Enum>СтатусСлотаСервера</Enum>
-			<Enum>ТипВознагражденияЗаРеферал</Enum>
+			<Enum>ВидСтимулаЗаРеферал</Enum>
 			<DataProcessor>СформироватьПодписку</DataProcessor>
 			<InformationRegister>ИспользованияПромокода</InformationRegister>
 			<InformationRegister>ИсторияИзмененийОсновныхПрайсЛистов</InformationRegister>
@@ -334,7 +333,7 @@
 			<InformationRegister>ПодпискиПериодДействия</InformationRegister>
 			<InformationRegister>ПромокодыПериодДействия</InformationRegister>
 			<InformationRegister>СлотыСервера</InformationRegister>
-			<InformationRegister>СтавкиПартнеров</InformationRegister>
+			<InformationRegister>СтимулыПартнеров</InformationRegister>
 			<InformationRegister>ТекущиеСессииТелеграм</InformationRegister>
 			<InformationRegister>ФайлыИзОбращений</InformationRegister>
 			<AccumulationRegister>БалансВыплатКонтрагентам</AccumulationRegister>

@@ -20,10 +20,11 @@
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПартнерскаяКомпания</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СтавкиПартнеров</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыплатаКонтрагентамСписком</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыплатаКонтрагенту</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СтимулыПартнеров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыплатаКонтрагентам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">97b97f4f-dbf6-4ce7-9e12-989617e7493b</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.БалансВыплатКонтрагентам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПартнерскийКонтракт</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

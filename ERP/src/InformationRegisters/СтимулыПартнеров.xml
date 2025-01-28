@@ -2,41 +2,41 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<InformationRegister uuid="683e3e80-dd75-41d0-9b9b-39fab81443d2">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.СтавкиПартнеров" category="Record">
+			<xr:GeneratedType name="InformationRegisterRecord.СтимулыПартнеров" category="Record">
 				<xr:TypeId>c071f8d6-dc93-4901-b679-2d1ea1d5942e</xr:TypeId>
 				<xr:ValueId>baeff481-4745-4cbe-b87d-72fdc8aa9439</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.СтавкиПартнеров" category="Manager">
+			<xr:GeneratedType name="InformationRegisterManager.СтимулыПартнеров" category="Manager">
 				<xr:TypeId>efb39b3a-9196-4a44-8025-44e2ecaa43bd</xr:TypeId>
 				<xr:ValueId>7d325a44-a38d-4f7e-8bbd-797fbbf83ab6</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.СтавкиПартнеров" category="Selection">
+			<xr:GeneratedType name="InformationRegisterSelection.СтимулыПартнеров" category="Selection">
 				<xr:TypeId>540e4f85-aa32-4d1c-898f-f836b0d65016</xr:TypeId>
 				<xr:ValueId>62cea4a0-eb52-4ac4-a5df-8e103ae81996</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.СтавкиПартнеров" category="List">
+			<xr:GeneratedType name="InformationRegisterList.СтимулыПартнеров" category="List">
 				<xr:TypeId>76b1f7b0-6445-4e40-8a4d-03ca21b438ff</xr:TypeId>
 				<xr:ValueId>9bb20496-3d19-4dac-92e9-bf02a0eb4da5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.СтавкиПартнеров" category="RecordSet">
+			<xr:GeneratedType name="InformationRegisterRecordSet.СтимулыПартнеров" category="RecordSet">
 				<xr:TypeId>b3144b93-bff0-424c-a680-ed49b7365436</xr:TypeId>
 				<xr:ValueId>8b53574c-2da6-45ac-97b5-442c25aa9755</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.СтавкиПартнеров" category="RecordKey">
+			<xr:GeneratedType name="InformationRegisterRecordKey.СтимулыПартнеров" category="RecordKey">
 				<xr:TypeId>6597626a-6f6d-4ed1-8ddf-9545ba80c279</xr:TypeId>
 				<xr:ValueId>59e27c9a-15cc-4cc4-910d-4475e3e3567d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.СтавкиПартнеров" category="RecordManager">
+			<xr:GeneratedType name="InformationRegisterRecordManager.СтимулыПартнеров" category="RecordManager">
 				<xr:TypeId>2a1bd284-6f44-48a9-a859-6479ae71eee0</xr:TypeId>
 				<xr:ValueId>cf1cc952-3d8d-405c-aa70-462e72b9f935</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>СтавкиПартнеров</Name>
+			<Name>СтимулыПартнеров</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Ставки партнеров</v8:content>
+					<v8:content>Стимулы партнеров</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -46,7 +46,7 @@
 			<DefaultListForm/>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
-			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
 			<WriteMode>RecorderSubordinate</WriteMode>
 			<MainFilterOnPeriod>false</MainFilterOnPeriod>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
@@ -64,32 +64,27 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="b4d1fdc2-994a-4e49-ae1b-ea778615d19d">
+			<Resource uuid="08c4ea22-077b-4fb7-b75e-71972996eff1">
 				<Properties>
-					<Name>Ставка</Name>
+					<Name>ЗначениеСтимула</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Ставка</v8:content>
+							<v8:content>Значение стимула</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:TypeSet>cfg:DefinedType.Процент</v8:TypeSet>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
-					<Format>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ЧФ='Ч %'</v8:content>
-						</v8:item>
-					</Format>
-					<EditFormat>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ЧФ='Ч %'</v8:content>
-						</v8:item>
-					</EditFormat>
+					<Format/>
+					<EditFormat/>
 					<ToolTip/>
 					<MarkNegatives>false</MarkNegatives>
 					<Mask/>
@@ -99,7 +94,7 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
+					<FillChecking>ShowError</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
@@ -156,7 +151,7 @@
 					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="a296c16a-b9a1-478d-8c54-c417119e5c87">
+			<Dimension uuid="3da41d24-8091-4d5a-a112-78392aac6f73">
 				<Properties>
 					<Name>Компания</Name>
 					<Synonym>
@@ -168,6 +163,49 @@
 					<Comment/>
 					<Type>
 						<v8:Type>cfg:DocumentRef.ПартнерскаяКомпания</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>true</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>true</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+					<TypeReductionMode>TransformValues</TypeReductionMode>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="8a8681b3-e39b-41ee-a2b8-d3e5692aee48">
+				<Properties>
+					<Name>ВидСтимула</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид стимула</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидСтимулаЗаРеферал</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

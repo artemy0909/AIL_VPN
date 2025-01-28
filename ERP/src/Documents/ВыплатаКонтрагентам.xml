@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Document uuid="97b97f4f-dbf6-4ce7-9e12-989617e7493b">
+	<Document uuid="26d44b33-e63a-4212-ba23-278aaef6a9d3">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ВыплатаКонтрагенту" category="Object">
-				<xr:TypeId>f0d56137-d0b9-4b5a-8f86-77a7c3299806</xr:TypeId>
-				<xr:ValueId>5dd4843a-c50f-43c7-ae86-268fae7456f2</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ВыплатаКонтрагентам" category="Object">
+				<xr:TypeId>8111c810-801c-487f-ad67-8b132b73fcb7</xr:TypeId>
+				<xr:ValueId>ec4c71d6-c3cb-48b7-9b2a-4f163149c54b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ВыплатаКонтрагенту" category="Ref">
-				<xr:TypeId>954f651f-ff2d-4cdf-9c0f-3452b96ecef4</xr:TypeId>
-				<xr:ValueId>784167e3-b58d-4c6c-9ed3-fc56f071df0a</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ВыплатаКонтрагентам" category="Ref">
+				<xr:TypeId>19d80730-47ec-4380-bf6b-1b1b8a39d9b6</xr:TypeId>
+				<xr:ValueId>ae88aec5-c614-46b2-887f-0a528c2a8fd3</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ВыплатаКонтрагенту" category="Selection">
-				<xr:TypeId>4a720a46-9167-4835-8446-24ab7de2c2e7</xr:TypeId>
-				<xr:ValueId>3bd66e3e-86fe-4555-a768-3d227ac4ae60</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ВыплатаКонтрагентам" category="Selection">
+				<xr:TypeId>169f429e-8cf2-4870-9087-26a328b258c6</xr:TypeId>
+				<xr:ValueId>dcc04660-9fea-484a-b067-3f54cd93c05c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ВыплатаКонтрагенту" category="List">
-				<xr:TypeId>0aae0607-ef32-40ba-8f67-1f550be969b4</xr:TypeId>
-				<xr:ValueId>017d178a-798c-4cba-8443-8bd2af43732e</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ВыплатаКонтрагентам" category="List">
+				<xr:TypeId>14cb9fb6-b60e-4e72-bb13-3f7fcaa00c3d</xr:TypeId>
+				<xr:ValueId>9fe9f074-1ced-4b29-b4e8-97019cbee73a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ВыплатаКонтрагенту" category="Manager">
-				<xr:TypeId>25c9049b-ae25-4013-bf54-10188a5c1189</xr:TypeId>
-				<xr:ValueId>a4139225-30a9-4d63-85ee-d0eede5de9fd</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ВыплатаКонтрагентам" category="Manager">
+				<xr:TypeId>d7491d00-3951-43d5-84fd-59b9864531fd</xr:TypeId>
+				<xr:ValueId>8e6338bb-6e5f-4abb-b00c-08c7ce5664af</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ВыплатаКонтрагенту</Name>
+			<Name>ВыплатаКонтрагентам</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выплата контрагенту</v8:content>
+					<v8:content>Выплата контрагентам</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -43,7 +43,7 @@
 			<Characteristics/>
 			<BasedOn/>
 			<InputByString>
-				<xr:Field>Document.ВыплатаКонтрагенту.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ВыплатаКонтрагентам.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -81,7 +81,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="2a677b89-7274-4622-a548-f5f739d83814">
+			<Attribute uuid="c06de55a-f763-4673-8a92-38f4043df793">
 				<Properties>
 					<Name>ДатаВыплаты</Name>
 					<Synonym>
@@ -109,7 +109,7 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
-					<FillChecking>ShowError</FillChecking>
+					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
@@ -123,18 +123,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="e22a5873-b4bb-4240-a069-4d3fdf765629">
+			<Attribute uuid="5240cef0-93c4-4885-97c7-00cee8863325">
 				<Properties>
-					<Name>Контрагент</Name>
+					<Name>СуммаДокумента</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Контрагент</v8:content>
+							<v8:content>Сумма документа</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Контрагент</v8:Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежныеСредства</v8:TypeSet>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -162,55 +162,106 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="6e4cd1a6-a434-46c8-8014-f0a242498ee6">
+			<TabularSection uuid="6b40ec4e-9a87-47fd-b13d-f3e6dc82b77d">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВыплатаКонтрагентам.Выплаты" category="TabularSection">
+						<xr:TypeId>f67f1420-8786-43f8-a69d-001cbdb34fde</xr:TypeId>
+						<xr:ValueId>374b0bba-67bb-449f-a0a4-39224bf6e094</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВыплатаКонтрагентам.Выплаты" category="TabularSectionRow">
+						<xr:TypeId>5586fa29-ace9-465a-a732-7a903f3af816</xr:TypeId>
+						<xr:ValueId>62c3d5be-791c-4bc5-82ac-a1d51610ed1e</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
 				<Properties>
-					<Name>СуммаДокумента</Name>
+					<Name>Выплаты</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма документа</v8:content>
+							<v8:content>Выплаты</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Type>
-						<v8:TypeSet>cfg:DefinedType.ДенежныеСредства</v8:TypeSet>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ЧФ='Ч ₽'</v8:content>
-						</v8:item>
-					</Format>
-					<EditFormat>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ЧФ='Ч ₽'</v8:content>
-						</v8:item>
-					</EditFormat>
 					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>ShowError</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
+					<FillChecking>DontCheck</FillChecking>
 				</Properties>
-			</Attribute>
+				<ChildObjects>
+					<Attribute uuid="8c1f930b-4fd2-4566-9f25-42c9be7b6116">
+						<Properties>
+							<Name>Контрагент</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Контрагент</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагент</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="bcf23145-3a8b-4b14-b16f-33601abdb1b3">
+						<Properties>
+							<Name>СуммаВыплаты</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма выплаты</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ДенежныеСредства</v8:TypeSet>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>ShowError</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

@@ -105,11 +105,11 @@
 			</Resource>
 			<Attribute uuid="9019c53f-7095-46d0-8900-9e6a30e079be">
 				<Properties>
-					<Name>НачалоДействия</Name>
+					<Name>ДатаНачала</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Начало действия</v8:content>
+							<v8:content>Дата начала</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -147,11 +147,11 @@
 			</Attribute>
 			<Attribute uuid="8cc824b9-5483-4106-8cf3-87ad496894db">
 				<Properties>
-					<Name>КонецДействия</Name>
+					<Name>ДатаОкончания</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Конец действия</v8:content>
+							<v8:content>Дата окончания</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -210,7 +210,7 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillFromFillingValue>true</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
 					<FillChecking>ShowError</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
@@ -221,7 +221,7 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>false</Master>
+					<Master>true</Master>
 					<MainFilter>true</MainFilter>
 					<DenyIncompleteValues>true</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>

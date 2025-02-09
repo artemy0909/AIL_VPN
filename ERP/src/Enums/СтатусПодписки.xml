@@ -50,6 +50,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="fa9ea29f-df42-48bd-9980-91fc036fcabb">
+				<Properties>
+					<Name>Провалилась</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Провалилась</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="c05736b4-5c69-4b54-a0eb-c75ace50ca87">
 				<Properties>
 					<Name>Активна</Name>
@@ -64,11 +76,11 @@
 			</EnumValue>
 			<EnumValue uuid="ee4174c5-0123-4441-a5f6-7221254a9eb4">
 				<Properties>
-					<Name>Отменяется</Name>
+					<Name>Завершается</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отменяется</v8:content>
+							<v8:content>Завершается</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -76,11 +88,11 @@
 			</EnumValue>
 			<EnumValue uuid="1dabf4da-0dbf-4cea-a5cc-706a15c257a1">
 				<Properties>
-					<Name>Завершена</Name>
+					<Name>Окончена</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Завершена</v8:content>
+							<v8:content>Окончена</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

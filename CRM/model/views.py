@@ -73,11 +73,7 @@ class StartSubscriptionInfo(CallbackCache, prefix='ssif'):
     vpn_conf: str
 
 
-class UpdateOffer(CallbackCache):
-    expires_datetime: datetime
-    item: PriceItem
-
-
-class SubscriberInfo(CallbackCache, prefix='suif'):
-    is_subscribed: bool
-    update_offer: UpdateOffer | None
+class UserInfo(CallbackCache, prefix='usif'):
+    counterparty: DatabaseMetaObject
+    created: bool
+    # subscription: DatabaseMetaObject

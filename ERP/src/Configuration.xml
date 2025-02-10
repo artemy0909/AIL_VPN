@@ -32,11 +32,11 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>AIL_VPN</Name>
+			<Name>ZaimeyVPN</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>AIL VPN</v8:content>
+					<v8:content>Zaimey VPN</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -299,13 +299,15 @@
 			<Constant>КрайнийСрокОплатыПодпискиВДнях</Constant>
 			<Catalog>Контрагент</Catalog>
 			<Catalog>ПланПодписки</Catalog>
-			<Catalog>ПлатежныйАгент</Catalog>
 			<Catalog>ПрайсЛист</Catalog>
 			<Catalog>ПричинаОтписки</Catalog>
 			<Catalog>Сервер</Catalog>
 			<Catalog>СпособОплаты</Catalog>
 			<Catalog>СтатьяРасходов</Catalog>
 			<Catalog>Тариф</Catalog>
+			<Catalog>ГеографическийРегион</Catalog>
+			<Catalog>ЮридическоеЛицо</Catalog>
+			<Catalog>ФизическоеЛицо</Catalog>
 			<Document>ВнесениеОплаты</Document>
 			<Document>ВыплатаКонтрагентам</Document>
 			<Document>КапитальныеРасходы</Document>

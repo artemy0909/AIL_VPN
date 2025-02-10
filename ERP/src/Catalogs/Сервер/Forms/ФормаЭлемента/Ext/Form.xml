@@ -4,26 +4,193 @@
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
-		<InputField name="Код" id="1">
-			<DataPath>Объект.Code</DataPath>
-			<EditMode>EnterOnInput</EditMode>
+		<UsualGroup name="ГруппаКодНаименование" id="34">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа код наименование</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа код наименование</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКодНаименованиеРасширеннаяПодсказка" id="35"/>
+			<ChildItems>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>1</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Поставщик" id="36">
+			<DataPath>Объект.Поставщик</DataPath>
+			<Width>1</Width>
+			<AutoMaxWidth>false</AutoMaxWidth>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+			<ContextMenu name="ПоставщикКонтекстноеМеню" id="37"/>
+			<ExtendedTooltip name="ПоставщикРасширеннаяПодсказка" id="38"/>
 		</InputField>
-		<InputField name="Наименование" id="4">
-			<DataPath>Объект.Description</DataPath>
+		<InputField name="РегионСервера" id="22">
+			<DataPath>Объект.РегионСервера</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<Width>1</Width>
+			<AutoMaxWidth>false</AutoMaxWidth>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
-			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+			<ContextMenu name="РегионСервераКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="РегионСервераРасширеннаяПодсказка" id="24"/>
 		</InputField>
-		<InputField name="URL" id="7">
-			<DataPath>Объект.URL</DataPath>
+		<Pages name="ГруппаСтраницы" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Width>1</Width>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="29"/>
+			<ChildItems>
+				<Page name="ГруппаSSH" id="32">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>SSH подключение</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа SSH</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ГруппаSSHРасширеннаяПодсказка" id="33"/>
+					<ChildItems>
+						<InputField name="Server_IP" id="13">
+							<DataPath>Объект.Server_IP</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>IP адрес</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<SpecialTextInputMode>DigitsAndPunctuation</SpecialTextInputMode>
+							<ContextMenu name="Server_IPКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="Server_IPРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="SSH_Login" id="16">
+							<DataPath>Объект.SSH_Login</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Логин</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="SSH_LoginКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="SSH_LoginРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<InputField name="SSH_Password" id="19">
+							<DataPath>Объект.SSH_Password</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Пароль</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<OpenButton>true</OpenButton>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="SSH_PasswordКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="SSH_PasswordРасширеннаяПодсказка" id="21"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаСсылки" id="30">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ссылки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа ссылки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаСсылкиРасширеннаяПодсказка" id="31"/>
+					<ChildItems>
+						<InputField name="URL_WG_Dashboard" id="7">
+							<DataPath>Объект.URL_WG_Dashboard</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>WG Dashboard</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Top</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>1</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<SpecialTextInputMode>URL</SpecialTextInputMode>
+							<ContextMenu name="URL_WG_DashboardКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="URL_WG_DashboardРасширеннаяПодсказка" id="9"/>
+						</InputField>
+						<InputField name="URL_API" id="10">
+							<DataPath>Объект.URL_API</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>API</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Top</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>1</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<SpecialTextInputMode>URL</SpecialTextInputMode>
+							<ContextMenu name="URL_APIКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="URL_APIРасширеннаяПодсказка" id="12"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<InputField name="Комментарий" id="25">
+			<DataPath>Объект.Комментарий</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<Width>1</Width>
+			<AutoMaxWidth>false</AutoMaxWidth>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="URLКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="URLРасширеннаяПодсказка" id="9"/>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="27"/>
 		</InputField>
 	</ChildItems>
 	<Attributes>

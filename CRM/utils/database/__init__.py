@@ -38,7 +38,7 @@ class Database(XenonClient):
     def token_auth(self, token: str) -> None:
         pass
 
-    def check_user_exist(self, telegram_id: int, full_name: str):
+    def get_or_create_user(self, telegram_id: int, full_name: str) -> UserInfo:
         import re
         full_name = re.sub("[^A-Za-zА-Яа-яЁё0-9\\s\\-.,$@*&?]", "", full_name)
         self.post("user", telegram_id=telegram_id, full_name=full_name)

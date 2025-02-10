@@ -19,18 +19,30 @@
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 		</InputField>
 		<InputField name="ФИО" id="7">
-			<DataPath>Объект.ФИО</DataPath>
+			<DataPath>1/0:350342a2-ca0d-4b79-ba93-fd0dbd937a55</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ФИОКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ФИОРасширеннаяПодсказка" id="9"/>
 		</InputField>
+		<InputField name="Субъект" id="19">
+			<DataPath>Объект.Субъект</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СубъектКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="СубъектРасширеннаяПодсказка" id="21"/>
+		</InputField>
 		<InputField name="КонтактныйТелефон" id="10">
-			<DataPath>Объект.КонтактныйТелефон</DataPath>
+			<DataPath>1/0:750eefbb-898d-4beb-b324-35ec802c461a</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="КонтактныйТелефонКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="КонтактныйТелефонРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Роль" id="16">
+			<DataPath>Объект.Роль</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="РольКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="РольРасширеннаяПодсказка" id="18"/>
 		</InputField>
 		<InputField name="СекретныйКлюч" id="13">
 			<DataPath>Объект.СекретныйКлюч</DataPath>

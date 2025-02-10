@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Catalog uuid="ec6c1905-061a-4ca0-86eb-09cefb5702e2">
+	<Catalog uuid="d31252e7-45a4-405e-99dd-f627a7f78a1e">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.СпособОплаты" category="Object">
-				<xr:TypeId>496c9837-3532-4a03-ad7a-f42245012cc7</xr:TypeId>
-				<xr:ValueId>f617780a-bfa4-4506-88b8-63179e2f1005</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.ФизическоеЛицо" category="Object">
+				<xr:TypeId>9b53f16e-6d77-4940-82c5-4b6b748073c0</xr:TypeId>
+				<xr:ValueId>aca9eafd-f289-427e-9229-43a017fe5ab9</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.СпособОплаты" category="Ref">
-				<xr:TypeId>d0700472-5920-4326-8fa6-526940a0831a</xr:TypeId>
-				<xr:ValueId>b0684db2-1eaa-4759-a0c7-adb2bb5d4029</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.ФизическоеЛицо" category="Ref">
+				<xr:TypeId>8097e488-9970-4842-8089-9cd1b442e8fc</xr:TypeId>
+				<xr:ValueId>027fbe62-99f9-4b14-abfb-3accecff3ab3</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.СпособОплаты" category="Selection">
-				<xr:TypeId>eae5358d-1499-4dbb-9314-39d069718734</xr:TypeId>
-				<xr:ValueId>583954b5-5185-478e-82aa-3477d487b816</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.ФизическоеЛицо" category="Selection">
+				<xr:TypeId>9e39fcd0-71b2-48c7-b8af-f460c70dc589</xr:TypeId>
+				<xr:ValueId>cc41eb02-d1a2-479c-8fe5-f5acd2cdb829</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.СпособОплаты" category="List">
-				<xr:TypeId>ca182af8-4007-4eb5-b5af-0034bfb543a4</xr:TypeId>
-				<xr:ValueId>33537cfe-100e-407c-94d6-b71606c7b5cb</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.ФизическоеЛицо" category="List">
+				<xr:TypeId>28e607bd-89e0-4f64-9cca-7db75d82eff8</xr:TypeId>
+				<xr:ValueId>0e5c29c6-794d-4cda-8cc5-f869bd1e1e14</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.СпособОплаты" category="Manager">
-				<xr:TypeId>ff17a3ff-7237-42b0-b505-ce12f183719c</xr:TypeId>
-				<xr:ValueId>73f6852f-21bf-4e78-aee0-a0d971d7df3c</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.ФизическоеЛицо" category="Manager">
+				<xr:TypeId>2b12ec6d-ddf4-47cd-a93d-5e5fc207d42c</xr:TypeId>
+				<xr:ValueId>f35fdb7a-e2fd-4432-bfbd-b43d7464a854</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>СпособОплаты</Name>
+			<Name>ФизическоеЛицо</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Способ оплаты</v8:content>
+					<v8:content>Физическое лицо</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -54,8 +54,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.СпособОплаты.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.СпособОплаты.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.ФизическоеЛицо.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.ФизическоеЛицо.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -86,6 +86,57 @@
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="b420a5b0-6863-44fd-af27-cd9682827e4e">
+				<Properties>
+					<Name>КонтактныйТелефон</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контактный телефон</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.НомерТелефона</v8:TypeSet>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧН=</v8:content>
+						</v8:item>
+					</Format>
+					<EditFormat>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧН=</v8:content>
+						</v8:item>
+					</EditFormat>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask>9 (999) 999-99-99</Mask>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

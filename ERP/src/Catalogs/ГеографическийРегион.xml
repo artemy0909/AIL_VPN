@@ -1,40 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Catalog uuid="ec6c1905-061a-4ca0-86eb-09cefb5702e2">
+	<Catalog uuid="1192987f-d044-409a-a507-bc4764204f07">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.СпособОплаты" category="Object">
-				<xr:TypeId>496c9837-3532-4a03-ad7a-f42245012cc7</xr:TypeId>
-				<xr:ValueId>f617780a-bfa4-4506-88b8-63179e2f1005</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.ГеографическийРегион" category="Object">
+				<xr:TypeId>adb9f037-a711-4e8d-9952-57746938d7b2</xr:TypeId>
+				<xr:ValueId>d95d0b38-9dee-44b1-97a1-04cc73460266</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.СпособОплаты" category="Ref">
-				<xr:TypeId>d0700472-5920-4326-8fa6-526940a0831a</xr:TypeId>
-				<xr:ValueId>b0684db2-1eaa-4759-a0c7-adb2bb5d4029</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.ГеографическийРегион" category="Ref">
+				<xr:TypeId>5c37bccb-9cc0-4b3b-a7f3-dd5451de3e9a</xr:TypeId>
+				<xr:ValueId>1808b1e8-96f1-4c4e-b1f2-b6c96dd28e12</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.СпособОплаты" category="Selection">
-				<xr:TypeId>eae5358d-1499-4dbb-9314-39d069718734</xr:TypeId>
-				<xr:ValueId>583954b5-5185-478e-82aa-3477d487b816</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.ГеографическийРегион" category="Selection">
+				<xr:TypeId>a74918e1-986e-40e7-9410-be5844cceae9</xr:TypeId>
+				<xr:ValueId>26a5ac11-8a9f-461e-8113-5ff09d47b790</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.СпособОплаты" category="List">
-				<xr:TypeId>ca182af8-4007-4eb5-b5af-0034bfb543a4</xr:TypeId>
-				<xr:ValueId>33537cfe-100e-407c-94d6-b71606c7b5cb</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.ГеографическийРегион" category="List">
+				<xr:TypeId>88124f85-c901-4b60-b73d-38060811656b</xr:TypeId>
+				<xr:ValueId>86c178b7-f453-4f85-ba34-7c8ffd5d9378</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.СпособОплаты" category="Manager">
-				<xr:TypeId>ff17a3ff-7237-42b0-b505-ce12f183719c</xr:TypeId>
-				<xr:ValueId>73f6852f-21bf-4e78-aee0-a0d971d7df3c</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.ГеографическийРегион" category="Manager">
+				<xr:TypeId>62ca29e3-ee25-4635-b44e-89ba5cae0ae4</xr:TypeId>
+				<xr:ValueId>c2235ad9-c495-4024-be80-b9b0d3e436b8</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>СпособОплаты</Name>
+			<Name>ГеографическийРегион</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Способ оплаты</v8:content>
+					<v8:content>Географический регион</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<Hierarchical>false</Hierarchical>
+			<Hierarchical>true</Hierarchical>
 			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
-			<LimitLevelCount>false</LimitLevelCount>
+			<LimitLevelCount>true</LimitLevelCount>
 			<LevelCount>2</LevelCount>
 			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
@@ -54,8 +54,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.СпособОплаты.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.СпособОплаты.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.ГеографическийРегион.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.ГеографическийРегион.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>

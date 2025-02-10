@@ -40,11 +40,6 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<Content>
 				<xr:Item>
-					<xr:Metadata>Catalog.ПлатежныйАгент</xr:Metadata>
-					<xr:Use>Use</xr:Use>
-					<xr:ConditionalSeparation/>
-				</xr:Item>
-				<xr:Item>
 					<xr:Metadata>Catalog.Тариф</xr:Metadata>
 					<xr:Use>Use</xr:Use>
 					<xr:ConditionalSeparation/>

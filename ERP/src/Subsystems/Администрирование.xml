@@ -24,6 +24,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СлотыСервера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГеографическийРегион</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

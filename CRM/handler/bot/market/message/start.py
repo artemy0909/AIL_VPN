@@ -17,7 +17,7 @@ start_router = Router()
 @start_router.message(CommandStart())
 async def command_start(message: Message, state: FSMContext) -> None:
 
-    database.check_user_exist(telegram_id=message.from_user.id, full_name=message.from_user.full_name)
+    user_info = database.get_or_create_user(telegram_id=message.from_user.id, full_name=message.from_user.full_name)
 
     price_list: PriceList = database.get_basic_price_list()
 

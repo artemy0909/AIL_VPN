@@ -3,7 +3,7 @@ from aiogram.enums import ContentType
 from aiogram.types import CallbackQuery, PreCheckoutQuery, Message, BufferedInputFile
 
 from loader import market_bot
-from model.views import PriceItem, Invoice, StartSubscriptionInfo, SubscriberInfo
+from model.views import PriceItem, Invoice, StartSubscriptionInfo
 from utils.config import Config
 from utils.database import database
 from utils.database.xenon import XenonConnectionError
@@ -14,11 +14,10 @@ payment_router = Router()
 @payment_router.callback_query(PriceItem.filter())
 async def tariff_choice(query: CallbackQuery, callback_data: PriceItem):
 
-    # subscriber_info: SubscriberInfo = database.get_subscriber_info(telegram_id=query.from_user.id) #todo
-    #
+    # subscriber_info: SubscriberInfo = database.get_subscriber_info(telegram_id=query.from_user.id)
+
     # if subscriber_info.is_subscribed and not subscriber_info.payment_method_id == Config.MAIN_PAYMENT_METHOD:
-    #     await query.answer("Вы уже подписаны  тариф", show_alert=True)
-    # # elif:
+    #     await query.answer("Вы уже подписаны на этот тариф", show_alert=True)
     #
     # else:
         if Config.PAYMENT_TOKEN.split(':')[1] == 'TEST':
@@ -29,15 +28,15 @@ async def tariff_choice(query: CallbackQuery, callback_data: PriceItem):
 
         price = types.LabeledPrice(label=callback_data.title, amount=callback_data.amount.value)
 
-        test = await query.message.answer_invoice(  # todo проверить получение id, чтобы удалять лишние счета
+        await query.message.answer_invoice(
             title="Подписка на VPN",
             description="Ваша безопасность и доступ к ресурсам всего мира.",
             provider_token=Config.PAYMENT_TOKEN,
             currency=callback_data.amount.currency,
-            # photo_url="https://i.pinimg.com/originals/e1/4c/a2/e14ca245e887f57fbb9acbdacf8d74ca.jpg",
-            # photo_width=416,
-            # photo_height=234,
-            # photo_size=416,
+            photo_url=Config.PAYMENT_IMAGE_URL,
+            photo_width=416,
+            photo_height=234,
+            photo_size=416,
             is_flexible=False,
             prices=[price],
             start_parameter="one-month-subscription",

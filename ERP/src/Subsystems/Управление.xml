@@ -24,6 +24,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПланыРегулярныхРасходов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ОбращениеВПоддержку</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияСообщений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ФизическоеЛицо</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЮридическоеЛицо</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

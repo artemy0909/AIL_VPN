@@ -26,7 +26,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.БалансВыплатКонтрагентам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.БалансОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПланВыставленияСчетовНаПродлениеПодписки</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПлатежныйАгент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">2c3991e9-aef2-4984-8a73-71f429899b5b</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СпособОплаты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатьяРасходов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.БалансСчетовПользователей</xr:Item>

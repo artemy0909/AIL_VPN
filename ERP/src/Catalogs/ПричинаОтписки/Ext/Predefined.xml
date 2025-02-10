@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="3a1370ea-95e7-47ac-b7a0-d554bcdab041">
+		<Name>Другое</Name>
+		<Code>000000006</Code>
+		<Description>Другое</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="5d117275-7862-4932-a1be-8093d6228a67">
 		<Name>МедленныйИнтернет</Name>
 		<Code>000000003</Code>
@@ -10,6 +16,18 @@
 		<Name>ОплатаПросрочена</Name>
 		<Code>000000001</Code>
 		<Description>Не удалось совершить оплату</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="228624c0-db7d-451a-bb3c-a21037e31796">
+		<Name>НеУдобноПользоваться</Name>
+		<Code>000000004</Code>
+		<Description>Не удобно</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a971249c-2325-4c9f-a68a-22d3ce44f2de">
+		<Name>ПодпишусьЗановоПозже</Name>
+		<Code>000000005</Code>
+		<Description>Подпишусь заново позже</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="5461fd82-1442-46c2-bc94-702caf560f0a">

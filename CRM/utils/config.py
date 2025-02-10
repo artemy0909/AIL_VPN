@@ -25,6 +25,7 @@ class _Config:
     XENON_API_URL = getenv("XENON_API_URL")
     XENON_LOGIN = getenv("XENON_LOGIN")
     XENON_PASSWORD = getenv("XENON_PASSWORD")
+    PAYMENT_IMAGE_URL = getenv("PAYMENT_IMAGE_URL")
 
 
 Config = _Config()

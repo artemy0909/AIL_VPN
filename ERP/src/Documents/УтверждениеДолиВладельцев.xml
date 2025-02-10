@@ -49,7 +49,7 @@
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/>
+			<DefaultObjectForm>Document.УтверждениеДолиВладельцев.Form.ФормаДокумента</DefaultObjectForm>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -78,6 +78,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
+			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="e2e7b444-d0ec-4210-9df4-8e33a73113ff">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.УтверждениеДолиВладельцев.Владельцы" category="TabularSection">
@@ -141,11 +142,11 @@
 					</Attribute>
 					<Attribute uuid="c6f294ec-6341-4d40-a468-5b79d4574f95">
 						<Properties>
-							<Name>Ставка</Name>
+							<Name>Доля</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Ставка</v8:content>
+									<v8:content>Доля от дохода</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>

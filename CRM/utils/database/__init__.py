@@ -1,4 +1,4 @@
-from model.views import PriceList, PriceItem, Invoice, InvoiceStatus, StartSubscriptionInfo
+from model.views import PriceList, PriceItem, Invoice, InvoiceStatus, StartSubscriptionInfo, UserInfo
 from .xenon import XenonClient
 from ..config import Config
 

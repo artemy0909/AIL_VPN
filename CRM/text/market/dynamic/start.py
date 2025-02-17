@@ -2,4 +2,4 @@ from text.market.static.start import HELLO_TEXT
 
 
 def hello_customer(*, name: str):
-    return f"<b>{name}, добро пожаловать!</b>\n\n" + HELLO_TEXT
+    return f"<b>{name}, добро пожаловать!</b>\n" + HELLO_TEXT

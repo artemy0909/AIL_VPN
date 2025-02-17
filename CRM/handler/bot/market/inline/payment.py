@@ -39,7 +39,8 @@ async def tariff_choice(query: CallbackQuery, callback_data: PriceItem):
             photo_size=416,
             is_flexible=False,
             prices=[price],
-            start_parameter="one-month-subscription",
+            # start_parameter="one-month-subscription",
+            protect_content=True,
             payload=invoice.pack())
 
 
@@ -50,7 +51,7 @@ async def pre_checkout_query(pre_checkout_q: PreCheckoutQuery):
         invoice_status = database.check_invoice(invoice=invoice)
     except XenonConnectionError as error:
         await market_bot.answer_pre_checkout_query(
-            pre_checkout_q.id, ok=False, error_message="Произошла ошибка при обработке платежа")
+            pre_checkout_q.id, ok=False, error_message="Произошла ошибка при обработке платежа, уже исправляем")
 
     else:
         await market_bot.answer_pre_checkout_query(
@@ -67,6 +68,7 @@ async def successful_payment(message: Message):
         # todo отработку ошибки
         # todo добавить отправку ошибки админу
     else:
+
         conf_bytes = subscription_info.vpn_conf.encode("utf-8")
 
         document = BufferedInputFile(

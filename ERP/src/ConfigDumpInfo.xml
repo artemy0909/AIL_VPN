@@ -46,17 +46,24 @@
 		<Metadata name="Catalog.ПрайсЛист.ObjectModule" id="4ff4e4eb-22ba-48d4-9fa3-6bc6f24c63e0.0" configVersion="f11335a15d24a347b68c50102513d73a00000000"/>
 		<Metadata name="Catalog.ПричинаОтписки" id="da67464c-f198-42fa-8098-bbef3caea952" configVersion="ad1529a4ec163f438e3223cba959628200000000"/>
 		<Metadata name="Catalog.ПричинаОтписки.Predefined" id="da67464c-f198-42fa-8098-bbef3caea952.1c" configVersion="224e027b1eef2947bd3a5e9c01e961da00000000"/>
-		<Metadata name="Catalog.Сервер" id="d103dbec-08be-4eea-8bf2-042d6bd93fd4" configVersion="218f93849e1bac4dbe1fab1a1286ad7d00000000">
-			<Metadata name="Catalog.Сервер.Attribute.Server_IP" id="251fdbac-5d52-4511-9786-e8fc45d63a00"/>
-			<Metadata name="Catalog.Сервер.Attribute.URL_API" id="29c919fd-da24-4410-aa7b-703f0f49eec2"/>
+		<Metadata name="Catalog.Сервер" id="d103dbec-08be-4eea-8bf2-042d6bd93fd4" configVersion="794ffba742a3ad45acb47de9c831cb1d00000000">
+			<Metadata name="Catalog.Сервер.Attribute.WGD_Логин" id="1bfac233-cf25-414f-a3df-1c9fd21eba8f"/>
+			<Metadata name="Catalog.Сервер.Attribute.IP_Адрес" id="251fdbac-5d52-4511-9786-e8fc45d63a00"/>
+			<Metadata name="Catalog.Сервер.Attribute.ПанельУправления_Пароль" id="279cce15-ce82-489d-94e0-48a0e8143919"/>
+			<Metadata name="Catalog.Сервер.Attribute.ПанельУправления_URL" id="3333843b-f627-48e1-9068-fabfb2722518"/>
 			<Metadata name="Catalog.Сервер.Attribute.Поставщик" id="36528b61-c440-4b7f-bf95-89faa0cbf9af"/>
 			<Metadata name="Catalog.Сервер.Attribute.РегионСервера" id="9498c163-3914-4c75-8d85-ed5d81edfc19"/>
-			<Metadata name="Catalog.Сервер.Attribute.SSH_Password" id="b0f22096-4db6-4eb8-a9c9-b325fe99b3e5"/>
-			<Metadata name="Catalog.Сервер.Attribute.SSH_Login" id="df953b2c-c034-4461-b105-bfa035d394a2"/>
-			<Metadata name="Catalog.Сервер.Attribute.URL_WG_Dashboard" id="e76b8619-31dc-44ee-86d2-e493d5a1d27c"/>
+			<Metadata name="Catalog.Сервер.Attribute.SSH_Пароль" id="b0f22096-4db6-4eb8-a9c9-b325fe99b3e5"/>
+			<Metadata name="Catalog.Сервер.Attribute.WGD_Пароль" id="b8872279-e68f-4ebe-a827-f2156bd75a3e"/>
+			<Metadata name="Catalog.Сервер.Attribute.WGD_API_Ключ" id="d5345aeb-104f-4a45-b393-ebc5275d86c0"/>
+			<Metadata name="Catalog.Сервер.Attribute.SSH_Логин" id="df953b2c-c034-4461-b105-bfa035d394a2"/>
+			<Metadata name="Catalog.Сервер.Attribute.ПанельУправления_Логин" id="e7447273-7207-4baf-9288-2b4d2e5d7aaa"/>
+			<Metadata name="Catalog.Сервер.Attribute.WGD_URL" id="e76b8619-31dc-44ee-86d2-e493d5a1d27c"/>
 		</Metadata>
-		<Metadata name="Catalog.Сервер.Form.ФормаЭлемента" id="14c88ad4-e959-4491-94fd-d2deeb0af666" configVersion="e6fb61c185074241b1a71f524ccb046900000000"/>
-		<Metadata name="Catalog.Сервер.Form.ФормаЭлемента.Form" id="14c88ad4-e959-4491-94fd-d2deeb0af666.0" configVersion="c59c96a9e996d74ea147c235eda98bab00000000"/>
+		<Metadata name="Catalog.Сервер.Form.ФормаСписка" id="4baadf7a-97ba-4100-8b92-ea5febc72fc3" configVersion="09bda6dddade4a4f8a2da8e22372608f00000000"/>
+		<Metadata name="Catalog.Сервер.Form.ФормаСписка.Form" id="4baadf7a-97ba-4100-8b92-ea5febc72fc3.0" configVersion="511dc67c6da53f4e8f377e4effd02a4200000000"/>
+		<Metadata name="Catalog.Сервер.Form.ФормаЭлемента" id="14c88ad4-e959-4491-94fd-d2deeb0af666" configVersion="189e833c9f41df4a864e7e1598908d7300000000"/>
+		<Metadata name="Catalog.Сервер.Form.ФормаЭлемента.Form" id="14c88ad4-e959-4491-94fd-d2deeb0af666.0" configVersion="2ca63f2430027344af89adccb29642ca00000000"/>
 		<Metadata name="Catalog.СпособОплаты" id="ec6c1905-061a-4ca0-86eb-09cefb5702e2" configVersion="3bd6d8a217ada2459a6761b9557bdb8500000000"/>
 		<Metadata name="Catalog.СпособОплаты.Predefined" id="ec6c1905-061a-4ca0-86eb-09cefb5702e2.1c" configVersion="ce656f9dc658d14c8d1ce1924e5204bf00000000"/>
 		<Metadata name="Catalog.СтатьяРасходов" id="9bc47a2d-638e-49d7-b0d6-1442c46f9b15" configVersion="adb1145b2af4c7428600b4e85dd37ce700000000"/>
@@ -108,7 +115,7 @@
 		<Metadata name="CommonPicture.Рукопожатие.Picture" id="3c628f00-ad23-494d-a5b2-bd9598a9fa69.0" configVersion="ebc1862026a40b4980e50ff9a0dfa61600000000"/>
 		<Metadata name="CommonPicture.Циркуль" id="bbf3ed35-c78a-4c10-b5ed-fcde33fda33a" configVersion="264af569a21651488d1affef991f96a200000000"/>
 		<Metadata name="CommonPicture.Циркуль.Picture" id="bbf3ed35-c78a-4c10-b5ed-fcde33fda33a.0" configVersion="bed33017ad2dcb448a562d129bda1c3700000000"/>
-		<Metadata name="Configuration.ZaimeyVPN" id="8e53dbb9-7985-473e-860c-9f74b0f84031" configVersion="a7bf23948e4a684496a035bcab64350000000000"/>
+		<Metadata name="Configuration.ZaimeyVPN" id="8e53dbb9-7985-473e-860c-9f74b0f84031" configVersion="9f4b131eff5d3d41af8aa1c8c6851ad400000000"/>
 		<Metadata name="Configuration.ZaimeyVPN.ClientApplicationInterface" id="c4f0aafa-ca25-4ece-a246-3757595ff925.b" configVersion="3ce5b825f102d74e81fe1e95c502288c00000000"/>
 		<Metadata name="Configuration.ZaimeyVPN.HomePageWorkArea" id="c4f0aafa-ca25-4ece-a246-3757595ff925.8" configVersion="aadd9ecef3f3074e9ec76e071912d46800000000"/>
 		<Metadata name="Configuration.ZaimeyVPN.MainSectionCommandInterface" id="c4f0aafa-ca25-4ece-a246-3757595ff925.9" configVersion="9b2cf64a6af7c341916e6d982d00dd6900000000"/>

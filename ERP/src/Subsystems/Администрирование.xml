@@ -21,10 +21,11 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.КрайнийСрокОплатыПодпискиВДнях</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.НаименованиеОрганизации</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СлотыСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СлотыКонфигураций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГеографическийРегион</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КонфигурацииСервера</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

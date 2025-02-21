@@ -11,7 +11,7 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="InformationRegister.СлотыСервера.StandardCommand.OpenList">
+		<Command name="InformationRegister.СлотыКонфигураций.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -26,7 +26,7 @@
 			<CommandGroup>CommandGroup.УправлениеСерверами</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="InformationRegister.СлотыСервера.StandardCommand.OpenList">
+		<Command name="InformationRegister.СлотыКонфигураций.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.УправлениеСерверами</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
@@ -38,7 +38,7 @@
 		<Command name="Catalog.Сервер.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.УправлениеСерверами</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.СлотыСервера.StandardCommand.OpenList">
+		<Command name="InformationRegister.СлотыКонфигураций.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.УправлениеСерверами</CommandGroup>
 		</Command>
 	</CommandsOrder>

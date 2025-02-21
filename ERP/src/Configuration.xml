@@ -267,13 +267,15 @@
 			<CommonPicture>Циркуль</CommonPicture>
 			<Role>Администратор</Role>
 			<Role>Владелец</Role>
-			<CommonModule>КлиентыНаСервере</CommonModule>
+			<CommonModule>HTTP_Соединение</CommonModule>
+			<CommonModule>WGD_Соединение</CommonModule>
+			<CommonModule>Клиенты</CommonModule>
 			<CommonModule>КсенонОтвет</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
-			<CommonModule>ОплатаПодпискиНаСервере</CommonModule>
-			<CommonModule>ПромокодыНаСервере</CommonModule>
-			<CommonModule>СессииТелеграмНаСервере</CommonModule>
-			<CommonModule>ПартнерыНаСервере</CommonModule>
+			<CommonModule>ОплатаПодпискиВызовСервера</CommonModule>
+			<CommonModule>ПартнерыВызовСервера</CommonModule>
+			<CommonModule>Промокоды</CommonModule>
+			<CommonModule>СессииТелеграм</CommonModule>
 			<CommonAttribute>Комментарий</CommonAttribute>
 			<HTTPService>XenonAPI</HTTPService>
 			<DefinedType>ДенежныеСредства</DefinedType>
@@ -336,11 +338,12 @@
 			<InformationRegister>ПланВыставленияСчетовНаПродлениеПодписки</InformationRegister>
 			<InformationRegister>ПодпискиПериодДействия</InformationRegister>
 			<InformationRegister>ПромокодыПериодДействия</InformationRegister>
-			<InformationRegister>СлотыСервера</InformationRegister>
+			<InformationRegister>СлотыКонфигураций</InformationRegister>
 			<InformationRegister>СтимулыПартнеров</InformationRegister>
 			<InformationRegister>ТекущиеСессииТелеграм</InformationRegister>
 			<InformationRegister>ФайлыИзОбращений</InformationRegister>
 			<InformationRegister>ИсторияСообщений</InformationRegister>
+			<InformationRegister>КонфигурацииСервера</InformationRegister>
 			<AccumulationRegister>БалансВыплатКонтрагентам</AccumulationRegister>
 			<AccumulationRegister>БалансОрганизации</AccumulationRegister>
 			<AccumulationRegister>БалансСчетовПользователей</AccumulationRegister>

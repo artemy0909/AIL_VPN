@@ -1569,7 +1569,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СлотыСервера</name>
+		<name>InformationRegister.СлотыКонфигураций</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

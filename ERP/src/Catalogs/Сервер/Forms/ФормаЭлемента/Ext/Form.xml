@@ -57,6 +57,7 @@
 		</InputField>
 		<InputField name="IP_Адрес" id="63">
 			<DataPath>Объект.IP_Адрес</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<SpecialTextInputMode>DigitsAndPunctuation</SpecialTextInputMode>
 			<ContextMenu name="IP_АдресКонтекстноеМеню" id="64"/>
@@ -78,49 +79,6 @@
 			<Width>1</Width>
 			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="29"/>
 			<ChildItems>
-				<Page name="ГруппаSSH" id="32">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>SSH</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа SSH</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Group>AlwaysHorizontal</Group>
-					<ExtendedTooltip name="ГруппаSSHРасширеннаяПодсказка" id="33"/>
-					<ChildItems>
-						<InputField name="SSH_Логин" id="66">
-							<DataPath>Объект.SSH_Логин</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Логин</v8:content>
-								</v8:item>
-							</Title>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<ContextMenu name="SSH_ЛогинКонтекстноеМеню" id="67"/>
-							<ExtendedTooltip name="SSH_ЛогинРасширеннаяПодсказка" id="68"/>
-						</InputField>
-						<InputField name="SSH_Пароль" id="69">
-							<DataPath>Объект.SSH_Пароль</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Пароль</v8:content>
-								</v8:item>
-							</Title>
-							<OpenButton>true</OpenButton>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<ContextMenu name="SSH_ПарольКонтекстноеМеню" id="70"/>
-							<ExtendedTooltip name="SSH_ПарольРасширеннаяПодсказка" id="71"/>
-						</InputField>
-					</ChildItems>
-				</Page>
 				<Page name="ГруппаDashboard" id="30">
 					<Title>
 						<v8:item>
@@ -136,24 +94,68 @@
 					</ToolTip>
 					<ExtendedTooltip name="ГруппаDashboardРасширеннаяПодсказка" id="31"/>
 					<ChildItems>
-						<InputField name="WGD_URL" id="72">
-							<DataPath>Объект.WGD_URL</DataPath>
+						<UsualGroup name="ГруппаДоменПорт" id="87">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>URL</v8:content>
+									<v8:content>Группа домен порт</v8:content>
 								</v8:item>
 							</Title>
-							<OpenButton>true</OpenButton>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<ContextMenu name="WGD_URLКонтекстноеМеню" id="73"/>
-							<ExtendedTooltip name="WGD_URLРасширеннаяПодсказка" id="74"/>
-							<Events>
-								<Event name="Opening">WGD_URLОткрытие</Event>
-							</Events>
-						</InputField>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа домен порт</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаДоменПортРасширеннаяПодсказка" id="88"/>
+							<ChildItems>
+								<CheckBoxField name="WGD_TLS" id="89">
+									<DataPath>Объект.WGD_TLS</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>TLS</v8:content>
+										</v8:item>
+									</Title>
+									<CheckBoxType>Switcher</CheckBoxType>
+									<ContextMenu name="WGD_TLSКонтекстноеМеню" id="90"/>
+									<ExtendedTooltip name="WGD_TLSРасширеннаяПодсказка" id="91"/>
+								</CheckBoxField>
+								<InputField name="WGD_Домен" id="72">
+									<DataPath>Объект.WGD_Домен</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Доменное имя</v8:content>
+										</v8:item>
+									</Title>
+									<ChoiceButton>false</ChoiceButton>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="WGD_ДоменКонтекстноеМеню" id="73"/>
+									<ExtendedTooltip name="WGD_ДоменРасширеннаяПодсказка" id="74"/>
+									<Events>
+										<Event name="Opening">WGD_URLОткрытие</Event>
+									</Events>
+								</InputField>
+								<InputField name="WGD_Порт" id="84">
+									<DataPath>Объект.WGD_Порт</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Порт</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="WGD_ПортКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="WGD_ПортРасширеннаяПодсказка" id="86"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
 						<InputField name="WGD_API_Ключ" id="81">
 							<DataPath>Объект.WGD_API_Ключ</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
 							<OpenButton>true</OpenButton>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="WGD_API_КлючКонтекстноеМеню" id="82"/>
@@ -205,6 +207,49 @@
 						</UsualGroup>
 					</ChildItems>
 				</Page>
+				<Page name="ГруппаSSH" id="32">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>SSH</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа SSH</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ГруппаSSHРасширеннаяПодсказка" id="33"/>
+					<ChildItems>
+						<InputField name="SSH_Логин" id="66">
+							<DataPath>Объект.SSH_Логин</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Логин</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="SSH_ЛогинКонтекстноеМеню" id="67"/>
+							<ExtendedTooltip name="SSH_ЛогинРасширеннаяПодсказка" id="68"/>
+						</InputField>
+						<InputField name="SSH_Пароль" id="69">
+							<DataPath>Объект.SSH_Пароль</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Пароль</v8:content>
+								</v8:item>
+							</Title>
+							<OpenButton>true</OpenButton>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="SSH_ПарольКонтекстноеМеню" id="70"/>
+							<ExtendedTooltip name="SSH_ПарольРасширеннаяПодсказка" id="71"/>
+						</InputField>
+					</ChildItems>
+				</Page>
 				<Page name="ГруппаПанельУправления" id="50">
 					<Title>
 						<v8:item>
@@ -228,7 +273,7 @@
 									<v8:content>URL</v8:content>
 								</v8:item>
 							</Title>
-							<OpenButton>true</OpenButton>
+							<AutoMaxWidth>false</AutoMaxWidth>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<SpecialTextInputMode>URL</SpecialTextInputMode>
 							<ContextMenu name="ПанельУправления_URLКонтекстноеМеню" id="53"/>
@@ -303,6 +348,15 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="Реквизит1" id="2">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 </Form>

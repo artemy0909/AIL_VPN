@@ -227,4 +227,4 @@ certbot certificates
 [WGDashboard] WGDashboard w/ Gunicorn started successfully
 ```
 
-🚀 \*\*Попробуйте открыть WGDashboard по HTTPS и проверьте его работу!&#x20;
+🚀 **Попробуйте открыть WGDashboard по HTTPS и проверьте его работу!**

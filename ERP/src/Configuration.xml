@@ -345,7 +345,7 @@
 			<InformationRegister>СлотыКонфигураций</InformationRegister>
 			<InformationRegister>СтатистикаПотребленияТрафика</InformationRegister>
 			<InformationRegister>СтимулыПартнеров</InformationRegister>
-			<InformationRegister>ТекущиеСессииТелеграм</InformationRegister>
+			<InformationRegister>СессииТелеграм</InformationRegister>
 			<InformationRegister>ФайлыИзОбращений</InformationRegister>
 			<AccumulationRegister>БалансВыплатКонтрагентам</AccumulationRegister>
 			<AccumulationRegister>БалансОрганизации</AccumulationRegister>

@@ -74,7 +74,6 @@
 		<Metadata name="Catalog.СтатьяРасходов" id="9bc47a2d-638e-49d7-b0d6-1442c46f9b15" configVersion="ec661cdf958b34469dbf4b8e1c875b2800000000"/>
 		<Metadata name="Catalog.СтатьяРасходов.Form.ФормаЭлемента" id="df58c778-2acd-4016-a944-2d594ab30dd1" configVersion="1ed5924042c5f042acbd2e135d9e417900000000"/>
 		<Metadata name="Catalog.СтатьяРасходов.Form.ФормаЭлемента.Form" id="df58c778-2acd-4016-a944-2d594ab30dd1.0" configVersion="7624b9c24c901c4b8720ea16d78e0ff400000000"/>
-		<Metadata name="Catalog.СтатьяРасходов.Form.ФормаЭлемента.Help" id="df58c778-2acd-4016-a944-2d594ab30dd1.1" configVersion="3087387a86250848954734a663e24a3f00000000"/>
 		<Metadata name="Catalog.Тариф" id="38ef1778-9f48-48dd-a9fb-e8c2da37e01e" configVersion="3513568885bd7b4c8c68327f9b20abf900000000">
 			<Metadata name="Catalog.Тариф.Attribute.НаименованиеДляБота" id="207f1b9a-0b5f-4297-92ed-56da69571e83"/>
 			<Metadata name="Catalog.Тариф.Attribute.ПериодПодписки" id="bcfd6875-13c4-47ba-95ca-071bef8971ac"/>
@@ -99,8 +98,8 @@
 		<Metadata name="CommonAttribute.Комментарий" id="ad72ebb7-b78c-412d-99e4-8733bf054219" configVersion="28c18ed4047377489203387158ae5f0600000000"/>
 		<Metadata name="CommonModule.HTTP_Соединение" id="202c08e5-e5ff-4feb-96a3-ea402c605cae" configVersion="1d68d7c81fc9404cbb0e96fbfcd43c4e00000000"/>
 		<Metadata name="CommonModule.HTTP_Соединение.Module" id="202c08e5-e5ff-4feb-96a3-ea402c605cae.0" configVersion="47d4716fd32c5e43b2efaa7b9df9dd0a00000000"/>
-		<Metadata name="CommonModule.WGD_Соединение" id="05f2b28c-b921-4239-b098-a8e6b9b10e39" configVersion="c602ee83083532438f7a586cc4b4253b00000000"/>
-		<Metadata name="CommonModule.WGD_Соединение.Module" id="05f2b28c-b921-4239-b098-a8e6b9b10e39.0" configVersion="d29b2aa5d2fdce4db1e3859ad4e804e100000000"/>
+		<Metadata name="CommonModule.WGD_Соединение" id="05f2b28c-b921-4239-b098-a8e6b9b10e39" configVersion="9c4ee983bf5ec84ca4bc0040ec9d4d3b00000000"/>
+		<Metadata name="CommonModule.WGD_Соединение.Module" id="05f2b28c-b921-4239-b098-a8e6b9b10e39.0" configVersion="8234f69f769c734d92571c2e13f1c7ea00000000"/>
 		<Metadata name="CommonModule.Контрагенты" id="a5854f55-95ab-4661-ad2e-99403f2fcddc" configVersion="e3b49716a7e06545b8ec3c7780b8e45600000000"/>
 		<Metadata name="CommonModule.Контрагенты.Module" id="a5854f55-95ab-4661-ad2e-99403f2fcddc.0" configVersion="ef9602e67315ef4594ed27e92cf9da2d00000000"/>
 		<Metadata name="CommonModule.КсенонОтвет" id="5e870e02-ef93-488b-bcf6-b64a17772ed0" configVersion="f188a962eb3d28439d01a84733e9e33d00000000"/>
@@ -111,8 +110,8 @@
 		<Metadata name="CommonModule.ОплатаПодписки_ВызовСервера.Module" id="8f4dfb14-2271-47b5-a602-38bd97fc53df.0" configVersion="eec8b1b43ae37d4b980ef73860f8905800000000"/>
 		<Metadata name="CommonModule.Промокоды" id="0cda5274-83c9-409a-a7c0-79f4b7f15784" configVersion="874fec7624e0724ba104eb2e2a0697ea00000000"/>
 		<Metadata name="CommonModule.Промокоды.Module" id="0cda5274-83c9-409a-a7c0-79f4b7f15784.0" configVersion="ddfd0d9537f81c478e424372ceb588c200000000"/>
-		<Metadata name="CommonModule.СерверыVPN_ВызовСервера" id="0579f1cc-8d8b-43ed-85c4-4b35159bf3bc" configVersion="548c4b66978edf46a843b8f30c32b73100000000"/>
-		<Metadata name="CommonModule.СерверыVPN_ВызовСервера.Module" id="0579f1cc-8d8b-43ed-85c4-4b35159bf3bc.0" configVersion="493c43eab561cb4e86185a298b06188e00000000"/>
+		<Metadata name="CommonModule.СерверыVPN_ВызовСервера" id="0579f1cc-8d8b-43ed-85c4-4b35159bf3bc" configVersion="e4a5240fb7d72f49a1cd38ffe7b3575e00000000"/>
+		<Metadata name="CommonModule.СерверыVPN_ВызовСервера.Module" id="0579f1cc-8d8b-43ed-85c4-4b35159bf3bc.0" configVersion="f891ea4be392f848a4c79c9e45b795c000000000"/>
 		<Metadata name="CommonModule.СессииТелеграм" id="89430be8-03cc-48d5-90b9-bcc2b23877af" configVersion="6b42f8b9dfc51c4989b4486301bfee9200000000"/>
 		<Metadata name="CommonModule.СессииТелеграм.Module" id="89430be8-03cc-48d5-90b9-bcc2b23877af.0" configVersion="3216e41674b35f469aa2f876a2fd884700000000"/>
 		<Metadata name="CommonPicture.Бирка" id="34b34263-c728-4f1e-a1e3-80d126b911cf" configVersion="54a18c735a1a6c4fab303dbeb86c229300000000"/>

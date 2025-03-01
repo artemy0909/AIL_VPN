@@ -338,7 +338,6 @@
 			<InformationRegister>ИсторияИзмененияТарифаПодписки</InformationRegister>
 			<InformationRegister>ИсторияСообщений</InformationRegister>
 			<InformationRegister>КонтрактыПартнерскихКомпаний</InformationRegister>
-			<InformationRegister>КонфигурацииСервера</InformationRegister>
 			<InformationRegister>ПланВыставленияСчетовНаПродлениеПодписки</InformationRegister>
 			<InformationRegister>ПодпискиПериодДействия</InformationRegister>
 			<InformationRegister>ПромокодыПериодДействия</InformationRegister>

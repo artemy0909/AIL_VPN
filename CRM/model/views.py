@@ -70,7 +70,8 @@ class InvoiceStatus(CallbackCache, prefix='invs'):
 class StartSubscriptionInfo(CallbackCache, prefix='ssif'):
     next_payment_datetime: datetime
     period_text: str
-    vpn_conf: str
+    conf_name: str
+    conf_file: str
 
 
 class UserInfo(CallbackCache, prefix='usif'):

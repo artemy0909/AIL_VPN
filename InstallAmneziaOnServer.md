@@ -169,62 +169,21 @@ sudo echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf && \
 sudo sysctl -p /etc/sysctl.conf
 ```
 
-Запускаем:
-
-```sh
-./wgd.sh install
-```
-
----
-
-## 🔒 Настройка SSL/TLS
-
-Обновите список пакетов:
-
-```sh
-sudo apt update
-```
-
-Установите Certbot:
-
-```sh
-sudo apt install certbot
-```
-
-Создайте сертификаты:
-
-```sh
-sudo certbot certonly --config ./certbot.ini -d <домен>
-```
-
-Откройте файл **ssl-tls.ini** в любимом редакторе, укажите абсолютный путь к вашему сертификату и закрытому ключу, например:
-
-```ini
-[SSL/TLS]
-certificate_path = /etc/letsencrypt/live/<домен>/fullchain.pem
-private_key_path = /etc/letsencrypt/live/<домен>/privkey.pem
-```
-
-Если вы создавали сертификат с помощью Certbot, вы можете найти путь с помощью команды:
-
-```sh
-certbot certificates
-```
-
 Запустите WGDashboard:
 
 ```sh
 ./wgd.sh start
 ```
 
-Ожидаемый вывод:
+Настройка автозапуска:
 
+```sh
+crontab -e
 ```
-[Gunicorn][HTTPS] Found certificate and private key file
-[Gunicorn][HTTPS] Certificate: /etc/letsencrypt/live/<домен>/fullchain.pem
-[Gunicorn][HTTPS] Private Key: /etc/letsencrypt/live/<домен>/privkey.pem
-...
-[WGDashboard] WGDashboard w/ Gunicorn started successfully
+
+Добавь в файл:
+```
+@reboot cd /root/wgd/WGDashboard/src/ && ./wgd.sh start
 ```
 
 🚀 **Попробуйте открыть WGDashboard по HTTPS и проверьте его работу!**

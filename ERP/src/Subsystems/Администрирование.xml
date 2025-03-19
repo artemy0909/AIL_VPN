@@ -25,7 +25,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГеографическийРегион</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КонфигурацииСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">3f2e4b0b-2347-46f3-9c46-78d7d7dc2da9</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СтатистикаПотребленияТрафика</xr:Item>
 			</Content>
 		</Properties>

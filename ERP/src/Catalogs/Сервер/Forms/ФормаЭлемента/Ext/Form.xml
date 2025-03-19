@@ -682,7 +682,7 @@
 	<CommandInterface>
 		<NavigationPanel>
 			<Item>
-				<Command>InformationRegister.КонфигурацииСервера.StandardCommand.OpenByValue.Сервер</Command>
+				<Command>3:3f2e4b0b-2347-46f3-9c46-78d7d7dc2da9</Command>
 				<Type>Auto</Type>
 				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
 				<DefaultVisible>false</DefaultVisible>

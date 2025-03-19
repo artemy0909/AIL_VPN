@@ -269,7 +269,7 @@
 			<Role>Владелец</Role>
 			<CommonModule>HTTP_Соединение</CommonModule>
 			<CommonModule>WGD_Соединение</CommonModule>
-			<CommonModule>Контрагенты</CommonModule>
+			<CommonModule>Счета_НаСервере</CommonModule>
 			<CommonModule>КсенонОтвет</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ОплатаПодписки_ВызовСервера</CommonModule>
@@ -338,7 +338,6 @@
 			<InformationRegister>ИсторияИзмененияТарифаПодписки</InformationRegister>
 			<InformationRegister>ИсторияСообщений</InformationRegister>
 			<InformationRegister>КонтрактыПартнерскихКомпаний</InformationRegister>
-			<InformationRegister>КонфигурацииСервера</InformationRegister>
 			<InformationRegister>ПланВыставленияСчетовНаПродлениеПодписки</InformationRegister>
 			<InformationRegister>ПодпискиПериодДействия</InformationRegister>
 			<InformationRegister>ПромокодыПериодДействия</InformationRegister>
@@ -347,6 +346,7 @@
 			<InformationRegister>СтимулыПартнеров</InformationRegister>
 			<InformationRegister>СессииТелеграм</InformationRegister>
 			<InformationRegister>ФайлыИзОбращений</InformationRegister>
+			<InformationRegister>ЗапланированныеСкидки</InformationRegister>
 			<AccumulationRegister>БалансВыплатКонтрагентам</AccumulationRegister>
 			<AccumulationRegister>БалансОрганизации</AccumulationRegister>
 			<AccumulationRegister>БалансСчетовПользователей</AccumulationRegister>

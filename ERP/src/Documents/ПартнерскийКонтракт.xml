@@ -123,16 +123,16 @@
 			</Attribute>
 			<Attribute uuid="f75e6fae-de3b-4378-a45d-8b54e7dda22e">
 				<Properties>
-					<Name>ГоловнойПартнер</Name>
+					<Name>ГоловнойКонтракт</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Головной партнер</v8:content>
+							<v8:content>Головной контракт</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Контрагент</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПартнерскийКонтракт</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

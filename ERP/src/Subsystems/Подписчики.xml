@@ -33,6 +33,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияИзмененияТарифаПодписки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПромокодыПериодДействия</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЗапланированныеСкидки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПодарочныеПромокоды</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

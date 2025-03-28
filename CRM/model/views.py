@@ -67,14 +67,27 @@ class InvoiceStatus(CallbackCache, prefix='invs'):
     error_message: str | None
 
 
+class ConfFile(CallbackCache):
+    name: str
+    data: str
+
+
 class StartSubscriptionInfo(CallbackCache, prefix='ssif'):
     next_payment_datetime: datetime
     period_text: str
-    conf_name: str
-    conf_file: str
+    conf: ConfFile
 
 
 class UserInfo(CallbackCache, prefix='usif'):
     counterparty: DatabaseMetaObject
     created: bool
     # subscription: DatabaseMetaObject
+
+
+class StartArguments(CallbackCache, prefix='strt'):
+    promo_code: str
+
+
+class StartAnswer(CallbackCache, prefix='stan'):
+    must_pay: bool
+    conf: ConfFile | None = None

@@ -18,6 +18,12 @@
 				<Description>Базовый на месяц</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
+			<Item id="3ce65d5f-a52a-4854-bb08-4fbfa9697884">
+				<Name>Бесплатный</Name>
+				<Code>000000004</Code>
+				<Description>Бесплатный</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
 		</ChildItems>
 	</Item>
 </PredefinedData>

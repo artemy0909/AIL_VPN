@@ -1,4 +1,4 @@
-from model.views import PriceList, PriceItem, Invoice, InvoiceStatus, StartSubscriptionInfo, UserInfo
+from model.views import PriceList, PriceItem, Invoice, InvoiceStatus, StartSubscriptionInfo, UserInfo, StartArguments
 from .xenon import XenonClient
 from ..config import Config
 
@@ -42,6 +42,9 @@ class Database(XenonClient):
         import re
         full_name = re.sub("[^A-Za-zА-Яа-яЁё0-9\\s\\-.,$@*&?]", "", full_name)
         self.post("user", telegram_id=telegram_id, full_name=full_name)
+
+    def check_start_info(self, start_args: StartArguments) -> StartAnswer:
+        self.post("check_start_info", start_args=start_args)
 
 
 database = Database(api_url=Config.XENON_API_URL, login=Config.XENON_LOGIN, password=Config.XENON_PASSWORD)

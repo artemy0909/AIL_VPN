@@ -69,11 +69,11 @@ async def successful_payment(message: Message):
         # todo добавить отправку ошибки админу
     else:
 
-        conf_bytes = subscription_info.conf_file.encode("utf-8")
+        conf_bytes = subscription_info.conf.data.encode("utf-8")
 
         document = BufferedInputFile(
             file=conf_bytes,
-            filename=subscription_info.conf_name
+            filename=subscription_info.conf.name
         )
 
         await message.answer_document(

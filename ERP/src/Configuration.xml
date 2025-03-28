@@ -300,6 +300,7 @@
 			<CommandGroup>УправлениеСерверами</CommandGroup>
 			<Constant>НаименованиеОрганизации</Constant>
 			<Constant>КрайнийСрокОплатыПодпискиВДнях</Constant>
+			<Constant>ТегТелеграмБота</Constant>
 			<Catalog>ГеографическийРегион</Catalog>
 			<Catalog>Контрагент</Catalog>
 			<Catalog>ПланПодписки</Catalog>
@@ -320,6 +321,7 @@
 			<Document>ПартнерскаяКомпания</Document>
 			<Document>ПартнерскийКонтракт</Document>
 			<Document>ПланыРегулярныхРасходов</Document>
+			<Document>ПодарочныеПромокоды</Document>
 			<Document>Подписка</Document>
 			<Document>СчетНаОплатуПодписки</Document>
 			<Document>УтверждениеДолиВладельцев</Document>
@@ -332,6 +334,7 @@
 			<Enum>СтатусПодписки</Enum>
 			<Enum>СтатусСлотаКонфигурации</Enum>
 			<DataProcessor>СформироватьПодписку</DataProcessor>
+			<InformationRegister>ЗапланированныеСкидки</InformationRegister>
 			<InformationRegister>ИспользованияПромокода</InformationRegister>
 			<InformationRegister>ИсторияИзмененийОсновныхПрайсЛистов</InformationRegister>
 			<InformationRegister>ИсторияИзмененияСтатусаПодписки</InformationRegister>
@@ -341,12 +344,11 @@
 			<InformationRegister>ПланВыставленияСчетовНаПродлениеПодписки</InformationRegister>
 			<InformationRegister>ПодпискиПериодДействия</InformationRegister>
 			<InformationRegister>ПромокодыПериодДействия</InformationRegister>
+			<InformationRegister>СессииТелеграм</InformationRegister>
 			<InformationRegister>СлотыКонфигураций</InformationRegister>
 			<InformationRegister>СтатистикаПотребленияТрафика</InformationRegister>
 			<InformationRegister>СтимулыПартнеров</InformationRegister>
-			<InformationRegister>СессииТелеграм</InformationRegister>
 			<InformationRegister>ФайлыИзОбращений</InformationRegister>
-			<InformationRegister>ЗапланированныеСкидки</InformationRegister>
 			<AccumulationRegister>БалансВыплатКонтрагентам</AccumulationRegister>
 			<AccumulationRegister>БалансОрганизации</AccumulationRegister>
 			<AccumulationRegister>БалансСчетовПользователей</AccumulationRegister>

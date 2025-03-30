@@ -73,7 +73,7 @@ class ConfFile(CallbackCache):
 
 
 class StartSubscriptionInfo(CallbackCache, prefix='ssif'):
-    next_payment_datetime: datetime
+    next_payment_datetime: datetime | None = None
     period_text: str
     conf: ConfFile
 
@@ -88,6 +88,5 @@ class StartArguments(CallbackCache, prefix='strt'):
     promo_code: str
 
 
-class StartAnswer(CallbackCache, prefix='stan'):
-    must_pay: bool
-    conf: ConfFile | None = None
+class StartAnswer(CallbackCache):
+    content: StartSubscriptionInfo | PriceList

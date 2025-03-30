@@ -8,12 +8,6 @@
 			<Button name="КопироватьКакСсылки" id="41">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.КопироватьКакСсылки</CommandName>
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Копировать</v8:content>
-					</v8:item>
-				</Title>
 				<ExtendedTooltip name="КопироватьКакСсылкиРасширеннаяПодсказка" id="42"/>
 			</Button>
 		</ChildItems>
@@ -51,6 +45,18 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
+		<InputField name="Наименование" id="48">
+			<DataPath>1/0:0809d63f-8ebc-4db6-bec9-3d0bd6c5f430</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="49"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="50"/>
+		</InputField>
+		<InputField name="Комментарий" id="51">
+			<DataPath>Объект.Комментарий</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="52"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="53"/>
+		</InputField>
 		<UsualGroup name="ГруппаТаблицаПромокоды" id="37">
 			<Title>
 				<v8:item>
@@ -82,6 +88,7 @@
 						</v8:item>
 					</ToolTip>
 					<ShowTitle>false</ShowTitle>
+					<BackColor>style:ЦветБлокаОперирования</BackColor>
 					<ExtendedTooltip name="ГруппаПанельТаблицыРасширеннаяПодсказка" id="40"/>
 					<ChildItems>
 						<Button name="ГенерироватьПромокоды" id="32">
@@ -247,7 +254,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Копировать как ссылки</v8:content>
+					<v8:content>Копировать</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -256,6 +263,7 @@
 					<v8:content>Копировать как ссылки</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>КопироватьКакСсылки</Action>
 		</Command>
 	</Commands>
 </Form>

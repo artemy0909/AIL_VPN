@@ -217,35 +217,6 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
-			<URLTemplate uuid="72ea962c-5664-4e3e-a202-6a5127d941c3">
-				<Properties>
-					<Name>check_start_info</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Check start info</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Template>/check_start_info</Template>
-				</Properties>
-				<ChildObjects>
-					<Method uuid="9c8be2ea-5cb5-4c6a-9aff-803fab4bc824">
-						<Properties>
-							<Name>POST</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>POST</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<HTTPMethod>POST</HTTPMethod>
-							<Handler>check_start_infoPOST</Handler>
-						</Properties>
-					</Method>
-				</ChildObjects>
-			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>

@@ -15,4 +15,7 @@
 	<Item name="ImportantColor">
 		<Color>#BA2648</Color>
 	</Item>
+	<Item name="StyleItem.ЦветБлокаОперирования">
+		<Color>#FFC4D1</Color>
+	</Item>
 </Style>
